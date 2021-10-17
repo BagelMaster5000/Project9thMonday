@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using Ink.Runtime;
 using UnityEngine.Windows.Speech;
+using System.Collections.Generic;
 
 public class Dialogger : MonoBehaviour
 {
@@ -13,6 +14,14 @@ public class Dialogger : MonoBehaviour
 
     // Voice Inputs
     private DictationRecognizer dictationRecognizer;
+
+    // Delegates
+    public delegate void StringDelegate(string str);
+    public delegate void ChoicesDelegate(List<Choice> choices);
+
+    public StringDelegate onSubtitleChanged;
+    public StringDelegate onPhraseRecognized;
+    public ChoicesDelegate onChoicesChanged;
 
     #region Inputs and Buttons Set-Up
     private void Awake()
@@ -37,13 +46,22 @@ public class Dialogger : MonoBehaviour
         dictationRecognizer.InitialSilenceTimeoutSeconds = Mathf.Infinity;
         dictationRecognizer.Start();
 
+        onSubtitleChanged += (string curLine) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
+        onPhraseRecognized += (string curPhrase) => Debug.Log("<color=#00FF00>Dictation: </color> " + curPhrase);
+        onChoicesChanged += (List<Choice> choices) =>
+        {
+            for (int c = 0; c < choices.Count; c++)
+                Debug.Log("Choice #" + (c + 1) + ": " + choices[c].text);
+        };
+
         story = new Story(inkFile.text);
         ContinueStory();
     }
 
     void OnDictationResult(string text, ConfidenceLevel confidence)
     {
-        Debug.Log("<color=#00FF00>Dictation: </color> " + text);
+        if (onPhraseRecognized != null)
+            onPhraseRecognized(text);
 
         string[] allWordsDictated = text.Split(' ');
         foreach (string w in allWordsDictated)
@@ -136,11 +154,16 @@ public class Dialogger : MonoBehaviour
             AdvanceDialog();
     }
 
-    void ShowDialog(string sentence)
+    void ShowDialog(string curLine)
     {
-        Debug.Log("<color=#FF0000>Dialog: </color>" + sentence);
+        if (onSubtitleChanged != null)
+            onSubtitleChanged(curLine);
 
         if (story.currentChoices.Count > 0)
-            waitingForChoice = true; // Show choices
+        {
+            waitingForChoice = true;
+            if (onChoicesChanged != null)
+                onChoicesChanged(story.currentChoices); // Show choices
+        }
     }
 }
