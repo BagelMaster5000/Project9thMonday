@@ -9,21 +9,20 @@ public class Dialogger : MonoBehaviour
     public TextAsset inkFile;
     static Story story;
 
-    // Related to text appearing
     bool waitingForChoice = false;
 
     // Voice Inputs
     private DictationRecognizer dictationRecognizer;
 
     // Delegates
-    public delegate void StringDelegate(string str);
+    public delegate void SubtitleDelegate(string str, float duration);
+    public delegate void PhraseRecognizedDelegate(string str);
     public delegate void ChoicesDelegate(List<Choice> choices);
 
-    public StringDelegate onSubtitleChanged;
-    public StringDelegate onPhraseRecognized;
+    public SubtitleDelegate onSubtitleChanged;
+    public PhraseRecognizedDelegate onPhraseRecognized;
     public ChoicesDelegate onChoicesChanged;
 
-    #region Inputs and Buttons Set-Up
     private void Awake()
     {
         
@@ -34,7 +33,6 @@ public class Dialogger : MonoBehaviour
         dictationRecognizer.Stop();
         dictationRecognizer.Dispose();
     }
-    #endregion
 
     void Start()
     {
@@ -46,7 +44,7 @@ public class Dialogger : MonoBehaviour
         dictationRecognizer.InitialSilenceTimeoutSeconds = Mathf.Infinity;
         dictationRecognizer.Start();
 
-        onSubtitleChanged += (string curLine) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
+        onSubtitleChanged += (string curLine, float duration) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
         onPhraseRecognized += (string curPhrase) => Debug.Log("<color=#00FF00>Dictation: </color> " + curPhrase);
         onChoicesChanged += (List<Choice> choices) =>
         {
@@ -157,7 +155,7 @@ public class Dialogger : MonoBehaviour
     void ShowDialog(string curLine)
     {
         if (onSubtitleChanged != null)
-            onSubtitleChanged(curLine);
+            onSubtitleChanged(curLine, 2);
 
         if (story.currentChoices.Count > 0)
         {
