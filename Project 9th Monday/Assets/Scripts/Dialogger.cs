@@ -105,7 +105,7 @@ public class Dialogger : MonoBehaviour
 
         if (story.canContinue)
             AdvanceStory();
-        else if (!waitingForChoice)
+        else if (waitingForChoice)
             LoopCurrentLine(delay);
         else
             FinishStory();
@@ -115,6 +115,7 @@ public class Dialogger : MonoBehaviour
     {
         InvokeSubtitleDelegate(story.currentText);
         InvokeChoicesDelegate(story.currentChoices);
+
         if (advanceDialogAfterDelay != null)
             StopCoroutine(advanceDialogAfterDelay);
         advanceDialogAfterDelay = StartCoroutine(AdvanceOrLoopAfterDelay(delay));
