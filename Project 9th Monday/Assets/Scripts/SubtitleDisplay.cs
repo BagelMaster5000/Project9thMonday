@@ -6,6 +6,7 @@ using TMPro;
 
 public class SubtitleDisplay : MonoBehaviour {
 
+    [SerializeField] private Dialogger dialogger;
     [SerializeField] private TextMeshProUGUI text;
     public Color textColor;
     [SerializeField] private float fadeInTime, fadeOutTime;
@@ -13,6 +14,11 @@ public class SubtitleDisplay : MonoBehaviour {
     private Coroutine subtitles;
 
     private void Awake() {
+        if(!dialogger)
+            dialogger = FindObjectOfType<Dialogger>();
+        if(dialogger)
+            dialogger.onSubtitleChanged += (str, duration) => DisplaySubtitles(str, duration);
+
         if(!text)
             text = GetComponent<TextMeshProUGUI>();
         text.color = new Color32(255, 255, 255, 0);
@@ -30,7 +36,6 @@ public class SubtitleDisplay : MonoBehaviour {
     }
 
     private IEnumerator SubtitlesCoroutine(string str, float duration, bool fadeIn = true, bool fadeOut = true) {
-        Debug.Log(str);
         text.text = str;
         byte r = (byte)(textColor.r * 255), g = (byte)(textColor.g * 255), b = (byte)(textColor.b * 255);
 
@@ -51,13 +56,12 @@ public class SubtitleDisplay : MonoBehaviour {
 
         if(fadeOut) {
             for(float i = fadeOutTime; i > 0; i -= Time.deltaTime) {
-                text.color = new Color32(r, b, g, (byte)(i / fadeInTime * 255));
+                text.color = new Color32(r, b, g, (byte)(i / fadeOutTime * 255));
                 yield return null;
             }
         }
         text.color = new Color32(r, g, b, 0);
         subtitles = null;
-        Debug.Log("end");
     }
 
 }
