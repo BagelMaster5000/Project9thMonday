@@ -2,17 +2,21 @@
 using Ink.Runtime;
 using UnityEngine.Windows.Speech;
 using System.Collections.Generic;
+using System.Collections;
 
 public class Dialogger : MonoBehaviour
 {
-    [Header("Story")]
+    // Story
     public TextAsset inkFile;
     static Story story;
 
-    bool waitingForChoice = false;
-
-    // Voice Inputs
+    // Speech to Text
     private DictationRecognizer dictationRecognizer;
+
+    // Player Variables
+    bool waitingForChoice = false;
+    Coroutine advanceDialogAfterDelay;
+
 
     // Delegates
     public delegate void SubtitleDelegate(string str, float duration);
@@ -23,20 +27,9 @@ public class Dialogger : MonoBehaviour
     public PhraseRecognizedDelegate onPhraseRecognized;
     public ChoicesDelegate onChoicesChanged;
 
-    private void Awake()
-    {
-        
-    }
-
-    private void OnDisable()
-    {
-        dictationRecognizer.Stop();
-        dictationRecognizer.Dispose();
-    }
-
     void Start()
     {
-        Debug.Log("<color=#00FF00>Say \"Advance\" to progress the story!</color>");
+        //Debug.Log("<color=#00FF00>Say \"Advance\" to progress the story!</color>");
 
         dictationRecognizer = new DictationRecognizer(ConfidenceLevel.Low);
         dictationRecognizer.DictationResult += OnDictationResult;
@@ -53,20 +46,28 @@ public class Dialogger : MonoBehaviour
         };
 
         story = new Story(inkFile.text);
-        ContinueStory();
+        if (story.canContinue)
+            AdvanceStory();
+    }
+    private void OnDisable()
+    {
+        dictationRecognizer.Stop();
+        dictationRecognizer.Dispose();
     }
 
-    void OnDictationResult(string text, ConfidenceLevel confidence)
+    void OnDictationResult(string dictationText, ConfidenceLevel confidence)
     {
-        if (onPhraseRecognized != null)
-            onPhraseRecognized(text);
+        InvokePhraseRecognizedDelegate(dictationText);
 
-        string[] allWordsDictated = text.Split(' ');
+        string[] allWordsDictated = dictationText.Split(' ');
         foreach (string w in allWordsDictated)
         {
             if (w == "advance") // Placeholder, final game should advance story automatically
             {
-                ContinueStory();
+                if (story.canContinue && !waitingForChoice)
+                    AdvanceStory();
+                else if (!waitingForChoice)
+                    FinishStory();
                 return;
             }
 
@@ -75,28 +76,50 @@ public class Dialogger : MonoBehaviour
                 if (story.currentChoices[c].text.ToLower().Contains(w))
                 {
                     story.ChooseChoiceIndex(c);
-                    AdvanceFromDecision();
+                    waitingForChoice = false;
+
+                    if (story.canContinue)
+                        AdvanceStory();
+
                     return;
                 }
             }
         }
     }
 
-    // Advances dialog if able. Otherwise, ends story
-    public void ContinueStory()
+
+
+    void AdvanceStory()
     {
-        if (story.canContinue && !waitingForChoice)
-            AdvanceDialog();
+        story.Continue();
+        ParseTags();
+        InvokeSubtitleDelegate(story.currentText);
+        InvokeChoicesDelegate(story.currentChoices);
+    }
+    void FinishStory() { } // FIXME Put an end behavior such as loading next scene
+
+
+    IEnumerator AdvanceOrLoopAfterDelay(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+
+        if (story.canContinue)
+            AdvanceStory();
         else if (!waitingForChoice)
-            FinishDialog();
+            LoopCurrentLine(delay);
+        else
+            FinishStory();
     }
 
-    void AdvanceDialog()
+    private void LoopCurrentLine(float delay)
     {
-        string curSentence = story.Continue();
-        ParseTags();
-        ShowDialog(curSentence);
+        InvokeSubtitleDelegate(story.currentText);
+        InvokeChoicesDelegate(story.currentChoices);
+        if (advanceDialogAfterDelay != null)
+            StopCoroutine(advanceDialogAfterDelay);
+        advanceDialogAfterDelay = StartCoroutine(AdvanceOrLoopAfterDelay(delay));
     }
+
 
     void ParseTags()
     {
@@ -110,58 +133,67 @@ public class Dialogger : MonoBehaviour
 
             switch (prefix.ToLower())
             {
-                //case "anim":
-                //    SetAnimation(param);
-                //    break;
+                case "dur":
+                    float.TryParse(param, out float delay);
+                    if (delay == 0) // If dur parameter is 0, mising, or invalid
+                        delay = 2;
+
+                    if (advanceDialogAfterDelay != null)
+                        StopCoroutine(advanceDialogAfterDelay);
+                    advanceDialogAfterDelay = StartCoroutine(AdvanceOrLoopAfterDelay(delay));
+                    break;
+                case "wwise":
+                    // Post Wwise event here
+                    break;
             }
         }
     }
 
-    //void ShowChoices()
-    //{
-    //    List<Choice> choices = story.currentChoices;
 
-    //    // Throws error if more choices than available buttons
-    //    if (choices.Count > buttons.Length)
-    //    {
-    //        Debug.LogError("More choices than buttons");
-    //        return;
-    //    }
 
-    //    madeDecision = false;
-
-    //    // Sets buttons
-    //    for (int x = 0; x < choices.Count; x++)
-    //    {
-    //        buttons[x].transform.GetComponentInChildren<TextMeshProUGUI>().text = choices[x].text;
-    //        buttons[x].GetComponent<Selectable>().element = choices[x];
-    //    }
-    //    buttonAnimator.Appear(choices.Count);
-    //}
-
-    void FinishDialog()
+    private void InvokePhraseRecognizedDelegate(string dictationText)
     {
-        // FIXME Put an end behavior such as loading next scene
+        if (onPhraseRecognized != null)
+            onPhraseRecognized(dictationText);
     }
 
-    void AdvanceFromDecision()
-    {
-        waitingForChoice = false;
-
-        if (story.canContinue)
-            AdvanceDialog();
-    }
-
-    void ShowDialog(string curLine)
+    void InvokeSubtitleDelegate(string curLine)
     {
         if (onSubtitleChanged != null)
             onSubtitleChanged(curLine, 2);
+    }
 
-        if (story.currentChoices.Count > 0)
+    void InvokeChoicesDelegate(List<Choice> curChoices)
+    {
+        if (curChoices.Count > 0 && !waitingForChoice)
         {
             waitingForChoice = true;
             if (onChoicesChanged != null)
-                onChoicesChanged(story.currentChoices); // Show choices
+                onChoicesChanged(curChoices);
         }
     }
 }
+
+
+// Old code
+//void ShowChoices()
+//{
+//    List<Choice> choices = story.currentChoices;
+
+//    // Throws error if more choices than available buttons
+//    if (choices.Count > buttons.Length)
+//    {
+//        Debug.LogError("More choices than buttons");
+//        return;
+//    }
+
+//    madeDecision = false;
+
+//    // Sets buttons
+//    for (int x = 0; x < choices.Count; x++)
+//    {
+//        buttons[x].transform.GetComponentInChildren<TextMeshProUGUI>().text = choices[x].text;
+//        buttons[x].GetComponent<Selectable>().element = choices[x];
+//        buttons[x].SetActive();
+//    }
+//}

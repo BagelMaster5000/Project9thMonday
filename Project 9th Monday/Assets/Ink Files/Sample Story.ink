@@ -1,26 +1,29 @@
-#anim invisible
+#dur 2 #wwise intro
 Ooooooooo I'm a ghost...
+#dur 2
 You have sinned and I'm here to haunt you!
-#anim happy
+#dur 2
 JUST KIDDING!
-#anim idle
+#dur 2 #wwise break1
 Here I am, you miss me?
 * [Yes]
+    #dur 2 #wwise break1choice1
     Haha, true.
     -> SCENE_TWO
 * [No]
-    #anim questioning
+    #dur 2
     Ok, rude.
     -> SCENE_TWO
 * [...]
-    #anim questioning
+    #dur 2 #wwise break1choice2
     ...
+    #dur 2
     Alright then...
     -> SCENE_TWO
 
 == SCENE_TWO ==
-#anim idle
+#dur 2 #wwise conclusion
 Well, see ya.
-#anim invisible
+#dur 2
 This is the end of the story
 -> END
