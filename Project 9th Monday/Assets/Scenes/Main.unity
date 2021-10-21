@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09468ff478fa2674cb9a73ac66ffdfef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkFile: {fileID: 4900000, guid: 345d26d330ac0cb4d9e7ae66d4ff2f74, type: 3}
+  inkFile: {fileID: 4900000, guid: 64d6235c46dc9534c9bf60a4c4fcc4cb, type: 3}
 --- !u!1 &1062086603
 GameObject:
   m_ObjectHideFlags: 0

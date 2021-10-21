@@ -33,8 +33,8 @@ public class Dialogger : MonoBehaviour
 
         dictationRecognizer = new DictationRecognizer(ConfidenceLevel.Low);
         dictationRecognizer.DictationResult += OnDictationResult;
-        dictationRecognizer.AutoSilenceTimeoutSeconds = Mathf.Infinity;
-        dictationRecognizer.InitialSilenceTimeoutSeconds = Mathf.Infinity;
+        dictationRecognizer.AutoSilenceTimeoutSeconds = 10000;
+        dictationRecognizer.InitialSilenceTimeoutSeconds = 10000;
         dictationRecognizer.Start();
 
         onSubtitleChanged += (string curLine, float duration) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
@@ -55,6 +55,15 @@ public class Dialogger : MonoBehaviour
         dictationRecognizer.Dispose();
     }
 
+    private void Update()
+    {
+        // Regardless of how high the auto silence timeout is, the dictation recognizer still stops itself so it needs to be restarted
+        if (dictationRecognizer.Status != SpeechSystemStatus.Running)
+            dictationRecognizer.Start();
+
+        // print(dictationRecognizer.Status);
+    }
+
     void OnDictationResult(string dictationText, ConfidenceLevel confidence)
     {
         InvokePhraseRecognizedDelegate(dictationText);
@@ -71,7 +80,7 @@ public class Dialogger : MonoBehaviour
                 return;
             }
 
-            for (int c = 0; c < story.currentChoices.Count; c++)
+            for (int c = 1; c < story.currentChoices.Count; c++)
             {
                 if (story.currentChoices[c].text.ToLower().Contains(w))
                 {
@@ -106,7 +115,13 @@ public class Dialogger : MonoBehaviour
         if (story.canContinue)
             AdvanceStory();
         else if (waitingForChoice)
-            LoopCurrentLine(delay);
+        {
+            story.ChooseChoiceIndex(0);
+            waitingForChoice = false;
+
+            if (story.canContinue)
+                AdvanceStory();
+        }
         else
             FinishStory();
     }
@@ -124,28 +139,28 @@ public class Dialogger : MonoBehaviour
 
     void ParseTags()
     {
-        if (story.currentTags.Count == 0)
-            return;
+        float delay = 2;
+        if (story.currentTags.Count > 0)
+            float.TryParse(story.currentTags[0], out delay);
 
-        foreach (string t in story.currentTags)
+        if (advanceDialogAfterDelay != null)
+            StopCoroutine(advanceDialogAfterDelay);
+        advanceDialogAfterDelay = StartCoroutine(AdvanceOrLoopAfterDelay(delay));
+
+
+        if (story.currentTags.Count > 1)
         {
-            string prefix = t.Split(' ')[0];
-            string param = t.Split(' ')[1];
-
-            switch (prefix.ToLower())
+            for (int t = 1; t < story.currentTags.Count; t++)
             {
-                case "dur":
-                    float.TryParse(param, out float delay);
-                    if (delay == 0) // If dur parameter is 0, mising, or invalid
-                        delay = 2;
+                string prefix = story.currentTags[t].Split(' ')[0];
+                string param = story.currentTags[t].Split(' ')[1];
 
-                    if (advanceDialogAfterDelay != null)
-                        StopCoroutine(advanceDialogAfterDelay);
-                    advanceDialogAfterDelay = StartCoroutine(AdvanceOrLoopAfterDelay(delay));
-                    break;
-                case "wwise":
-                    // Post Wwise event here
-                    break;
+                switch (prefix.ToLower())
+                {
+                    case "wwise":
+                        // Post Wwise event here
+                        break;
+                }
             }
         }
     }
@@ -169,6 +184,8 @@ public class Dialogger : MonoBehaviour
         if (curChoices.Count > 0 && !waitingForChoice)
         {
             waitingForChoice = true;
+
+            curChoices.RemoveAt(0);
             if (onChoicesChanged != null)
                 onChoicesChanged(curChoices);
         }
