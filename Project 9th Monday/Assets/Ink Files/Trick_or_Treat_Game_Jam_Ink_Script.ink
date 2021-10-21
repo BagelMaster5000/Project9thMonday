@@ -1,17 +1,34 @@
 ->pre_game
 ===pre_game===
-AI: Welcome, user. Thank you for taking part in the beta test of Project 9th Monday. This beta test will be having you test an AI-generated horror story based on classic horror movie tropes. As this is a beta test, please be aware that there may be some bugs with the program. Most notably, several previous users have reported unintentional crossovers with our AI-generated children’s show project, designed to create highly marketable edutainment characters. Now for the instructions.
-AI: Project 9th Monday does not yet have working graphics. However, all auditory aspects of the project are fully functional. Therefore, all your actions and decisions in the game will be controlled by your voice. Depending on what you say or what you don’t say, the story should play out in different ways, with multiple story branches and endings. Don’t forget that silence can also be an option.
+AI: Welcome, user. Thank you for taking part in the beta test of Project 9th Monday.
+AI: This beta test will be having you test an AI-generated horror story based on classic horror movie tropes.
+AI: As this is a beta test, please be aware that there may be some bugs with the program.
+AI: Most notably, several previous users have reported unintentional crossovers
+AI: ...with our AI-generated children’s show project, designed to create highly marketable edutainment characters.
+AI: Now for the instructions.
+AI: Project 9th Monday does not yet have working graphics. However, all auditory aspects of the project are fully functional.
+AI: Therefore, all your actions and decisions in the game will be controlled by your voice.
+AI: Depending on what you say or what you don’t say, the story should play out in different ways, with multiple story branches and endings.
+AI: Don’t forget that silence can also be an option.
 ->calibration
+
+
 ===calibration===
-AI: Now, in order to start the game, we ask that you calibrate the voice recognition system. Please say the phrase “I want to play a game.”
+AI: Now, in order to start the game, we ask that you calibrate the voice recognition system.
+#6
+AI: Please say the phrase “I want to play a game.”
 +    [...]
 ->calibration
 +    [I want to play a game.]
 ->begin_game
+
+
 ===begin_game===
-Very good. Your voice recognition system is now properly calibrated. Please enjoy the story [the title of the game would likely go here]
+AI: Very good. Your voice recognition system is now properly calibrated.
+AI: Please enjoy the story [the title of the game would likely go here]
 ->outside_the_house
+
+
 ===outside_the_house===
 Jordan: Alright, gang. We’re finally here! Hope the walk wasn’t too much for you all. I doubt any of you do as much training as I get on the football team.
 Paul: Eh, football’s okay, but getting good footage for my channel is where it’s really at. All the fame with none of the head trauma!
@@ -53,6 +70,8 @@ Jordan: We're right outside the haunted house. It's right on the outskirts of Gl
 +    [No questions here.]
 Jordan: Alright, lets get to it!
 ->main_hall
+
+
 ===main_hall===
 Hazel: We’re in the main hall now! Look at how big it is!
 Paul: Yeah, it’s pretty nice for an abandoned house. The Glensdale Gorefiend has some good taste in interior design. Assuming they’re real and actually live here. It’s kind of spooky.
@@ -62,6 +81,8 @@ Hazel: Wow, this house is muito assustador! (very scary)
 Paul: Yeah, she’ll be fine.
 Jordan: Hey, newbie. Who do you feel like going with? I think I can manage on my own, but I wouldn’t mind having a second pair of eyes help me look for the jewels.
 ->team_up
+
+
 ===team_up===
 +    [...]
 Jordan: Come on, the faster you choose the faster we can start looking! Do you want to go with me or with Paul and Hazel?
@@ -78,6 +99,8 @@ Jordan: This old place is pretty big, and I’m sure you don’t want to stay he
 +    [Doesn't that seem dangerous?]
 Jordan: Nah, we’ll be fine! I could easily handle any weirdo on my own with my quarterback tackle, and I’m having Paul and Hazel go together so they can outnumber the Glensdale Gorefiend if they *are* hanging out here.
 ->team_up
+
+
 ===teamed_with_jordan
 Jordan: I know you’re new to the area, but I bet you’ve heard about how I helped help bring the Glensdale Gorgons to a narrow 21-20 win against the Barkland Bulls. I tell you, when the big-time football people come calling, that’s the story they’ll be hearing!
 Jordan: Right, so the jewels. Obviously, some of it’s going towards the GameStation, but some of that’s definitely going towards getting to a good college. Some folks go to a good college for a good degree, but I’m looking at one with a sick football team. That’s how you get into the big lea-
@@ -91,6 +114,8 @@ Jordan: I could really use an answer now! Should I check out that noise?
 ->tackling_time
 +    [Don't go in there.]
 ->in_or_not2
+
+
 ===tackling_time===
 Jordan: You got it. I’ll show that weirdo my all-star tackling skills!
 ->jordan_converge
@@ -113,10 +138,14 @@ Hazel: Meu Deus! (Oh my God!) That was loud!
 ->pauls_phone
 +    [What was that noise?]
 ->pauls_phone
+
+
 ===pauls_phone===
 Paul: Riiiiiight, I probably should have mentioned that earlier. That was a ringtone I got for when my mom calls or texts me. I’m a bit hard of hearing so I chose a noise that I’d be sure to hear. Normally, it’s something different, but I figured I’d make it something scary since it’s Halloween. She’s just asking about the party I claimed we were going to.
 Paul: That… was not my phone. We have to hide! Where should wo go?
 ->where_to_run
+
+
 ===where_to_run===
 +    [...]
 Paul: C’mon, throw out some ideas! Where should we hide?
@@ -140,6 +169,8 @@ Hazel: Well done! You found the light switch!
 Paul: Hazel! We thought you got lost, or worse! Where were you? Ah, that doesn’t matter now. Anyway, looks like there are some old boxes down here. Help me look through them, you guys.
 Paul: Hang on. This house… why does it have power if it’s abandoned? Unless… it *isn’t* abandoned.
 ->alone
+
+
 ===alone===
 *    [Hazel?]
 ->alone
@@ -152,17 +183,23 @@ Paul: Hang on. This house… why does it have power if it’s abandoned? Unless�
 *    [Where are you?]
 ->alone
 *    ->theres_hazel
+
+
 ===theres_hazel===
 Hazel: Olá, player! It looks like Jordan and Paul have gone missing! Where could they have gone?
 Hazel: Did you hear that? It sounded like it came from upstairs! We should go investigate! Vamos lá! (Let’s go!)
 Hazel: We’ve reached the top of the stairs, but we still don’t know where our friends are! Where could our friends have been taken?
 Hazel: I’ve got an idea! They must be in the attic! Let’s help them!
 ->the_climatic_encounter
+
+
 ===the_climatic_encounter===
 Hazel: We’re in the Glensdale Gorefiend’s lair! Can you find your friends?
 Hazel: There they are! They’ve been waiting for you to help them, but you won’t be able to!
 Hazel: It gets boring not killing people! That’s why it’s so great to have people come to my lair! That way, I don’t have to worry about most people trying to investigate because of all the scary rumors! Now, do you know what’s going to happen to you and your friends? That’s right! You’re all going to bleed out on the attic floor!
 ->do_you_want_death
+
+
 ===do_you_want_death===
 ->do_you_want_death
 VAR hazelLoopsRemaining = 3
@@ -179,10 +216,14 @@ Hazel: You’re funny! I wonder if you’d say the same thing after you’re dis
 +    [No.]
 Hazel: That’s too bad!
 ->bad_end
+
+
 ===bad_end===
 Hazel: Now, click on who you want to die first!
 AI: Thank you for assisting us with the testing of our AI-generated story program. While you were unsuccessful in surviving the story, we are always grateful to our testers for helping us troubleshoot and give us feedback. Please take your complimentary baggie of candy corn as you leave.
     -> END
+    
+    
 ===lifesaving_update===
 AI: Attention tester. We have a new patch available for Project 9th Monday that fixes a few minor bugs. Most notably, this patch will prevent the unintentional crossovers that testers have reported with our AI-generated children’s show generator. Updating now.
 Jordan: Bwah! Holy crap! How’d you manage to get the Glensdale Gorefiend to vanish like that?
@@ -194,6 +235,8 @@ Paul: Oh man, guys. Three guesses what I found, and I’ll tell you now it’s n
 Jordan: Wait, are you saying those jewels… are real? I was starting to think it was some rumor the Gorefiend made up!
 Paul: Well, it’s time to stop doubting and time to start bringing these riches home!
 ->good_ending
+
+
 ===good_ending===
 AI: Thank you for helping us test out the latest build of Project 9th Monday. In addition, congratulations for reaching the good ending of the story. While the story had to make some adjustments to compensate for the villain’s sudden disappearance, it would seem that it managed to properly remain on track. We are always grateful to our testers for helping us troubleshoot and give us feedback. Please take your assorted package of king-sized candies as you leave the testing site.
 -> END
