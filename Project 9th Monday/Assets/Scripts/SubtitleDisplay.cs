@@ -26,10 +26,8 @@ public class SubtitleDisplay : MonoBehaviour {
 
     public void DisplaySubtitles(string str, float duration) {
         if(subtitles == null) { // No subtitles being displayed
-            Debug.Log("start new");
             subtitles = StartCoroutine(SubtitlesCoroutine(str, duration, true));
         } else { // Subtitles already being displayed
-            Debug.Log("restart");
             StopCoroutine(subtitles);
             subtitles = StartCoroutine(SubtitlesCoroutine(str, duration, false));
         }
