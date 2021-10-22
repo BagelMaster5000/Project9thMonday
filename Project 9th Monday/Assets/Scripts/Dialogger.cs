@@ -16,12 +16,13 @@ public class Dialogger : MonoBehaviour
     // Player Variables
     bool waitingForChoice = false;
     Coroutine advanceDialogAfterDelay;
+    [SerializeField] float defaultAutoAdvanceDelay = 2;
 
 
     // Delegates
     public delegate void SubtitleDelegate(string str, float duration);
     public delegate void PhraseRecognizedDelegate(string str);
-    public delegate void ChoicesDelegate(List<Choice> choices);
+    public delegate void ChoicesDelegate(string[] choices);
 
     public SubtitleDelegate onSubtitleChanged;
     public PhraseRecognizedDelegate onPhraseRecognized;
@@ -29,8 +30,6 @@ public class Dialogger : MonoBehaviour
 
     void Start()
     {
-        //Debug.Log("<color=#00FF00>Say \"Advance\" to progress the story!</color>");
-
         dictationRecognizer = new DictationRecognizer(ConfidenceLevel.Low);
         dictationRecognizer.DictationResult += OnDictationResult;
         dictationRecognizer.AutoSilenceTimeoutSeconds = 10000;
@@ -39,10 +38,10 @@ public class Dialogger : MonoBehaviour
 
         onSubtitleChanged += (string curLine, float duration) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
         onPhraseRecognized += (string curPhrase) => Debug.Log("<color=#00FF00>Dictation: </color> " + curPhrase);
-        onChoicesChanged += (List<Choice> choices) =>
+        onChoicesChanged += (string[] choices) =>
         {
-            for (int c = 0; c < choices.Count; c++)
-                Debug.Log("Choice #" + (c + 1) + ": " + choices[c].text);
+            for (int c = 0; c < choices.Length; c++)
+                Debug.Log("Choice #" + (c + 1) + ": " + choices[c]);
         };
 
         story = new Story(inkFile.text);
@@ -68,21 +67,23 @@ public class Dialogger : MonoBehaviour
     {
         InvokePhraseRecognizedDelegate(dictationText);
 
-        string[] allWordsDictated = dictationText.Split(' ');
-        foreach (string w in allWordsDictated)
+        for (int c = 0; c < story.currentChoices.Count; c++)
         {
-            if (w == "advance") // Placeholder, final game should advance story automatically
+            if (story.currentChoices[c].text.ToLower() == "anything")
             {
-                if (story.canContinue && !waitingForChoice)
+                story.ChooseChoiceIndex(c);
+                waitingForChoice = false;
+
+                if (story.canContinue)
                     AdvanceStory();
-                else if (!waitingForChoice)
-                    FinishStory();
+
                 return;
             }
 
-            for (int c = 1; c < story.currentChoices.Count; c++)
+            string[] choiceKeywords = story.currentChoices[c].text.ToLower().Split('/');
+            foreach (string k in choiceKeywords)
             {
-                if (story.currentChoices[c].text.ToLower().Contains(w))
+                if (dictationText == k || dictationText.Contains(k))
                 {
                     story.ChooseChoiceIndex(c);
                     waitingForChoice = false;
@@ -116,7 +117,7 @@ public class Dialogger : MonoBehaviour
             AdvanceStory();
         else if (waitingForChoice)
         {
-            story.ChooseChoiceIndex(0);
+            story.ChooseChoiceIndex(0); // First choice at every break point is the silent option
             waitingForChoice = false;
 
             if (story.canContinue)
@@ -126,20 +127,9 @@ public class Dialogger : MonoBehaviour
             FinishStory();
     }
 
-    private void LoopCurrentLine(float delay)
-    {
-        InvokeSubtitleDelegate(story.currentText);
-        InvokeChoicesDelegate(story.currentChoices);
-
-        if (advanceDialogAfterDelay != null)
-            StopCoroutine(advanceDialogAfterDelay);
-        advanceDialogAfterDelay = StartCoroutine(AdvanceOrLoopAfterDelay(delay));
-    }
-
-
     void ParseTags()
     {
-        float delay = 2;
+        float delay = defaultAutoAdvanceDelay;
         if (story.currentTags.Count > 0)
             float.TryParse(story.currentTags[0], out delay);
 
@@ -185,9 +175,13 @@ public class Dialogger : MonoBehaviour
         {
             waitingForChoice = true;
 
-            curChoices.RemoveAt(0);
             if (onChoicesChanged != null)
-                onChoicesChanged(curChoices);
+            {
+                string[] choiceTexts = new string[story.currentChoices.Count];
+                for (int c = 0; c < choiceTexts.Length; c++)
+                    choiceTexts[c] = story.currentChoices[c].text.Split('/')[0];
+                onChoicesChanged(choiceTexts);
+            }
         }
     }
 }

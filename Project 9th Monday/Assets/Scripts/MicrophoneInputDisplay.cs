@@ -26,7 +26,7 @@ public class MicrophoneInputDisplay : MonoBehaviour {
     private void UpdateText(string str) {
         if(FadeOutCoroutine != null)
             StopCoroutine(FadeOutCoroutine);
-        text.text = string.Format("Input: ", str);
+        text.text = string.Format("Input: {0}", str);
         text.color = textColor;
         FadeOutCoroutine = StartCoroutine(FadeOut());
     }
