@@ -11,7 +11,6 @@ AI: Therefore, all your actions and decisions in the game will be controlled by 
 AI: Depending on what you say or what you don’t say, the story should play out in different ways, with multiple story branches and endings.
 AI: Don’t forget that silence can also be an option.
 AI: Now, in order to start the game, we ask that you calibrate the voice recognition system.
-->teamed_with_p_and_h
 ->calibration
 
 ===calibration===
