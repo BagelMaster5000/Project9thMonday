@@ -51,15 +51,20 @@ public class SubtitleDisplay : MonoBehaviour {
             duration -= fadeOutTime;
         if(duration > 0)
             yield return new WaitForSeconds(duration);
+        subtitles = null;
 
         if(fadeOut) {
             for(float i = fadeOutTime; i > 0; i -= Time.deltaTime) {
+                // Check for exit early
+                if(subtitles != null)
+                    break;
+
                 text.color = new Color32(r, b, g, (byte)(i / fadeOutTime * 255));
                 yield return null;
             }
         }
-        text.color = new Color32(r, g, b, 0);
-        subtitles = null;
+        if(subtitles == null)
+            text.color = new Color32(r, g, b, 0);
     }
 
 }
