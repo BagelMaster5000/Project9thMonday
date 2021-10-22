@@ -89,13 +89,14 @@ GameObject:
   - component: {fileID: 6959926226238327436}
   - component: {fileID: 4963342235797027437}
   - component: {fileID: 6083972140038986586}
+  - component: {fileID: 9077372839572359846}
   m_Layer: 5
   m_Name: Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4684199010247148068
 RectTransform:
   m_ObjectHideFlags: 0
@@ -196,7 +197,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4963342235797027437}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9057331817976267233}
+        m_TargetAssemblyTypeName: UIButtonManager, Assembly-CSharp
+        m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &9077372839572359846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2758778634310853980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca56779eb341d4fb4a98bedeee56a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  onHoverColor: {r: 1, g: 1, b: 0, a: 1}
 --- !u!1 &2983020857584589616
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,7 +235,6 @@ GameObject:
   - component: {fileID: 2749541055380012399}
   - component: {fileID: 3073779230494818066}
   - component: {fileID: 5474432771697014732}
-  - component: {fileID: 4003254738466072181}
   m_Layer: 5
   m_Name: Confirm Text
   m_TagString: Untagged
@@ -332,25 +358,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &4003254738466072181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2983020857584589616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c3209515bf404849b558539c0151b48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogger: {fileID: 0}
-  text: {fileID: 0}
-  textColor:
-    serializedVersion: 2
-    rgba: 0
-  fadeOutDelay: 0
-  fadeOutTime: 0
 --- !u!1 &3474028645252852643
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,6 +370,7 @@ GameObject:
   - component: {fileID: 4812178825579478572}
   - component: {fileID: 6286746404103958417}
   - component: {fileID: 4685227837305757879}
+  - component: {fileID: 218788035732074311}
   m_Layer: 5
   m_Name: X
   m_TagString: Untagged
@@ -470,7 +478,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6286746404103958417}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9057331817976267233}
+        m_TargetAssemblyTypeName: UIButtonManager, Assembly-CSharp
+        m_MethodName: CancelConfirmation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &218788035732074311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3474028645252852643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca56779eb341d4fb4a98bedeee56a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  onHoverColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &4187495640684514556
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +517,7 @@ GameObject:
   - component: {fileID: 5939694433143207552}
   - component: {fileID: 4137947533103712155}
   - component: {fileID: 6591223163533481461}
+  - component: {fileID: 1654885499687994778}
   m_Layer: 5
   m_Name: Check
   m_TagString: Untagged
@@ -590,7 +625,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4137947533103712155}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9057331817976267233}
+        m_TargetAssemblyTypeName: UIButtonManager, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1654885499687994778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187495640684514556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca56779eb341d4fb4a98bedeee56a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  onHoverColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &4636448599407577019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,6 +1234,7 @@ GameObject:
   - component: {fileID: 5066834059260303214}
   - component: {fileID: 3916398776607181460}
   - component: {fileID: 4105183046531997357}
+  - component: {fileID: 5154184675636607810}
   m_Layer: 5
   m_Name: X
   m_TagString: Untagged
@@ -1280,7 +1342,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3916398776607181460}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9057331817976267233}
+        m_TargetAssemblyTypeName: UIButtonManager, Assembly-CSharp
+        m_MethodName: CancelConfirmation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5154184675636607810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5505216178496760788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca56779eb341d4fb4a98bedeee56a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  onHoverColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &6695671890500513471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,6 +1381,7 @@ GameObject:
   - component: {fileID: 1674532138724854357}
   - component: {fileID: 3541770142727772037}
   - component: {fileID: 1966417810906133899}
+  - component: {fileID: 5947864575030541299}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -1400,7 +1489,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3541770142727772037}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9057331817976267233}
+        m_TargetAssemblyTypeName: UIButtonManager, Assembly-CSharp
+        m_MethodName: OpenRestartConfirm
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5947864575030541299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6695671890500513471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca56779eb341d4fb4a98bedeee56a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  onHoverColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!1 &6887475975314008201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1413,6 +1528,7 @@ GameObject:
   - component: {fileID: 775671819345324057}
   - component: {fileID: 842188301406573284}
   - component: {fileID: 4597625547041600702}
+  - component: {fileID: 4138144951901191061}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -1520,7 +1636,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 842188301406573284}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9057331817976267233}
+        m_TargetAssemblyTypeName: UIButtonManager, Assembly-CSharp
+        m_MethodName: OpenExitConfirm
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4138144951901191061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6887475975314008201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca56779eb341d4fb4a98bedeee56a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  onHoverColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &8241752943102002384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,7 +1674,6 @@ GameObject:
   - component: {fileID: 7527183200951655720}
   - component: {fileID: 7071105019196674716}
   - component: {fileID: 3560119087810045418}
-  - component: {fileID: 6749289432188421153}
   m_Layer: 5
   m_Name: Confirm Text
   m_TagString: Untagged
@@ -1656,25 +1797,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &6749289432188421153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8241752943102002384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c3209515bf404849b558539c0151b48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogger: {fileID: 0}
-  text: {fileID: 0}
-  textColor:
-    serializedVersion: 2
-    rgba: 0
-  fadeOutDelay: 0
-  fadeOutTime: 0
 --- !u!1 &8265776657099888449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,6 +1809,7 @@ GameObject:
   - component: {fileID: 8054668419573346662}
   - component: {fileID: 4764114483148149017}
   - component: {fileID: 6715882018711986972}
+  - component: {fileID: 2802123035682668702}
   m_Layer: 5
   m_Name: Check
   m_TagString: Untagged
@@ -1794,7 +1917,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4764114483148149017}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9057331817976267233}
+        m_TargetAssemblyTypeName: UIButtonManager, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2802123035682668702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8265776657099888449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca56779eb341d4fb4a98bedeee56a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  onHoverColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &8378038323494702100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +1995,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835eac7de6d0ce14dbc0b9470ee3f296, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainButtons: {fileID: 2620767263581556483}
+  confirmExit: {fileID: 1348064228897179461}
+  confirmRestart: {fileID: 8923608633184179778}
+  pauseButton: {fileID: 2758778634310853980}
+  playButton: {fileID: 9154762852966634713}
+  allButtons:
+  - {fileID: 4138144951901191061}
+  - {fileID: 5947864575030541299}
+  - {fileID: 9077372839572359846}
+  - {fileID: 7387629618406986367}
+  - {fileID: 1654885499687994778}
+  - {fileID: 5154184675636607810}
+  - {fileID: 2802123035682668702}
+  - {fileID: 218788035732074311}
 --- !u!1 &8885208706084520372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,7 +2019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5603059194197815206}
   m_Layer: 5
-  m_Name: Top Left
+  m_Name: Top Left Anchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1933,6 +2096,7 @@ GameObject:
   - component: {fileID: 7494106657849907657}
   - component: {fileID: 2456852297556191077}
   - component: {fileID: 2130362864611220584}
+  - component: {fileID: 7387629618406986367}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -2040,7 +2204,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2456852297556191077}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9057331817976267233}
+        m_TargetAssemblyTypeName: UIButtonManager, Assembly-CSharp
+        m_MethodName: UnpauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7387629618406986367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9154762852966634713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bca56779eb341d4fb4a98bedeee56a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  onHoverColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!1001 &2516035915733230061
 PrefabInstance:
   m_ObjectHideFlags: 0
