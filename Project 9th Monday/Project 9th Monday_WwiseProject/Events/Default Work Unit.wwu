@@ -19,9 +19,32 @@
 				</Folder>
 				<Folder Name="1_PreGame" ID="{9D1DB003-A347-4B36-B793-3AB0C22915F0}" ShortID="304782979">
 					<ChildrenList>
-						<Event Name="PreGame_3_BeginGame" ID="{1B581EBB-A2CA-468F-94EC-12406D0AAF57}"/>
+						<Event Name="PreGame_3_BeginGame" ID="{1B581EBB-A2CA-468F-94EC-12406D0AAF57}">
+							<ChildrenList>
+								<Action Name="" ID="{E1BF616A-BC95-4CBB-8FB5-2011551C7592}" ShortID="964189281">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="aiScene_00_v3" ID="{520A815F-2A0C-4AF8-90D3-EC063A0F1262}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="PreGame_2_Calibration" ID="{353429B7-A325-4DFB-981D-DC554FD2087D}"/>
-						<Event Name="PreGame_1_Start" ID="{869E52FF-4045-466E-82CB-0B08DE2CBBF7}"/>
+						<Event Name="PreGame_1_Start" ID="{869E52FF-4045-466E-82CB-0B08DE2CBBF7}">
+							<ChildrenList>
+								<Action Name="" ID="{B1665207-77B7-4869-81E8-E6A720289848}" ShortID="315294339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="aiScene_00_v3" ID="{520A815F-2A0C-4AF8-90D3-EC063A0F1262}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="8_BadEnding" ID="{6717A1F5-6198-4A87-A528-363788366403}" ShortID="556417517">
