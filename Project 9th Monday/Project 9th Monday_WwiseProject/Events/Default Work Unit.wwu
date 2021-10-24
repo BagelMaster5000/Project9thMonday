@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1E3CF134-4043-4572-A9B3-1A4EF9441FDB}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{1E3CF134-4043-4572-A9B3-1A4EF9441FDB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1E3CF134-4043-4572-A9B3-1A4EF9441FDB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="2_Outside" ID="{A3B4FA14-8421-41D7-854C-3EADDAF2A792}" ShortID="466337046">
+					<ChildrenList>
+						<Event Name="Outside_3_AnyQuestions" ID="{E17564A8-E28E-4AA5-BCFF-42C72B9FAE7A}"/>
+						<Event Name="Outside_5_Question1" ID="{12C68A03-32DC-47C6-ADAE-9E582E6EB94E}"/>
+						<Event Name="Outside_6_Question2" ID="{0B0EAB49-D9B0-40CF-B6DA-F32D4E8B4EF0}"/>
+						<Event Name="Outside_7_Question3" ID="{58393BBE-5DD7-4186-BB2C-2088B4E68734}"/>
+						<Event Name="Outside_8_Question4" ID="{71523610-56D1-4BCF-AE18-CC06DA1456CC}"/>
+						<Event Name="Outside_9_Question5" ID="{FB75E559-676E-4A65-990C-09C2956213F0}"/>
+						<Event Name="Outside_10_QuestionDone" ID="{4B510584-31EA-4EBC-AE42-BAC25981FA38}"/>
+						<Event Name="Outside_4_QuestionSilence" ID="{D33BBB7F-D21C-47B6-9E48-5E5EE0C23212}"/>
+						<Event Name="Outside_1_Start" ID="{A6E0B97A-A95E-4C1B-8DB4-00801E4E3F08}"/>
+						<Event Name="Outside_2_WheresTheDog" ID="{7A82B471-2EB0-4736-9653-FFDA68804065}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="1_PreGame" ID="{9D1DB003-A347-4B36-B793-3AB0C22915F0}" ShortID="304782979">
+					<ChildrenList>
+						<Event Name="PreGame_3_BeginGame" ID="{1B581EBB-A2CA-468F-94EC-12406D0AAF57}"/>
+						<Event Name="PreGame_2_Calibration" ID="{353429B7-A325-4DFB-981D-DC554FD2087D}"/>
+						<Event Name="PreGame_1_Start" ID="{869E52FF-4045-466E-82CB-0B08DE2CBBF7}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="8_BadEnding" ID="{6717A1F5-6198-4A87-A528-363788366403}" ShortID="556417517">
+					<ChildrenList>
+						<Event Name="BadEnding_1_Start" ID="{32AA6429-7A00-446F-A0FE-D6D95392913C}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="3_MainHall" ID="{2575FA5E-FA19-423D-9992-7D27DF2B0C3D}" ShortID="630471035">
+					<ChildrenList>
+						<Event Name="MainHall_1_Start" ID="{BC033095-6D00-434C-8A30-826A9D969281}"/>
+						<Event Name="MainHall_2_QuestionSilence" ID="{E7A00912-08CB-43E4-9519-9312DAFA1CCB}"/>
+						<Event Name="MainHall_3_QuestionJordan" ID="{8F6170B3-5818-4B2E-BFFF-5DA6F841BDFA}"/>
+						<Event Name="MainHall_4_QuestionPaulHazel" ID="{06B49AB6-942D-48F1-8DAA-11B285BF3278}"/>
+						<Event Name="MainHall_5_Question1" ID="{CA332105-72B8-4FBE-B776-AE8098C712D4}"/>
+						<Event Name="MainHall_6_Question2" ID="{E44A50FA-E1C8-4D3D-A9EA-E54C407BF265}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="4_JordanPath" ID="{5BD3B09B-6F87-470C-BDAA-DD884108699D}" ShortID="691077480">
+					<ChildrenList>
+						<Event Name="JordanPath_1_Start" ID="{1303F8F5-8E59-4ECF-BF8C-6F8D6575FFCE}"/>
+						<Event Name="JordanPath_2_Question1Silence" ID="{8A3D5C47-F333-411A-9D37-265302E823B7}"/>
+						<Event Name="JordanPath_3_TacklingTime" ID="{70468679-650C-4735-94E4-0EA7C335EE9C}"/>
+						<Event Name="JordanPath_4_Ignoring1" ID="{9DC359DE-3A57-492A-B10C-495DBE67468C}"/>
+						<Event Name="JordanPath_5_Ignoring2" ID="{6283A9A0-6C1A-4750-A370-B9BB5E5F598F}"/>
+						<Event Name="JordanPath_6_Convergence" ID="{F2C2BD2B-42E7-44B6-A66D-4F01CE3C6BA3}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="5_PaulHazelPath" ID="{4255D035-ED27-4A8E-B978-A0A1047D0C51}" ShortID="571859032">
+					<ChildrenList>
+						<Event Name="PaulHazelPath_1_Start" ID="{2D60A50A-F36E-4F5C-8307-BAF76F9A0D41}"/>
+						<Event Name="PaulHazelPath_2_PaulsPhone" ID="{C035ED47-4D22-47E9-8C2A-F8052A769788}"/>
+						<Event Name="PaulHazelPath_3_QuestionSilence" ID="{C3699609-D426-4484-ACA4-6411CC6CCBD6}"/>
+						<Event Name="PaulHazelPath_4_QuestionBasement" ID="{F4795DE6-B43F-4670-98D3-A0D8FBA3DF91}"/>
+						<Event Name="PaulHazelPath_5_QuestionOutside" ID="{88B90E3A-9510-4471-BBBB-CD709006734A}"/>
+						<Event Name="PaulHazelPath_6_QuestionAttic" ID="{9B4269DA-2376-4A55-92E8-EF94577B7DF7}"/>
+						<Event Name="PaulHazelPath_7_QuestionKitchen" ID="{C05076E6-56E8-456F-8111-B14DAFC5DB30}"/>
+						<Event Name="PaulHazelPath_8_Basement" ID="{09890A66-D015-4540-AB57-C9529209F1D6}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="6_TheresHazel" ID="{9C0206F6-732E-445C-8B29-A773CB86BA69}" ShortID="894811212">
+					<ChildrenList>
+						<Event Name="TheresHazel_1_Start" ID="{D47755B2-28E5-4DF4-BB22-07FEF482FAD6}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="7_Climax" ID="{069DA3DB-EB06-4ED5-9E00-AFBA7D299479}" ShortID="590482546">
+					<ChildrenList>
+						<Event Name="Climax_1_Start" ID="{52C9434E-0BA0-4887-A8EF-DADD1F08E549}"/>
+						<Event Name="Climax_2_DoYouWantToDie" ID="{BEA56490-7686-4069-BF3D-ED486C850CFD}"/>
+						<Event Name="Climax_3_QuestionYes" ID="{282F9832-93C3-4DD1-B632-6033F803E904}"/>
+						<Event Name="Climax_4_QuestionNo" ID="{CDE817B1-1EA1-4413-8C91-071A014CF65A}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="9_GoodEnding" ID="{3ADF75D1-A57D-46F1-8360-C8B7B2B5BDE3}" ShortID="823814441">
+					<ChildrenList>
+						<Event Name="GoodEnding_1_Start" ID="{B9397DB5-FFA1-416D-9FE8-76BF5136C51F}"/>
+						<Event Name="GoodEnding_2_QuestionCorrect" ID="{12CC0E64-B614-41FC-9442-5A7BD071DF9C}"/>
+						<Event Name="GoodEnding_3_QuestionWrong" ID="{E8084384-7240-497D-94E7-661E4F20AF4E}"/>
+						<Event Name="GoodEnding_4_JewelsReal" ID="{20816C3A-57D3-4EDA-8B32-CCD2C25E6EAF}"/>
+						<Event Name="GoodEnding_5_AICongratulations" ID="{32174690-8EEC-4B26-9235-F7621EEBB458}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
