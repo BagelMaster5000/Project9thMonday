@@ -159,6 +159,37 @@
 								<ActiveSource Name="aiScene_00_v4" ID="{E18899B4-B21A-4674-A6DE-68A6AC3B551A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="outsideScene_00_v2" ID="{F2DAE343-76AD-4425-B803-96156F8DDBC4}" ShortID="898941938">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="outsideScene_00_v2" ID="{02C633C5-3188-4D06-895D-4EAE28FA2770}">
+									<Language>SFX</Language>
+									<AudioFile>outsideScene_00_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="641772538"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="outsideScene_00_v2" ID="{02C633C5-3188-4D06-895D-4EAE28FA2770}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX" ID="{82A3EF87-5CDC-4407-8EF2-077DDCDA80A4}" ShortID="566923927">
@@ -1148,499 +1179,554 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="Outside_1_Jordan" ID="{5435C4BC-5106-4034-99D1-0BFF9EBCAAB5}" ShortID="659573212">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>4</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Dialogue" ID="{31475B7E-8553-4533-BC4B-7EAC2B296DCD}" ShortID="763936830">
 					<ChildrenList>
-						<AudioFileSource Name="Outside_1_Jordan" ID="{5544B62D-3B99-4CD3-8703-BAB8AA1721AC}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_1_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1068140129"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="Outside_3_Paul" ID="{E91F9587-09D8-48BA-879D-D8A95A706EAE}" ShortID="1056632970">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_3_Paul" ID="{7B61B952-F90C-4F86-98A3-DFE703C5B81A}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_3_Paul.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="654433855"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_3_Paul" ID="{7B61B952-F90C-4F86-98A3-DFE703C5B81A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_1_Jordan" ID="{5435C4BC-5106-4034-99D1-0BFF9EBCAAB5}" ShortID="659573212">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_1_Jordan" ID="{5544B62D-3B99-4CD3-8703-BAB8AA1721AC}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_1_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1068140129"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_1_Jordan" ID="{5544B62D-3B99-4CD3-8703-BAB8AA1721AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_1_Start_Paul" ID="{240E6D64-9796-4118-9E09-EA74F2116882}" ShortID="647780657">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_1_Start_Paul" ID="{692B280B-360A-4D2D-98A8-6F6DAE31E1C4}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_1_Start_Paul.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1052322465"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_1_Start_Paul" ID="{692B280B-360A-4D2D-98A8-6F6DAE31E1C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_2_Hazel" ID="{5569B1EB-CB5A-4106-824E-2EDC19C0425F}" ShortID="697121371">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_2_Hazel" ID="{07F79496-3E10-4577-B0C2-4BD4C42F838E}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_2_Hazel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="350839221"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_2_Hazel" ID="{07F79496-3E10-4577-B0C2-4BD4C42F838E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_2_Jordan" ID="{11DF8DDD-9DCC-4BE8-B05A-52D757122BA9}" ShortID="974048695">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_2_Jordan" ID="{29F34BE4-7DEB-4661-A8ED-63D74A68B605}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_2_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="622678969"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_2_Jordan" ID="{29F34BE4-7DEB-4661-A8ED-63D74A68B605}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_3_Paul_2" ID="{E97F3E8D-B972-473E-8C37-D44FBC8142EA}" ShortID="1043719118">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>16.75</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_3_Paul_2" ID="{2410EF5C-E72E-4F7F-94C9-7EA15FC9F49E}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_3_Paul_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="515981678"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_3_Paul_2" ID="{2410EF5C-E72E-4F7F-94C9-7EA15FC9F49E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_3_JordanAnyQuestions" ID="{111A8B8D-2667-4B9D-B5C0-5FA892218742}" ShortID="917883373">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_3_JordanAnyQuestions" ID="{A7CE05B8-78AA-412A-8FE7-0CF000EB78AD}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_3_JordanAnyQuestions.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="492133702"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_3_JordanAnyQuestions" ID="{A7CE05B8-78AA-412A-8FE7-0CF000EB78AD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_3_Jordan" ID="{C6811CB5-F7A1-4BCA-A9D3-7CAAC1C1D4A9}" ShortID="316518944">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_3_Jordan" ID="{A11D65ED-DCA3-4836-BA25-E2491636E4AD}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_3_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="76820317"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_3_Jordan" ID="{A11D65ED-DCA3-4836-BA25-E2491636E4AD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_1_Start_Hazel" ID="{6D7E9407-4339-4387-B250-4796A3F26251}" ShortID="4412623">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_1_Start_Hazel" ID="{D5C603C2-42D8-4FBD-9141-5D0C992DE776}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_1_Start_Hazel.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="57389786"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_1_Start_Hazel" ID="{D5C603C2-42D8-4FBD-9141-5D0C992DE776}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_3_Jordan_AnyQuestionsLoop" ID="{5775428C-8F35-401D-A9C5-07519478A458}" ShortID="643164691">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_3_Jordan_AnyQuestionsLoop" ID="{1A4F4A44-DC3A-40D9-9314-AE67C280798A}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_3_Jordan_AnyQuestionsLoop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="100031452"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_3_Jordan_AnyQuestionsLoop" ID="{1A4F4A44-DC3A-40D9-9314-AE67C280798A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_8_Jordan" ID="{AC97F735-38E4-40C3-B506-9B988D8753EA}" ShortID="907616341">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_8_Jordan" ID="{E4163C92-87C4-479B-A502-D9B81B74E016}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_8_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="605919021"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_8_Jordan" ID="{E4163C92-87C4-479B-A502-D9B81B74E016}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PreGame_3_BeginGame" ID="{9CB0F508-2A9C-4C97-BF17-C38346B87884}" ShortID="566763315">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PreGame_3_BeginGame" ID="{E7A15986-860A-4819-8180-C6A01868CF93}">
+									<Language>SFX</Language>
+									<AudioFile>PreGame_3_BeginGame.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="596002357"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PreGame_3_BeginGame" ID="{E7A15986-860A-4819-8180-C6A01868CF93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_5_Jordan" ID="{E32AA9B6-283D-41F7-818B-22E50D4CF38C}" ShortID="597797347">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_5_Jordan" ID="{7128DF5A-C5D9-4A46-BB3F-3E903A98A879}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_5_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="499270571"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_5_Jordan" ID="{7128DF5A-C5D9-4A46-BB3F-3E903A98A879}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_9_Jordan" ID="{FEC27291-D072-4396-AD8F-F90A5498E59F}" ShortID="837869934">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_9_Jordan" ID="{A7CCFC2D-7577-417C-902F-85E44AAEB859}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_9_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945696856"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_9_Jordan" ID="{A7CCFC2D-7577-417C-902F-85E44AAEB859}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PreGame_2_Calibration" ID="{9522464E-CBA4-449B-B703-9B0085270C87}" ShortID="754137459">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PreGame_2_Calibration" ID="{08CFCD46-83C0-4977-99CB-D5F80054DA75}">
+									<Language>SFX</Language>
+									<AudioFile>PreGame_2_Calibration.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="364928317"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PreGame_2_Calibration" ID="{08CFCD46-83C0-4977-99CB-D5F80054DA75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_10_Jordan" ID="{1F0EDFB8-EA3B-4CB2-AB8B-DFFBBD4F8FFC}" ShortID="344933113">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_10_Jordan" ID="{A0D26BFE-2635-4F29-B78F-CEE5F04603C2}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_10_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="244707463"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_10_Jordan" ID="{A0D26BFE-2635-4F29-B78F-CEE5F04603C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_6_Jordan" ID="{B26254DC-B2F1-4BD2-B9D5-7DD825DC1693}" ShortID="716261285">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_6_Jordan" ID="{CF3CDFFC-3427-4D50-911C-CC3AC5DFBC50}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_6_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="83428840"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_6_Jordan" ID="{CF3CDFFC-3427-4D50-911C-CC3AC5DFBC50}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_7_Jordan" ID="{2786AA3E-7F22-4836-8983-268D48A7B8DB}" ShortID="883997419">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_7_Jordan" ID="{FF6E62B3-E3F1-4170-82FD-15BEE97390BF}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_7_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="846471331"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_7_Jordan" ID="{FF6E62B3-E3F1-4170-82FD-15BEE97390BF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PreGame_1_Start" ID="{140284F2-3A6E-4151-86FE-51623F3DCB6E}" ShortID="826133539">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PreGame_1_Start" ID="{7CB27B75-F2D9-4EEA-AEF5-69103B0B558E}">
+									<Language>SFX</Language>
+									<AudioFile>PreGame_1_Start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="340055765"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PreGame_1_Start" ID="{7CB27B75-F2D9-4EEA-AEF5-69103B0B558E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_4_Jordan" ID="{2B3435C3-D293-4DE2-BF8E-EAE9F875C4AA}" ShortID="979887323">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_4_Jordan" ID="{AE8AFD1C-E653-493B-88E8-DBECA4034C15}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_4_Jordan.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="423431881"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_4_Jordan" ID="{AE8AFD1C-E653-493B-88E8-DBECA4034C15}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Outside_3_JordanAnyQuestions_2" ID="{DDF4112E-9F74-4628-929F-6D0159BA9B4E}" ShortID="272260897">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Outside_3_JordanAnyQuestions_2" ID="{45A9295C-0429-4A90-B3FA-92402B96B482}">
+									<Language>SFX</Language>
+									<AudioFile>Outside_3_JordanAnyQuestions_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="949490232"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Outside_3_JordanAnyQuestions_2" ID="{45A9295C-0429-4A90-B3FA-92402B96B482}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_1_Jordan" ID="{5544B62D-3B99-4CD3-8703-BAB8AA1721AC}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_1_Start_Hazel" ID="{6D7E9407-4339-4387-B250-4796A3F26251}" ShortID="4412623">
-					<PropertyList>
-						<Property Name="InitialDelay" Type="Real64">
-							<ValueList>
-								<Value>16</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_1_Start_Hazel" ID="{D5C603C2-42D8-4FBD-9141-5D0C992DE776}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_1_Start_Hazel.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="57389786"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_1_Start_Hazel" ID="{D5C603C2-42D8-4FBD-9141-5D0C992DE776}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_1_Start_Paul" ID="{240E6D64-9796-4118-9E09-EA74F2116882}" ShortID="647780657">
-					<PropertyList>
-						<Property Name="InitialDelay" Type="Real64">
-							<ValueList>
-								<Value>9</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-3</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_1_Start_Paul" ID="{692B280B-360A-4D2D-98A8-6F6DAE31E1C4}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_1_Start_Paul.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1052322465"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_1_Start_Paul" ID="{692B280B-360A-4D2D-98A8-6F6DAE31E1C4}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_2_Hazel" ID="{5569B1EB-CB5A-4106-824E-2EDC19C0425F}" ShortID="697121371">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_2_Hazel" ID="{07F79496-3E10-4577-B0C2-4BD4C42F838E}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_2_Hazel.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="350839221"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_2_Hazel" ID="{07F79496-3E10-4577-B0C2-4BD4C42F838E}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_2_Jordan" ID="{11DF8DDD-9DCC-4BE8-B05A-52D757122BA9}" ShortID="974048695">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_2_Jordan" ID="{29F34BE4-7DEB-4661-A8ED-63D74A68B605}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_2_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="622678969"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_2_Jordan" ID="{29F34BE4-7DEB-4661-A8ED-63D74A68B605}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_3_Jordan" ID="{C6811CB5-F7A1-4BCA-A9D3-7CAAC1C1D4A9}" ShortID="316518944">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_3_Jordan" ID="{A11D65ED-DCA3-4836-BA25-E2491636E4AD}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_3_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="76820317"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_3_Jordan" ID="{A11D65ED-DCA3-4836-BA25-E2491636E4AD}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_3_Jordan_AnyQuestionsLoop" ID="{5775428C-8F35-401D-A9C5-07519478A458}" ShortID="643164691">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_3_Jordan_AnyQuestionsLoop" ID="{1A4F4A44-DC3A-40D9-9314-AE67C280798A}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_3_Jordan_AnyQuestionsLoop.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="100031452"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_3_Jordan_AnyQuestionsLoop" ID="{1A4F4A44-DC3A-40D9-9314-AE67C280798A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_3_JordanAnyQuestions" ID="{111A8B8D-2667-4B9D-B5C0-5FA892218742}" ShortID="917883373">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_3_JordanAnyQuestions" ID="{A7CE05B8-78AA-412A-8FE7-0CF000EB78AD}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_3_JordanAnyQuestions.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="492133702"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_3_JordanAnyQuestions" ID="{A7CE05B8-78AA-412A-8FE7-0CF000EB78AD}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_3_Paul" ID="{E91F9587-09D8-48BA-879D-D8A95A706EAE}" ShortID="1056632970">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_3_Paul" ID="{7B61B952-F90C-4F86-98A3-DFE703C5B81A}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_3_Paul.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="654433855"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_3_Paul" ID="{7B61B952-F90C-4F86-98A3-DFE703C5B81A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_3_Paul_2" ID="{E97F3E8D-B972-473E-8C37-D44FBC8142EA}" ShortID="1043719118">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_3_Paul_2" ID="{2410EF5C-E72E-4F7F-94C9-7EA15FC9F49E}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_3_Paul_2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="515981678"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_3_Paul_2" ID="{2410EF5C-E72E-4F7F-94C9-7EA15FC9F49E}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_4_Jordan" ID="{2B3435C3-D293-4DE2-BF8E-EAE9F875C4AA}" ShortID="979887323">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_4_Jordan" ID="{AE8AFD1C-E653-493B-88E8-DBECA4034C15}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_4_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="423431881"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_4_Jordan" ID="{AE8AFD1C-E653-493B-88E8-DBECA4034C15}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_5_Jordan" ID="{E32AA9B6-283D-41F7-818B-22E50D4CF38C}" ShortID="597797347">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_5_Jordan" ID="{7128DF5A-C5D9-4A46-BB3F-3E903A98A879}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_5_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="499270571"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_5_Jordan" ID="{7128DF5A-C5D9-4A46-BB3F-3E903A98A879}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_6_Jordan" ID="{B26254DC-B2F1-4BD2-B9D5-7DD825DC1693}" ShortID="716261285">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_6_Jordan" ID="{CF3CDFFC-3427-4D50-911C-CC3AC5DFBC50}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_6_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="83428840"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_6_Jordan" ID="{CF3CDFFC-3427-4D50-911C-CC3AC5DFBC50}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_7_Jordan" ID="{2786AA3E-7F22-4836-8983-268D48A7B8DB}" ShortID="883997419">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_7_Jordan" ID="{FF6E62B3-E3F1-4170-82FD-15BEE97390BF}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_7_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="846471331"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_7_Jordan" ID="{FF6E62B3-E3F1-4170-82FD-15BEE97390BF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_8_Jordan" ID="{AC97F735-38E4-40C3-B506-9B988D8753EA}" ShortID="907616341">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_8_Jordan" ID="{E4163C92-87C4-479B-A502-D9B81B74E016}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_8_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="605919021"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_8_Jordan" ID="{E4163C92-87C4-479B-A502-D9B81B74E016}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_9_Jordan" ID="{FEC27291-D072-4396-AD8F-F90A5498E59F}" ShortID="837869934">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_9_Jordan" ID="{A7CCFC2D-7577-417C-902F-85E44AAEB859}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_9_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="945696856"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_9_Jordan" ID="{A7CCFC2D-7577-417C-902F-85E44AAEB859}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Outside_10_Jordan" ID="{1F0EDFB8-EA3B-4CB2-AB8B-DFFBBD4F8FFC}" ShortID="344933113">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Outside_10_Jordan" ID="{A0D26BFE-2635-4F29-B78F-CEE5F04603C2}">
-							<Language>SFX</Language>
-							<AudioFile>Outside_10_Jordan.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="244707463"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="Outside_10_Jordan" ID="{A0D26BFE-2635-4F29-B78F-CEE5F04603C2}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="PreGame_1_Start" ID="{140284F2-3A6E-4151-86FE-51623F3DCB6E}" ShortID="826133539">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-5</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="PreGame_1_Start" ID="{7CB27B75-F2D9-4EEA-AEF5-69103B0B558E}">
-							<Language>SFX</Language>
-							<AudioFile>PreGame_1_Start.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="340055765"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="PreGame_1_Start" ID="{7CB27B75-F2D9-4EEA-AEF5-69103B0B558E}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="PreGame_2_Calibration" ID="{9522464E-CBA4-449B-B703-9B0085270C87}" ShortID="754137459">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="PreGame_2_Calibration" ID="{08CFCD46-83C0-4977-99CB-D5F80054DA75}">
-							<Language>SFX</Language>
-							<AudioFile>PreGame_2_Calibration.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="364928317"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="PreGame_2_Calibration" ID="{08CFCD46-83C0-4977-99CB-D5F80054DA75}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="PreGame_3_BeginGame" ID="{9CB0F508-2A9C-4C97-BF17-C38346B87884}" ShortID="566763315">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="PreGame_3_BeginGame" ID="{E7A15986-860A-4819-8180-C6A01868CF93}">
-							<Language>SFX</Language>
-							<AudioFile>PreGame_3_BeginGame.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="596002357"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="PreGame_3_BeginGame" ID="{E7A15986-860A-4819-8180-C6A01868CF93}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
