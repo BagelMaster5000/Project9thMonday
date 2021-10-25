@@ -5,7 +5,17 @@
 			<ChildrenList>
 				<Folder Name="2_Outside" ID="{A3B4FA14-8421-41D7-854C-3EADDAF2A792}" ShortID="466337046">
 					<ChildrenList>
-						<Event Name="Outside_3_AnyQuestions" ID="{E17564A8-E28E-4AA5-BCFF-42C72B9FAE7A}"/>
+						<Event Name="Outside_3_AnyQuestions" ID="{E17564A8-E28E-4AA5-BCFF-42C72B9FAE7A}">
+							<ChildrenList>
+								<Action Name="" ID="{495D01B3-A8B3-48DB-AB7B-CC09C41F8CCC}" ShortID="530221902">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OutsideFootsteps" ID="{06AEA950-0BE4-403D-A5B5-ABC4E297BB4C}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Outside_5_Question1" ID="{12C68A03-32DC-47C6-ADAE-9E582E6EB94E}"/>
 						<Event Name="Outside_6_Question2" ID="{0B0EAB49-D9B0-40CF-B6DA-F32D4E8B4EF0}"/>
 						<Event Name="Outside_7_Question3" ID="{58393BBE-5DD7-4186-BB2C-2088B4E68734}"/>
@@ -13,17 +23,93 @@
 						<Event Name="Outside_9_Question5" ID="{FB75E559-676E-4A65-990C-09C2956213F0}"/>
 						<Event Name="Outside_10_QuestionDone" ID="{4B510584-31EA-4EBC-AE42-BAC25981FA38}"/>
 						<Event Name="Outside_4_QuestionSilence" ID="{D33BBB7F-D21C-47B6-9E48-5E5EE0C23212}"/>
-						<Event Name="Outside_1_Start" ID="{A6E0B97A-A95E-4C1B-8DB4-00801E4E3F08}"/>
-						<Event Name="Outside_2_WheresTheDog" ID="{7A82B471-2EB0-4736-9653-FFDA68804065}"/>
+						<Event Name="Outside_1_Start" ID="{A6E0B97A-A95E-4C1B-8DB4-00801E4E3F08}">
+							<ChildrenList>
+								<Action Name="" ID="{E7AAEB73-9569-4963-BD93-AC3D922DB836}" ShortID="258876327">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="outsideScene_00_v1" ID="{5BC8F83E-5CF9-43CD-A7E4-EB5810EA0B78}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{64C23B42-F7F2-40B7-9821-6108A2F97DE4}" ShortID="1064693250">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Outside_1_Jordan" ID="{5435C4BC-5106-4034-99D1-0BFF9EBCAAB5}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{45B1B949-B520-4907-AE98-8B4F9F4C5CAD}" ShortID="303339612">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Outside_1_Start_Paul" ID="{240E6D64-9796-4118-9E09-EA74F2116882}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0E824870-15F3-487F-AFE1-9C80F0E7AEEE}" ShortID="562739478">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Outside_1_Start_Hazel" ID="{6D7E9407-4339-4387-B250-4796A3F26251}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{355E8B62-77C7-43F0-B122-1557AFFC337E}" ShortID="110611799">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OutsideFootsteps" ID="{06AEA950-0BE4-403D-A5B5-ABC4E297BB4C}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Outside_2_WheresTheDog" ID="{7A82B471-2EB0-4736-9653-FFDA68804065}">
+							<ChildrenList>
+								<Action Name="" ID="{B4C4755A-64C5-4197-988C-34CD6A003AE3}" ShortID="47651516">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Outside_2_Hazel" ID="{5569B1EB-CB5A-4106-824E-2EDC19C0425F}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AE1053B5-278D-4B14-836E-26F508CDC738}" ShortID="877678947">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OutsideFootsteps" ID="{06AEA950-0BE4-403D-A5B5-ABC4E297BB4C}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="1_PreGame" ID="{9D1DB003-A347-4B36-B793-3AB0C22915F0}" ShortID="304782979">
 					<ChildrenList>
 						<Event Name="PreGame_3_BeginGame" ID="{1B581EBB-A2CA-468F-94EC-12406D0AAF57}">
 							<ChildrenList>
-								<Action Name="" ID="{E1BF616A-BC95-4CBB-8FB5-2011551C7592}" ShortID="964189281">
+								<Action Name="" ID="{E2EB059F-7FAA-41DA-9FAF-03F06599279B}" ShortID="355626008">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="aiScene_00_v4" ID="{9037C29A-08A5-4ADC-A86E-0C888CBF8BFC}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F7A325BD-CE45-4A4B-A217-7F467C9668D7}" ShortID="337119114">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="aiScene_00_v3" ID="{520A815F-2A0C-4AF8-90D3-EC063A0F1262}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E1BF616A-BC95-4CBB-8FB5-2011551C7592}" ShortID="964189281">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -31,15 +117,39 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{679CAFB9-5881-4806-8BDF-9460FDDDA2BD}" ShortID="439718681">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PreGame_3_BeginGame" ID="{9CB0F508-2A9C-4C97-BF17-C38346B87884}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PreGame_2_Calibration" ID="{353429B7-A325-4DFB-981D-DC554FD2087D}"/>
+						<Event Name="PreGame_2_Calibration" ID="{353429B7-A325-4DFB-981D-DC554FD2087D}">
+							<ChildrenList>
+								<Action Name="" ID="{63E944BD-DC33-4991-B2DE-3A28A3AE3DCF}" ShortID="755774178">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PreGame_2_Calibration" ID="{9522464E-CBA4-449B-B703-9B0085270C87}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="PreGame_1_Start" ID="{869E52FF-4045-466E-82CB-0B08DE2CBBF7}">
 							<ChildrenList>
 								<Action Name="" ID="{B1665207-77B7-4869-81E8-E6A720289848}" ShortID="315294339">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="aiScene_00_v3" ID="{520A815F-2A0C-4AF8-90D3-EC063A0F1262}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+											<ObjectRef Name="aiScene_00_v4" ID="{9037C29A-08A5-4ADC-A86E-0C888CBF8BFC}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{014CD517-AA2C-43A9-9719-888D4CBB40DB}" ShortID="500801736">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PreGame_1_Start" ID="{140284F2-3A6E-4151-86FE-51623F3DCB6E}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
