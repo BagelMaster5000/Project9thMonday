@@ -1616,19 +1616,12 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{A73BE987-91C6-4128-9F0A-566714C8F85B}" ShortID="496885101">
+							</ChildrenList>
+						</Event>
+						<Event Name="GoodEnding_5_AICongratulations" ID="{32174690-8EEC-4B26-9235-F7621EEBB458}">
+							<ChildrenList>
+								<Action Name="" ID="{7751347C-CB0D-4CB7-A980-545D2D036EE5}" ShortID="36384128">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="14"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="GoodEnding_5_AICongratulations" ID="{5193BB85-049B-408F-99F5-C87FAE0BD174}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{BF384285-FB75-4894-9E0E-D21425D586A5}" ShortID="546318178">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="14"/>
 										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1637,9 +1630,15 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{EB17C95B-035C-42EF-B8CB-EBBFAB7832C0}" ShortID="871696930">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GoodEnding_5_AICongratulations" ID="{5193BB85-049B-408F-99F5-C87FAE0BD174}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="GoodEnding_5_AICongratulations" ID="{32174690-8EEC-4B26-9235-F7621EEBB458}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
