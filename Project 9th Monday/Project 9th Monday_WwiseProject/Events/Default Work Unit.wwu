@@ -161,6 +161,38 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{5C22F8A1-DA41-4271-A981-1428349B7D6A}" ShortID="139424671">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Caution Tape Ripped" ID="{77439165-ACFE-4930-8BC5-0AE28820B090}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0722965F-ECCD-4028-8C3A-E98C2542C30C}" ShortID="359228791">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Door Open" ID="{2B6D6184-C7A3-48FD-9C8C-236D4B0601BF}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BDE80F2A-3378-4218-9927-A47D578014F3}" ShortID="513240851">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="Delay" Type="Real64" Value="6"/>
+										<Property Name="SeekPercent" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main Door Open" ID="{2B6D6184-C7A3-48FD-9C8C-236D4B0601BF}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Outside_4_QuestionSilence" ID="{D33BBB7F-D21C-47B6-9E48-5E5EE0C23212}">
@@ -339,29 +371,320 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{EC5C6451-4269-44FC-AA41-1F92ACF26548}" ShortID="256205088"/>
+								<Action Name="" ID="{EC5C6451-4269-44FC-AA41-1F92ACF26548}" ShortID="256205088">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="exploringHouseNormal_00_v2" ID="{70503039-7309-4DDE-963B-1051969D608B}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1C5B0101-DF60-4BA3-8EC1-C0A659C9191C}" ShortID="347990605">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BF566E5A-00D2-45AF-AAC7-6C1A748660B9}" ShortID="303143846">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_1_Start" ID="{BF247400-E904-451E-A221-E87376FFB0E6}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{105C969B-F7F5-4CAF-BCEB-66F6E811CD1D}" ShortID="773059168">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="4.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_1_Start_Paul" ID="{E94761DA-E2AA-45C9-AB9C-158B4CD42EF9}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3B8AE6A9-824B-431F-993A-2A5C453D4177}" ShortID="27645004">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="17"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_1_Start_Jordan" ID="{E3088A15-2C2E-45A7-909E-30334F9E81F0}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D058EC32-8D3C-4442-A90F-464EE104014F}" ShortID="651581122">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D4CBBC91-83C1-4F1F-83F1-BBF247F6022C}" ShortID="1043501345">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="30"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_1_Start_Paul 2" ID="{2ADE39FB-D1B8-4486-A0E7-936CEE6ED7BE}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D09E27D6-25BD-4304-8416-A644A5F42E2C}" ShortID="418453787">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_1_Start_Hazel_2" ID="{B460995F-F44A-49B9-8849-020E5B684F25}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B4AED9B4-38EF-476A-9F86-EF854018602E}" ShortID="750049658">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="39"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_1_Start_Paul_3" ID="{0D05E028-4152-4BD4-A248-CB17018255C8}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D912903D-87B4-4EB2-8753-1CB8E6AAC7BC}" ShortID="404371662">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="43"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_3_Question_Jordan" ID="{67F9B892-B0FD-468A-A9D1-79979183C344}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="MainHall_2_QuestionSilence" ID="{E7A00912-08CB-43E4-9519-9312DAFA1CCB}"/>
-						<Event Name="MainHall_3_QuestionJordan" ID="{8F6170B3-5818-4B2E-BFFF-5DA6F841BDFA}"/>
-						<Event Name="MainHall_4_QuestionPaulHazel" ID="{06B49AB6-942D-48F1-8DAA-11B285BF3278}"/>
-						<Event Name="MainHall_5_Question1" ID="{CA332105-72B8-4FBE-B776-AE8098C712D4}"/>
-						<Event Name="MainHall_6_Question2" ID="{E44A50FA-E1C8-4D3D-A9EA-E54C407BF265}"/>
+						<Event Name="MainHall_2_QuestionSilence" ID="{E7A00912-08CB-43E4-9519-9312DAFA1CCB}">
+							<ChildrenList>
+								<Action Name="" ID="{00E182D4-BA2D-487B-BED4-48C0F59BD79D}" ShortID="508934004">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_2_Question_Jordan" ID="{9E164C5E-6524-4D58-975D-5B6057B72B22}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MainHall_3_QuestionJordan" ID="{8F6170B3-5818-4B2E-BFFF-5DA6F841BDFA}">
+							<ChildrenList>
+								<Action Name="" ID="{7158384F-026C-4611-810D-865D0AF99B00}" ShortID="5091204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_3_Question_Jordan_Yes" ID="{42935EFE-B53F-4619-AC72-D3732E9D4CB1}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MainHall_4_QuestionPaulHazel" ID="{06B49AB6-942D-48F1-8DAA-11B285BF3278}">
+							<ChildrenList>
+								<Action Name="" ID="{67A0F5E6-49CB-413F-AF82-8617B0AC185F}" ShortID="402709588">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_3_Question_Jordan_No" ID="{256831F5-42DD-4C41-B0B1-6BD1AFF94D6C}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MainHall_5_Question1" ID="{CA332105-72B8-4FBE-B776-AE8098C712D4}">
+							<ChildrenList>
+								<Action Name="" ID="{D8810EE3-26DC-4358-825A-E68A90ABCBB9}" ShortID="4307671">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_5_Question_Jordan" ID="{E8D2C76F-1F36-43E9-B277-2351D667C0B7}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MainHall_6_Question2" ID="{E44A50FA-E1C8-4D3D-A9EA-E54C407BF265}">
+							<ChildrenList>
+								<Action Name="" ID="{B83DBA71-8D4A-448B-BF67-2940D2FE60E3}" ShortID="590539855">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainHall_6_Question2_Jordan" ID="{B135B188-F554-4120-9042-34C4EDCE664A}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="4_JordanPath" ID="{5BD3B09B-6F87-470C-BDAA-DD884108699D}" ShortID="691077480">
 					<ChildrenList>
-						<Event Name="JordanPath_1_Start" ID="{1303F8F5-8E59-4ECF-BF8C-6F8D6575FFCE}"/>
-						<Event Name="JordanPath_2_Question1Silence" ID="{8A3D5C47-F333-411A-9D37-265302E823B7}"/>
-						<Event Name="JordanPath_3_TacklingTime" ID="{70468679-650C-4735-94E4-0EA7C335EE9C}"/>
-						<Event Name="JordanPath_4_Ignoring1" ID="{9DC359DE-3A57-492A-B10C-495DBE67468C}"/>
-						<Event Name="JordanPath_5_Ignoring2" ID="{6283A9A0-6C1A-4750-A370-B9BB5E5F598F}"/>
-						<Event Name="JordanPath_6_Convergence" ID="{F2C2BD2B-42E7-44B6-A66D-4F01CE3C6BA3}"/>
+						<Event Name="JordanPath_1_Start" ID="{1303F8F5-8E59-4ECF-BF8C-6F8D6575FFCE}">
+							<ChildrenList>
+								<Action Name="" ID="{FBAE969C-7CD3-45F6-8E55-114D24E2187D}" ShortID="914235385">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7A77E892-B14E-444F-A6A3-9FDE02BB4972}" ShortID="680758191">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JordanPath_1_Start" ID="{66BCE001-8C43-4380-BFC6-FC6B520A7F91}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BFFBEB4D-6AC2-4229-BC13-ACEAB75536BE}" ShortID="470404085">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="30.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="crashingDishes_00_v1" ID="{F925D8C6-1A7F-40C4-9383-680ABFBC8AE7}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{79A81DAB-793F-46E4-B73A-A2FBB6CD2E8F}" ShortID="972219586">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="30.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="crashingPans_00_v1" ID="{D1BA4DC3-1C45-403C-85F2-5A43A622DD87}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DC6BD1FB-9FDA-46CD-B784-5235B966CD03}" ShortID="277998183">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="31"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7116E0F1-85CD-4E9E-B028-9C7EB6A6193A}" ShortID="529024730">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="34"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="exploringHouseLost_00_v2" ID="{B9D04E96-E22A-40F5-B378-1B1308CAEBA6}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="JordanPath_2_Question1Silence" ID="{8A3D5C47-F333-411A-9D37-265302E823B7}">
+							<ChildrenList>
+								<Action Name="" ID="{B65C9D72-4338-4222-A86D-30C2BF5A2208}" ShortID="514537659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JordanPath_2_QuestionSilence" ID="{67299F52-1150-4924-814E-29C27484FDD7}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="JordanPath_3_TacklingTime" ID="{70468679-650C-4735-94E4-0EA7C335EE9C}">
+							<ChildrenList>
+								<Action Name="" ID="{6CE87FDE-FD0F-4C11-96D0-8A1E64CD79FB}" ShortID="357653284">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JordanPath_3_TacklingTime" ID="{1174DA0E-CCB5-41C5-854D-ED1B15D203C2}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="JordanPath_4_Ignoring1" ID="{9DC359DE-3A57-492A-B10C-495DBE67468C}">
+							<ChildrenList>
+								<Action Name="" ID="{BD598C17-E39A-46BA-B6B6-82CE070EDE87}" ShortID="261965662">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JordanPath_4_Ignoring1" ID="{010EC448-1721-4126-BAC4-25D91AA74CA7}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="JordanPath_5_Ignoring2" ID="{6283A9A0-6C1A-4750-A370-B9BB5E5F598F}">
+							<ChildrenList>
+								<Action Name="" ID="{7850552F-6B1C-436A-82B0-1CBF25C02682}" ShortID="855507658">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JordanPath_5_Ignoring2" ID="{5A2F2212-8D2D-4DED-A45E-532DF498C8F8}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="JordanPath_6_Convergence" ID="{F2C2BD2B-42E7-44B6-A66D-4F01CE3C6BA3}">
+							<ChildrenList>
+								<Action Name="" ID="{18ED2282-E9CE-4220-B0EF-9EFD0EE5B69F}" ShortID="570395161">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F5008759-3FFC-4E7F-B8E5-2E007C39F95C}" ShortID="394052195">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JordanPath_6_Convergence" ID="{8609DA2A-0CA6-4269-B549-C5F7C9A47D93}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{499D15BE-654B-4DE7-A8D1-B0B14187BB33}" ShortID="257061213">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="5_PaulHazelPath" ID="{4255D035-ED27-4A8E-B978-A0A1047D0C51}" ShortID="571859032">
 					<ChildrenList>
-						<Event Name="PaulHazelPath_1_Start" ID="{2D60A50A-F36E-4F5C-8307-BAF76F9A0D41}"/>
+						<Event Name="PaulHazelPath_1_Start" ID="{2D60A50A-F36E-4F5C-8307-BAF76F9A0D41}">
+							<ChildrenList>
+								<Action Name="" ID="{AFD01CE6-A18F-4FA1-B212-D055F4EE241B}" ShortID="78149525">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="exploringHouseLost_00_v2" ID="{B9D04E96-E22A-40F5-B378-1B1308CAEBA6}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4DF88433-E35D-42A4-91C5-44FCB74A7ED7}" ShortID="731168078">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="exploringHouseNormal_00_v2" ID="{70503039-7309-4DDE-963B-1051969D608B}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4A2BD93C-B712-4EA3-9BC0-2022C73CFA93}" ShortID="50231475"/>
+							</ChildrenList>
+						</Event>
 						<Event Name="PaulHazelPath_2_PaulsPhone" ID="{C035ED47-4D22-47E9-8C2A-F8052A769788}"/>
 						<Event Name="PaulHazelPath_3_QuestionSilence" ID="{C3699609-D426-4484-ACA4-6411CC6CCBD6}"/>
 						<Event Name="PaulHazelPath_4_QuestionBasement" ID="{F4795DE6-B43F-4670-98D3-A0D8FBA3DF91}"/>
