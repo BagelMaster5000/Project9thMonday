@@ -76,7 +76,7 @@
 								</Action>
 								<Action Name="" ID="{75AA8AC6-7927-4941-B375-CC2C6BCD9286}" ShortID="607390115">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="5.5"/>
+										<Property Name="Delay" Type="Real64" Value="6"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -97,7 +97,7 @@
 								</Action>
 								<Action Name="" ID="{ED7C9516-EF28-4A1A-8717-CAA3B627708C}" ShortID="489727870">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="27.5"/>
+										<Property Name="Delay" Type="Real64" Value="28"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -153,7 +153,7 @@
 							<ChildrenList>
 								<Action Name="" ID="{A5947990-8F18-496C-B7BD-08347A8514DD}" ShortID="295730497">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="5"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -355,13 +355,6 @@
 					<ChildrenList>
 						<Event Name="BadEnding_1_Start" ID="{32AA6429-7A00-446F-A0FE-D6D95392913C}">
 							<ChildrenList>
-								<Action Name="" ID="{B3671960-EA56-4CFD-B9CF-4661A97A0D8B}" ShortID="475604913">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="BadEnding_1_Start" ID="{FF6C3E76-8D76-4837-9A54-1218D4EC01CA}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{4957386F-9B5F-4911-BE22-4A3D24982B8C}" ShortID="868605600">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
@@ -372,24 +365,61 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{DA41B63E-5EDA-43CC-ADEA-D5C35FDCFFEC}" ShortID="236487370">
+								<Action Name="" ID="{B3671960-EA56-4CFD-B9CF-4661A97A0D8B}" ShortID="475604913">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BadEnding_1_Start" ID="{FF6C3E76-8D76-4837-9A54-1218D4EC01CA}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F379C8D8-D098-4AE8-AE84-1DE11BD30889}" ShortID="401420740">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="Delay" Type="Real64" Value="4.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BadEnding_1_Start_2" ID="{2DBDF06E-092E-49DD-A334-340ADEDA0AAE}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+											<ObjectRef Name="Mouse Click" ID="{C9A112F0-AE73-42D1-97B7-770728DB89E9}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{76BA7664-2CA3-4D3D-B2D2-33CE4E60EB50}" ShortID="551730787">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="6.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="bonesCrunching_00_v1" ID="{0440BDFE-79DD-4C9B-94AD-A63109D736F3}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{847ABE81-DECC-494E-AFE8-047C1F1A6AD5}" ShortID="161726833">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="6.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="meatSplattering_00_v1" ID="{6A508C97-2445-49C0-B3CC-B82A0787B2D4}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{3B7C06F4-6F57-421C-B483-856B53386AA9}" ShortID="913275126">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="5"/>
+										<Property Name="Delay" Type="Real64" Value="9.5"/>
 										<Property Name="FadeTime" Type="Real64" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="aiScene_00_v4" ID="{9037C29A-08A5-4ADC-A86E-0C888CBF8BFC}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DA41B63E-5EDA-43CC-ADEA-D5C35FDCFFEC}" ShortID="236487370">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="13"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BadEnding_1_Start_2" ID="{2DBDF06E-092E-49DD-A334-340ADEDA0AAE}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -732,7 +762,7 @@
 								</Action>
 								<Action Name="" ID="{C73C6C52-5E9C-4E2B-898E-6E60B2ADBE6B}" ShortID="939953733">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="8"/>
+										<Property Name="Delay" Type="Real64" Value="8.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -778,6 +808,26 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{2F6E7C0F-8EF3-4752-8572-AA8E873585DD}" ShortID="469326843">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="64"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Phone Message Send" ID="{D0E3F507-4417-4706-BE3C-FDD03D0F9F4A}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1AB68DC8-CC55-4083-8269-9A4252D552C9}" ShortID="997904144">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="57"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Phone Typing Noises" ID="{A4470AD2-7F5B-408F-BBD2-7081899F89A3}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="PaulHazelPath_2_PaulsPhone" ID="{C035ED47-4D22-47E9-8C2A-F8052A769788}">
@@ -786,26 +836,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="PaulHazelPath_2_PaulsPhone_Paul_2" ID="{5DC8FA82-AAB1-439E-A253-888103CA33D3}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{1AB68DC8-CC55-4083-8269-9A4252D552C9}" ShortID="997904144">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Phone Typing Noises" ID="{A4470AD2-7F5B-408F-BBD2-7081899F89A3}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{2F6E7C0F-8EF3-4752-8572-AA8E873585DD}" ShortID="469326843">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="7"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Phone Message Send" ID="{D0E3F507-4417-4706-BE3C-FDD03D0F9F4A}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -884,7 +914,7 @@
 								</Action>
 								<Action Name="" ID="{F36C8071-C8A6-481A-A710-E566F3C168FC}" ShortID="881176440">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="3"/>
+										<Property Name="Delay" Type="Real64" Value="7"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -905,18 +935,7 @@
 								</Action>
 								<Action Name="" ID="{8FF15586-B706-4784-89BB-BD72A340933E}" ShortID="636968241">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="10"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="StaircaseFootsteps" ID="{184E6F65-907A-4EB5-831F-0ACBB2B4C954}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{8A415DB1-A922-4806-A456-0A252DDD31EF}" ShortID="325298961">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="Delay" Type="Real64" Value="13"/>
+										<Property Name="Delay" Type="Real64" Value="12"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -961,13 +980,6 @@
 						</Event>
 						<Event Name="PaulHazelPath_8_Basement" ID="{09890A66-D015-4540-AB57-C9529209F1D6}">
 							<ChildrenList>
-								<Action Name="" ID="{CC06651D-3CFE-4EF3-B87C-C9FE20C78032}" ShortID="129610469">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="StaircaseFootsteps" ID="{184E6F65-907A-4EB5-831F-0ACBB2B4C954}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{F7A63AAE-BA01-40DA-930A-F7283275842A}" ShortID="692920353">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
@@ -1049,7 +1061,7 @@
 								</Action>
 								<Action Name="" ID="{FF4F9364-2F72-43BA-B5F5-8DF7BCC57AEC}" ShortID="840012246">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="24"/>
+										<Property Name="Delay" Type="Real64" Value="26"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1166,7 +1178,7 @@
 								</Action>
 								<Action Name="" ID="{ECFD8C45-9628-4BF4-8647-2EB0419ACB24}" ShortID="841641510">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="29"/>
+										<Property Name="Delay" Type="Real64" Value="30"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1176,7 +1188,7 @@
 								</Action>
 								<Action Name="" ID="{C6EAF321-3FBC-4D00-A1E3-F19403AC81E2}" ShortID="63668526">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="34"/>
+										<Property Name="Delay" Type="Real64" Value="35"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1186,7 +1198,7 @@
 								</Action>
 								<Action Name="" ID="{62BA7A9F-017D-49EA-B0BB-F7800B7E43A3}" ShortID="847364839">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="36"/>
+										<Property Name="Delay" Type="Real64" Value="37"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1313,7 +1325,7 @@
 								</Action>
 								<Action Name="" ID="{1AEDD021-8D37-4D6D-9E4C-2DED79AC2619}" ShortID="669673348">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="34"/>
+										<Property Name="Delay" Type="Real64" Value="34.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1343,26 +1355,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{76BA7664-2CA3-4D3D-B2D2-33CE4E60EB50}" ShortID="551730787">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="bonesCrunching_00_v1" ID="{0440BDFE-79DD-4C9B-94AD-A63109D736F3}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{847ABE81-DECC-494E-AFE8-047C1F1A6AD5}" ShortID="161726833">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="meatSplattering_00_v1" ID="{6A508C97-2445-49C0-B3CC-B82A0787B2D4}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Climax_4_QuestionNo" ID="{CDE817B1-1EA1-4413-8C91-071A014CF65A}">
@@ -1376,7 +1368,7 @@
 								</Action>
 								<Action Name="" ID="{EF38357C-5809-48E2-8E24-05F24EA78DE3}" ShortID="872362307">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1386,7 +1378,7 @@
 								</Action>
 								<Action Name="" ID="{A56EC683-7DBA-4F4F-A2A3-22E4E1E39863}" ShortID="487588877">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="2"/>
+										<Property Name="Delay" Type="Real64" Value="2.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1534,7 +1526,7 @@
 								</Action>
 								<Action Name="" ID="{FF569016-C147-4946-8987-A3BD7DBE40E7}" ShortID="1021153262">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="54"/>
+										<Property Name="Delay" Type="Real64" Value="57"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -1597,7 +1589,7 @@
 								</Action>
 								<Action Name="" ID="{C775757C-DEB6-41A0-96B2-2EF935F9F910}" ShortID="492217643">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="10"/>
+										<Property Name="Delay" Type="Real64" Value="11"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

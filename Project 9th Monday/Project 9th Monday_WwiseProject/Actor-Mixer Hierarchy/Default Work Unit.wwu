@@ -809,6 +809,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Mouse Click" ID="{C9A112F0-AE73-42D1-97B7-770728DB89E9}" ShortID="873538400">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -885,13 +892,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Rummaging Through Boxes" ID="{FD30BEA6-09AE-4366-88CD-604A46E30689}" ShortID="227736965">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
