@@ -9,7 +9,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -66,7 +66,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -159,7 +159,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-23</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -305,14 +305,32 @@
 						</Sound>
 						<Sound Name="crashingDishes_00_v1" ID="{F925D8C6-1A7F-40C4-9383-680ABFBC8AE7}" ShortID="64049304">
 							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>10</Value>
+										<Value>16</Value>
 									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6DCD761D-392F-4DCE-98D1-7A282DBFEBF1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="556"/>
+													<Property Name="Min" Type="Real64" Value="-379"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -343,14 +361,32 @@
 						</Sound>
 						<Sound Name="crashingPans_00_v1" ID="{D1BA4DC3-1C45-403C-85F2-5A43A622DD87}" ShortID="866637174">
 							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>10</Value>
+										<Value>4</Value>
 									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A5C45C64-1A31-4F18-B3F7-E3715EB20763}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="379"/>
+													<Property Name="Min" Type="Real64" Value="-379"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -782,7 +818,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>25</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -865,7 +901,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -949,9 +985,22 @@
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.75">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{ED6F1C52-E2F9-467B-AE89-EDCE5463DE90}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.08"/>
+													<Property Name="Min" Type="Real64" Value="-0.08"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>1</Value>
@@ -1107,16 +1156,96 @@
 										<ActiveSource Name="footstepsOustide_03_v1" ID="{1734631F-CAB0-4892-B236-648E7AF9BF56}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="footstepsOustide_04_v1" ID="{37D6ADFA-0845-4E16-82BD-9FEEFA5F97A3}" ShortID="1025121471">
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" ShortID="832160165">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.6">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1AE39C21-63AD-4FA8-89EA-EBD1FD2F9EF1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.08"/>
+													<Property Name="Min" Type="Real64" Value="-0.08"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="footstepsInside_04_v2" ID="{0B521354-DD7F-4CDC-B7BD-8882BE813668}" ShortID="209441050">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstepsInside_04_v2" ID="{93C3A57A-74E2-47F1-8544-2B4E4046AC8D}">
+											<Language>SFX</Language>
+											<AudioFile>footstepsInside_04_v2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="681426235"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstepsInside_04_v2" ID="{93C3A57A-74E2-47F1-8544-2B4E4046AC8D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstepsInside_02_v2" ID="{F3D0151B-2AE7-437D-847A-BCC05D1B18EB}" ShortID="964585756">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstepsInside_02_v2" ID="{84B37242-217D-492B-B4DB-23F5B7B5A7E4}">
+											<Language>SFX</Language>
+											<AudioFile>footstepsInside_02_v2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449726745"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstepsInside_02_v2" ID="{84B37242-217D-492B-B4DB-23F5B7B5A7E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstepsInside_03_v2" ID="{F56CD9B3-F0D1-4C2E-A515-5DDF1E856C00}" ShortID="473848276">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>50</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1129,46 +1258,27 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="footstepsOustide_04_v1" ID="{1CB0D5B9-F684-4485-9A1F-4C1270B2BEA6}">
+										<AudioFileSource Name="footstepsInside_03_v2" ID="{FEC67916-7324-47C9-8CC9-E93BD09B80AF}">
 											<Language>SFX</Language>
-											<AudioFile>footstepsOustide_04_v1.wav</AudioFile>
+											<AudioFile>footstepsInside_03_v2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="612994435"/>
+												<MediaID ID="474755386"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="footstepsOustide_04_v1" ID="{1CB0D5B9-F684-4485-9A1F-4C1270B2BEA6}" Platform="Linked"/>
+										<ActiveSource Name="footstepsInside_03_v2" ID="{FEC67916-7324-47C9-8CC9-E93BD09B80AF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" ShortID="832160165">
-							<PropertyList>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-19</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="footstepsInside_00_v1" ID="{B680736F-E19A-4481-8CB4-3D175AE722B1}" ShortID="154365265">
+								<Sound Name="footstepsInside_01_v2" ID="{EC88883C-FDB6-435F-A524-BB24FEC2F771}" ShortID="295614517">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1178,20 +1288,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="footstepsInside_00_v1" ID="{ADB87246-3FE5-4B04-B71E-6230C9831CB7}">
+										<AudioFileSource Name="footstepsInside_01_v2" ID="{D24844D1-EE0A-42B8-8385-FE84454A2EAF}">
 											<Language>SFX</Language>
-											<AudioFile>footstepsInside_00_v1.wav</AudioFile>
+											<AudioFile>footstepsInside_01_v2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="469013196"/>
+												<MediaID ID="627312910"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="footstepsInside_00_v1" ID="{ADB87246-3FE5-4B04-B71E-6230C9831CB7}" Platform="Linked"/>
+										<ActiveSource Name="footstepsInside_01_v2" ID="{D24844D1-EE0A-42B8-8385-FE84454A2EAF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="footstepsInside_01_v1" ID="{292BC931-B6DC-48DB-A128-2504C91727E3}" ShortID="455753956">
+								<Sound Name="footstepsInside_00_v2" ID="{7AECD8C3-C2D5-4100-AE8D-9B265F0E0B18}" ShortID="373488238">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1201,135 +1311,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="footstepsInside_01_v1" ID="{7F38E68D-0FBF-495F-A1A5-5B4BAEC11D00}">
+										<AudioFileSource Name="footstepsInside_00_v2" ID="{8B390F16-147D-4C0B-BA4B-40BEF76FECD3}">
 											<Language>SFX</Language>
-											<AudioFile>footstepsInside_01_v1.wav</AudioFile>
+											<AudioFile>footstepsInside_00_v2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="314570733"/>
+												<MediaID ID="882442922"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="footstepsInside_01_v1" ID="{7F38E68D-0FBF-495F-A1A5-5B4BAEC11D00}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="footstepsInside_02_v1" ID="{46343454-4DDB-41FC-88C1-AB368B628135}" ShortID="623821919">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="footstepsInside_02_v1" ID="{5930AE17-9768-48DA-8272-EEB0099FAAE5}">
-											<Language>SFX</Language>
-											<AudioFile>footstepsInside_02_v1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="64374710"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="footstepsInside_02_v1" ID="{5930AE17-9768-48DA-8272-EEB0099FAAE5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="footstepsInside_03_v1" ID="{50148C7E-D83E-4E37-BAFC-4FD29E7A55E7}" ShortID="97736101">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="footstepsInside_03_v1" ID="{28B049FD-7148-4EB9-B325-1D9F20546A49}">
-											<Language>SFX</Language>
-											<AudioFile>footstepsInside_03_v1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="227509403"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="footstepsInside_03_v1" ID="{28B049FD-7148-4EB9-B325-1D9F20546A49}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="StaircaseFootsteps" ID="{184E6F65-907A-4EB5-831F-0ACBB2B4C954}" ShortID="161588964">
-							<PropertyList>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="footstepsInsideStairs_00_v1" ID="{2AFC2944-7F38-43B4-A5E0-6EC68CADC9B4}" ShortID="497406136">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="footstepsInsideStairs_00_v1" ID="{B214A166-6D9B-404B-A0C8-2AF6712B5E04}">
-											<Language>SFX</Language>
-											<AudioFile>footstepsInsideStairs_00_v1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="183420027"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="footstepsInsideStairs_00_v1" ID="{B214A166-6D9B-404B-A0C8-2AF6712B5E04}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="footstepsInsideStairs_01_v1" ID="{E5A7A052-B2EF-4D21-A548-284B7B40D09F}" ShortID="465834471">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="footstepsInsideStairs_01_v1" ID="{3C94919B-0341-476E-AD6A-F4DA81867BAC}">
-											<Language>SFX</Language>
-											<AudioFile>footstepsInsideStairs_01_v1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="853120773"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="footstepsInsideStairs_01_v1" ID="{3C94919B-0341-476E-AD6A-F4DA81867BAC}" Platform="Linked"/>
+										<ActiveSource Name="footstepsInside_00_v2" ID="{8B390F16-147D-4C0B-BA4B-40BEF76FECD3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1340,8 +1332,22 @@
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.65">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1E6E1D7E-67C8-477D-A59C-9B75293B8E5E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.08"/>
+													<Property Name="Min" Type="Real64" Value="-0.08"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -1357,7 +1363,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="footstepsInsidebasement_00_v1" ID="{638EC765-9317-4F47-A78A-6D6D90F3CF85}" ShortID="12461998">
+								<Sound Name="footstepsInsidebasement_03_v2" ID="{EACA8108-1D13-4834-8477-FCC17FE21FB3}" ShortID="193852969">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1367,20 +1373,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="footstepsInsidebasement_00_v1" ID="{9C1F93BC-2A37-4D0C-B488-E8C05FD123CA}">
+										<AudioFileSource Name="footstepsInsidebasement_03_v2" ID="{376CC4AB-E440-4357-8554-E4E41632AA4F}">
 											<Language>SFX</Language>
-											<AudioFile>footstepsInsidebasement_00_v1.wav</AudioFile>
+											<AudioFile>footstepsInsidebasement_03_v2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1050920622"/>
+												<MediaID ID="785268161"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="footstepsInsidebasement_00_v1" ID="{9C1F93BC-2A37-4D0C-B488-E8C05FD123CA}" Platform="Linked"/>
+										<ActiveSource Name="footstepsInsidebasement_03_v2" ID="{376CC4AB-E440-4357-8554-E4E41632AA4F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="footstepsInsidebasement_01_v1" ID="{98612D8D-78D5-4C76-A386-1C63AB6A12E5}" ShortID="961792263">
+								<Sound Name="footstepsInsidebasement_01_v2" ID="{38CC44EF-CAC2-491B-B1CD-2AFD955EEA32}" ShortID="163960227">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1390,22 +1396,166 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="footstepsInsidebasement_01_v1" ID="{A0D8FB6E-3BE4-4276-B82D-6264DD2919C6}">
+										<AudioFileSource Name="footstepsInsidebasement_01_v2" ID="{32611A95-DA1C-4085-A810-EEEBA77D525F}">
 											<Language>SFX</Language>
-											<AudioFile>footstepsInsidebasement_01_v1.wav</AudioFile>
+											<AudioFile>footstepsInsidebasement_01_v2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1022877426"/>
+												<MediaID ID="600899147"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="footstepsInsidebasement_01_v1" ID="{A0D8FB6E-3BE4-4276-B82D-6264DD2919C6}" Platform="Linked"/>
+										<ActiveSource Name="footstepsInsidebasement_01_v2" ID="{32611A95-DA1C-4085-A810-EEEBA77D525F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstepsInsidebasement_02_v2" ID="{D00C00A7-B3B7-4EE8-9F8A-999BE811AEBC}" ShortID="640262855">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstepsInsidebasement_02_v2" ID="{3F904173-9EE0-4DCB-9BB4-24AB54EF3F7B}">
+											<Language>SFX</Language>
+											<AudioFile>footstepsInsidebasement_02_v2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485555852"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstepsInsidebasement_02_v2" ID="{3F904173-9EE0-4DCB-9BB4-24AB54EF3F7B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="footstepsInsidebasement_00_v2" ID="{2E85B322-8299-43F7-B48D-3215609CFA31}" ShortID="481606306">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstepsInsidebasement_00_v2" ID="{11B8D7F6-3024-45D7-8866-DD3FE0823BBC}">
+											<Language>SFX</Language>
+											<AudioFile>footstepsInsidebasement_00_v2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="994177394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="footstepsInsidebasement_00_v2" ID="{11B8D7F6-3024-45D7-8866-DD3FE0823BBC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<Sound Name="footstepsInsideStairsSlow_00_v1" ID="{2AFC2944-7F38-43B4-A5E0-6EC68CADC9B4}" ShortID="497406136">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstepsInsideStairs_00_v1" ID="{B214A166-6D9B-404B-A0C8-2AF6712B5E04}">
+									<Language>SFX</Language>
+									<AudioFile>footstepsInsideStairs_00_v1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="183420027"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="footstepsInsideStairs_00_v1" ID="{B214A166-6D9B-404B-A0C8-2AF6712B5E04}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstepsInsideStairsFast_00_v1" ID="{E5A7A052-B2EF-4D21-A548-284B7B40D09F}" ShortID="465834471">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstepsInsideStairs_01_v1" ID="{3C94919B-0341-476E-AD6A-F4DA81867BAC}">
+									<Language>SFX</Language>
+									<AudioFile>footstepsInsideStairs_01_v1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="853120773"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="footstepsInsideStairs_01_v1" ID="{3C94919B-0341-476E-AD6A-F4DA81867BAC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Paul Muffled Screaming" ID="{86881579-2FB6-48C0-A3F5-ADCEB847CB2B}" ShortID="643009268">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Paul Muffled Screaming" ID="{7E329222-B696-4612-804F-7A202F6C94D8}">
+									<Language>SFX</Language>
+									<AudioFile>Paul Muffled Screaming.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="369871226"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Paul Muffled Screaming" ID="{7E329222-B696-4612-804F-7A202F6C94D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Jordan Muffled Screaming" ID="{B7FFEA2D-03B0-44ED-A215-A1F344CA7A9D}" ShortID="706829348">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Jordan Muffled Screaming" ID="{0F6FC7E8-E592-47BF-9C56-FFD05B55C7D4}">
+									<Language>SFX</Language>
+									<AudioFile>Jordan Muffled Screaming.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="912969919"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Jordan Muffled Screaming" ID="{0F6FC7E8-E592-47BF-9C56-FFD05B55C7D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dialogue" ID="{31475B7E-8553-4533-BC4B-7EAC2B296DCD}" ShortID="763936830">
@@ -1437,7 +1587,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>4</Value>
+										<Value>5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1528,6 +1678,11 @@
 										<Value>3.5</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1582,6 +1737,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_3_JordanAnyQuestions" ID="{111A8B8D-2667-4B9D-B5C0-5FA892218742}" ShortID="917883373">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1609,6 +1771,11 @@
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
 										<Value>11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1665,6 +1832,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_3_Jordan_AnyQuestionsLoop" ID="{5775428C-8F35-401D-A9C5-07519478A458}" ShortID="643164691">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1688,6 +1862,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_8_Jordan" ID="{AC97F735-38E4-40C3-B506-9B988D8753EA}" ShortID="907616341">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1734,6 +1915,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_5_Jordan" ID="{E32AA9B6-283D-41F7-818B-22E50D4CF38C}" ShortID="597797347">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1757,6 +1945,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_9_Jordan" ID="{FEC27291-D072-4396-AD8F-F90A5498E59F}" ShortID="837869934">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1803,6 +1998,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_10_Jordan" ID="{1F0EDFB8-EA3B-4CB2-AB8B-DFFBBD4F8FFC}" ShortID="344933113">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1826,6 +2028,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_6_Jordan" ID="{B26254DC-B2F1-4BD2-B9D5-7DD825DC1693}" ShortID="716261285">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1849,6 +2058,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_7_Jordan" ID="{2786AA3E-7F22-4836-8983-268D48A7B8DB}" ShortID="883997419">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1902,6 +2118,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Outside_4_Jordan" ID="{2B3435C3-D293-4DE2-BF8E-EAE9F875C4AA}" ShortID="979887323">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1929,6 +2152,11 @@
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
 										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2091,6 +2319,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MainHall_1_Start_Jordan" ID="{E3088A15-2C2E-45A7-909E-30334F9E81F0}" ShortID="611963801">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2114,6 +2349,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MainHall_2_Question_Jordan" ID="{9E164C5E-6524-4D58-975D-5B6057B72B22}" ShortID="496101206">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2183,6 +2425,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MainHall_3_Question_Jordan_No" ID="{256831F5-42DD-4C41-B0B1-6BD1AFF94D6C}" ShortID="588238717">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2206,6 +2455,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MainHall_3_Question_Jordan_Yes" ID="{42935EFE-B53F-4619-AC72-D3732E9D4CB1}" ShortID="1037607443">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2229,6 +2485,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MainHall_5_Question_Jordan" ID="{E8D2C76F-1F36-43E9-B277-2351D667C0B7}" ShortID="1039608595">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2252,6 +2515,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MainHall_6_Question2_Jordan" ID="{B135B188-F554-4120-9042-34C4EDCE664A}" ShortID="735051157">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2275,6 +2545,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="JordanPath_1_Start" ID="{66BCE001-8C43-4380-BFC6-FC6B520A7F91}" ShortID="841918267">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2298,6 +2575,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="JordanPath_2_QuestionSilence" ID="{67299F52-1150-4924-814E-29C27484FDD7}" ShortID="544780456">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2321,6 +2605,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="JordanPath_3_TacklingTime" ID="{1174DA0E-CCB5-41C5-854D-ED1B15D203C2}" ShortID="633256977">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2344,6 +2635,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="JordanPath_4_Ignoring1" ID="{010EC448-1721-4126-BAC4-25D91AA74CA7}" ShortID="655734873">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2367,6 +2665,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="JordanPath_5_Ignoring2" ID="{5A2F2212-8D2D-4DED-A45E-532DF498C8F8}" ShortID="738008263">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2390,6 +2695,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="JordanPath_6_Convergence" ID="{8609DA2A-0CA6-4269-B549-C5F7C9A47D93}" ShortID="306211165">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3090,6 +3402,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_1_Start_2" ID="{E02F57E3-71BA-4F57-8059-E0CE1DD5E138}" ShortID="536584309">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3136,6 +3455,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_1_Start_4_Mono" ID="{57C9E666-6B59-483D-A286-118A26B45A71}" ShortID="358093285">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3205,6 +3531,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_1_Start_6" ID="{50E5C8AD-F2F0-4B40-8F56-3248F3A67A23}" ShortID="898880532">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3320,6 +3653,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_4_JewelIsReal_Jordan" ID="{974DEE6E-F9C9-4217-876E-078EAF83F660}" ShortID="266998527">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
