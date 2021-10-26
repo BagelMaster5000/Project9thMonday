@@ -1556,6 +1556,36 @@
 								<ActiveSource Name="Jordan Muffled Screaming" ID="{0F6FC7E8-E592-47BF-9C56-FFD05B55C7D4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="JordanKnockOut" ID="{61B55E85-1CBA-44D0-A512-EE80BF6F0D2E}" ShortID="464034561">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="JordanKnockOut" ID="{9AB6B845-EE02-4421-912C-071312017006}">
+									<Language>SFX</Language>
+									<AudioFile>JordanKnockOut.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="448726654"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="JordanKnockOut" ID="{9AB6B845-EE02-4421-912C-071312017006}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dialogue" ID="{31475B7E-8553-4533-BC4B-7EAC2B296DCD}" ShortID="763936830">

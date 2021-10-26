@@ -938,11 +938,21 @@
 								</Action>
 								<Action Name="" ID="{F5008759-3FFC-4E7F-B8E5-2E007C39F95C}" ShortID="394052195">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="14.5"/>
+										<Property Name="Delay" Type="Real64" Value="18"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="JordanPath_6_Convergence" ID="{8609DA2A-0CA6-4269-B549-C5F7C9A47D93}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FA53DFAC-E07E-4924-8152-CCE3B79E492D}" ShortID="154456591">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JordanKnockOut" ID="{61B55E85-1CBA-44D0-A512-EE80BF6F0D2E}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

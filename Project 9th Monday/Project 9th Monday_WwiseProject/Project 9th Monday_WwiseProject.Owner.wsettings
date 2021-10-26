@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{ECA44366-B7F9-488F-A303-30184C7BF136}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Owner\Desktop\School\Senior 2021-2022\Fall 2021\DSOP tracks &amp; SFX\VA\VA Final\Bad Ending\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Owner\Desktop\School\Senior 2021-2022\Fall 2021\DSOP tracks &amp; SFX\SFX\"/>
 				<Property Name="Event Action List\{06B49AB6-942D-48F1-8DAA-11B285BF3278}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{09890A66-D015-4540-AB57-C9529209F1D6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0B0EAB49-D9B0-40CF-B6DA-F32D4E8B4EF0}\x64_Expand States" Type="string" Value=""/>
@@ -64,6 +64,9 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
