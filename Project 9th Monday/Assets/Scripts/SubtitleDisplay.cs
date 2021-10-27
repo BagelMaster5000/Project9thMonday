@@ -13,6 +13,10 @@ public class SubtitleDisplay : MonoBehaviour {
 
     private Coroutine subtitles;
 
+    private bool subtitlesEnabled = true;
+
+    // -----------------------------------------------------------------------------------------------
+
     private void Awake() {
         if(!dialogger)
             dialogger = FindObjectOfType<Dialogger>();
@@ -65,6 +69,13 @@ public class SubtitleDisplay : MonoBehaviour {
         }
         if(subtitles == null)
             text.color = new Color32(r, g, b, 0);
+    }
+
+    // -----------------------------------------------------------------------------------------------
+
+    public void ToggleSubtitles() {
+        subtitlesEnabled = !subtitlesEnabled;
+        text.enabled = subtitlesEnabled;
     }
 
 }

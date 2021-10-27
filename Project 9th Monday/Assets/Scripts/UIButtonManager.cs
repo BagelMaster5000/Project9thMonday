@@ -51,6 +51,7 @@ public class UIButtonManager : MonoBehaviour {
 
     public void RestartGame() {
         Debug.Log("Restarting game");
+        AkSoundEngine.PostEvent("StopAllAudio", FindObjectOfType<Dialogger>().gameObject);
         SceneManager.LoadScene(0);
     }
 
