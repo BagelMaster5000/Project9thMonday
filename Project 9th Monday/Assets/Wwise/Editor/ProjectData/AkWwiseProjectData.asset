@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: b1a9d4dee58ae143ae505f03fc829094
     GuidInternal: 
-    m_lastTime: -8585671669294876496
+    m_lastTime: -8585671804927537671
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: c775bd206ac20d4897aaceb01e599cf4
     GuidInternal: 
-    m_lastTime: -8585671669295446235
+    m_lastTime: -8585663292788577936
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,78 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 4bc0f7b96d0a34428763917a5f0b16e1
     GuidInternal: 
-    m_lastTime: -8585671669294956452
-    List: []
+    m_lastTime: -8585662930762865572
+    List:
+    - name: Dialogue1
+      guid: bcd6e11775c9014d9dc0120c6e55d2fd
+      id: 1669749372
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bc0f7b96d0a34428763917a5f0b16e1
+      - ElementName: Dialogue1
+        ObjectType: 7
+        guid: bcd6e11775c9014d9dc0120c6e55d2fd
+      Path: SoundBanks\Default Work Unit\Dialogue1
+    - name: Dialogue2
+      guid: 06c7c4222aa1c6499a57e3ff036d6065
+      id: 1669749375
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bc0f7b96d0a34428763917a5f0b16e1
+      - ElementName: Dialogue2
+        ObjectType: 7
+        guid: 06c7c4222aa1c6499a57e3ff036d6065
+      Path: SoundBanks\Default Work Unit\Dialogue2
+    - name: Dialogue3
+      guid: d6d057fc2244f44295376f00af4355e4
+      id: 1669749374
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bc0f7b96d0a34428763917a5f0b16e1
+      - ElementName: Dialogue3
+        ObjectType: 7
+        guid: d6d057fc2244f44295376f00af4355e4
+      Path: SoundBanks\Default Work Unit\Dialogue3
+    - name: Music
+      guid: 429f31d3da369e4d95c62caab90ae731
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bc0f7b96d0a34428763917a5f0b16e1
+      - ElementName: Music
+        ObjectType: 7
+        guid: 429f31d3da369e4d95c62caab90ae731
+      Path: SoundBanks\Default Work Unit\Music
+    - name: SFX
+      guid: abe6da4ee9c6164e9b60ff024c27f9e5
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bc0f7b96d0a34428763917a5f0b16e1
+      - ElementName: SFX
+        ObjectType: 7
+        guid: abe6da4ee9c6164e9b60ff024c27f9e5
+      Path: SoundBanks\Default Work Unit\SFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +150,1118 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 34f13c1e43407245a9b31a4ef9441fdb
     GuidInternal: 
-    m_lastTime: -8585671669295866057
-    List: []
+    m_lastTime: -8585662930819504325
+    List:
+    - name: 1_PreGame
+      guid: 03b01d9d47a3364bb7933ab0c22915f0
+      id: 3277495182
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 1_PreGame
+        ObjectType: 4
+        guid: 03b01d9d47a3364bb7933ab0c22915f0
+      Path: Events\Default Work Unit\1_PreGame
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 10_GoodEnding
+      guid: d175df3a7da5f1468360c8b7b2b5bde3
+      id: 1175111459
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 10_GoodEnding
+        ObjectType: 4
+        guid: d175df3a7da5f1468360c8b7b2b5bde3
+      Path: Events\Default Work Unit\10_GoodEnding
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 2_Outside
+      guid: 14fab4a32184d741854c3eaddaf2a792
+      id: 1923172493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      Path: Events\Default Work Unit\2_Outside
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 3_MainHall
+      guid: 5efa752519fa3d4299927d27df2b0c3d
+      id: 3014279269
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 3_MainHall
+        ObjectType: 4
+        guid: 5efa752519fa3d4299927d27df2b0c3d
+      Path: Events\Default Work Unit\3_MainHall
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 4_JordanPath
+      guid: 9bb0d35b876f0c47bdaadd884108699d
+      id: 2350723101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 4_JordanPath
+        ObjectType: 4
+        guid: 9bb0d35b876f0c47bdaadd884108699d
+      Path: Events\Default Work Unit\4_JordanPath
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 5_PaulHazelPath
+      guid: 35d0554227ed8e4ab978a0a1047d0c51
+      id: 2871023906
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      Path: Events\Default Work Unit\5_PaulHazelPath
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 6_Lost
+      guid: 8f3205cd6623604987cb04bf234c99f2
+      id: 4074471534
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 6_Lost
+        ObjectType: 4
+        guid: 8f3205cd6623604987cb04bf234c99f2
+      Path: Events\Default Work Unit\6_Lost
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 7_TheresHazel
+      guid: f606029c2e735c448b29a773cb86ba69
+      id: 3136670868
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 7_TheresHazel
+        ObjectType: 4
+        guid: f606029c2e735c448b29a773cb86ba69
+      Path: Events\Default Work Unit\7_TheresHazel
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 8_Climax
+      guid: dba39d0606ebd54e9e00afba7d299479
+      id: 191291442
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 8_Climax
+        ObjectType: 4
+        guid: dba39d0606ebd54e9e00afba7d299479
+      Path: Events\Default Work Unit\8_Climax
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: 9_BadEnding
+      guid: f5a117679861874aa528363788366403
+      id: 3790634587
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 9_BadEnding
+        ObjectType: 4
+        guid: f5a117679861874aa528363788366403
+      Path: Events\Default Work Unit\9_BadEnding
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BadEnding_1_Start
+      guid: 2964aa32007a6f44a0fed6d95392913c
+      id: 4051362494
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 9_BadEnding
+        ObjectType: 4
+        guid: f5a117679861874aa528363788366403
+      - ElementName: BadEnding_1_Start
+        ObjectType: 3
+        guid: 2964aa32007a6f44a0fed6d95392913c
+      Path: Events\Default Work Unit\9_BadEnding\BadEnding_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Climax_1_Start
+      guid: 4e43c952a00b8748a8efdadd1f08e549
+      id: 701771228
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 8_Climax
+        ObjectType: 4
+        guid: dba39d0606ebd54e9e00afba7d299479
+      - ElementName: Climax_1_Start
+        ObjectType: 3
+        guid: 4e43c952a00b8748a8efdadd1f08e549
+      Path: Events\Default Work Unit\8_Climax\Climax_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Climax_2_DoYouWantToDie
+      guid: 9064a5be86766940bf3ded486c850cfd
+      id: 963701436
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 8_Climax
+        ObjectType: 4
+        guid: dba39d0606ebd54e9e00afba7d299479
+      - ElementName: Climax_2_DoYouWantToDie
+        ObjectType: 3
+        guid: 9064a5be86766940bf3ded486c850cfd
+      Path: Events\Default Work Unit\8_Climax\Climax_2_DoYouWantToDie
+      maxAttenuation: 0
+      maxDuration: 3.58875
+      minDuration: 3.58875
+    - name: Climax_3_QuestionYes
+      guid: 32982f28c393d14db6326033f803e904
+      id: 3444808587
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 8_Climax
+        ObjectType: 4
+        guid: dba39d0606ebd54e9e00afba7d299479
+      - ElementName: Climax_3_QuestionYes
+        ObjectType: 3
+        guid: 32982f28c393d14db6326033f803e904
+      Path: Events\Default Work Unit\8_Climax\Climax_3_QuestionYes
+      maxAttenuation: 0
+      maxDuration: 5.244875
+      minDuration: 5.244875
+    - name: Climax_4_QuestionNo
+      guid: b117e8cda11e13448c91071a014cf65a
+      id: 4240221102
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 8_Climax
+        ObjectType: 4
+        guid: dba39d0606ebd54e9e00afba7d299479
+      - ElementName: Climax_4_QuestionNo
+        ObjectType: 3
+        guid: b117e8cda11e13448c91071a014cf65a
+      Path: Events\Default Work Unit\8_Climax\Climax_4_QuestionNo
+      maxAttenuation: 0
+      maxDuration: 1.524646
+      minDuration: 1.524646
+    - name: GoodEnding_1_Start
+      guid: b57d39b9a1ff6d419fe876bf5136c51f
+      id: 1609389066
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 10_GoodEnding
+        ObjectType: 4
+        guid: d175df3a7da5f1468360c8b7b2b5bde3
+      - ElementName: GoodEnding_1_Start
+        ObjectType: 3
+        guid: b57d39b9a1ff6d419fe876bf5136c51f
+      Path: Events\Default Work Unit\10_GoodEnding\GoodEnding_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GoodEnding_2_QuestionCorrect
+      guid: 640ecc1214b6fc4194425a7bd071df9c
+      id: 3143399903
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 10_GoodEnding
+        ObjectType: 4
+        guid: d175df3a7da5f1468360c8b7b2b5bde3
+      - ElementName: GoodEnding_2_QuestionCorrect
+        ObjectType: 3
+        guid: 640ecc1214b6fc4194425a7bd071df9c
+      Path: Events\Default Work Unit\10_GoodEnding\GoodEnding_2_QuestionCorrect
+      maxAttenuation: 0
+      maxDuration: 2.687229
+      minDuration: 2.687229
+    - name: GoodEnding_3_QuestionWrong
+      guid: 844308e840727d4994e7661e4f20af4e
+      id: 3904011779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 10_GoodEnding
+        ObjectType: 4
+        guid: d175df3a7da5f1468360c8b7b2b5bde3
+      - ElementName: GoodEnding_3_QuestionWrong
+        ObjectType: 3
+        guid: 844308e840727d4994e7661e4f20af4e
+      Path: Events\Default Work Unit\10_GoodEnding\GoodEnding_3_QuestionWrong
+      maxAttenuation: 0
+      maxDuration: 3.609604
+      minDuration: 3.609604
+    - name: GoodEnding_4_JewelsReal
+      guid: 3a6c8120d357da4e8b32ccd2c25e6eaf
+      id: 3187675689
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 10_GoodEnding
+        ObjectType: 4
+        guid: d175df3a7da5f1468360c8b7b2b5bde3
+      - ElementName: GoodEnding_4_JewelsReal
+        ObjectType: 3
+        guid: 3a6c8120d357da4e8b32ccd2c25e6eaf
+      Path: Events\Default Work Unit\10_GoodEnding\GoodEnding_4_JewelsReal
+      maxAttenuation: 0
+      maxDuration: 16.890917
+      minDuration: 16.890917
+    - name: GoodEnding_5_AICongratulations
+      guid: 90461732ec8e264b9235f7621eebb458
+      id: 3447993485
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 10_GoodEnding
+        ObjectType: 4
+        guid: d175df3a7da5f1468360c8b7b2b5bde3
+      - ElementName: GoodEnding_5_AICongratulations
+        ObjectType: 3
+        guid: 90461732ec8e264b9235f7621eebb458
+      Path: Events\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations
+      maxAttenuation: 0
+      maxDuration: 66
+      minDuration: 66
+    - name: JordanPath_1_Start
+      guid: f5f80313598ecf4ebf8c6f8d6575ffce
+      id: 2289545831
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 4_JordanPath
+        ObjectType: 4
+        guid: 9bb0d35b876f0c47bdaadd884108699d
+      - ElementName: JordanPath_1_Start
+        ObjectType: 3
+        guid: f5f80313598ecf4ebf8c6f8d6575ffce
+      Path: Events\Default Work Unit\4_JordanPath\JordanPath_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: JordanPath_2_Question1Silence
+      guid: 475c3d8a33f31a419d37265302e823b7
+      id: 2886166122
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 4_JordanPath
+        ObjectType: 4
+        guid: 9bb0d35b876f0c47bdaadd884108699d
+      - ElementName: JordanPath_2_Question1Silence
+        ObjectType: 3
+        guid: 475c3d8a33f31a419d37265302e823b7
+      Path: Events\Default Work Unit\4_JordanPath\JordanPath_2_Question1Silence
+      maxAttenuation: 0
+      maxDuration: 3.896583
+      minDuration: 3.896583
+    - name: JordanPath_3_TacklingTime
+      guid: 798646700c65354794e40ea7c335ee9c
+      id: 2175008471
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 4_JordanPath
+        ObjectType: 4
+        guid: 9bb0d35b876f0c47bdaadd884108699d
+      - ElementName: JordanPath_3_TacklingTime
+        ObjectType: 3
+        guid: 798646700c65354794e40ea7c335ee9c
+      Path: Events\Default Work Unit\4_JordanPath\JordanPath_3_TacklingTime
+      maxAttenuation: 0
+      maxDuration: 4.830396
+      minDuration: 4.830396
+    - name: JordanPath_4_Ignoring1
+      guid: de59c39d573a2a49b10c495dbe67468c
+      id: 3839701134
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 4_JordanPath
+        ObjectType: 4
+        guid: 9bb0d35b876f0c47bdaadd884108699d
+      - ElementName: JordanPath_4_Ignoring1
+        ObjectType: 3
+        guid: de59c39d573a2a49b10c495dbe67468c
+      Path: Events\Default Work Unit\4_JordanPath\JordanPath_4_Ignoring1
+      maxAttenuation: 0
+      maxDuration: 5.728312
+      minDuration: 5.728312
+    - name: JordanPath_5_Ignoring2
+      guid: a0a983621a6c5047a370b9bb5e5f598f
+      id: 4127299064
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 4_JordanPath
+        ObjectType: 4
+        guid: 9bb0d35b876f0c47bdaadd884108699d
+      - ElementName: JordanPath_5_Ignoring2
+        ObjectType: 3
+        guid: a0a983621a6c5047a370b9bb5e5f598f
+      Path: Events\Default Work Unit\4_JordanPath\JordanPath_5_Ignoring2
+      maxAttenuation: 0
+      maxDuration: 5.748312
+      minDuration: 5.748312
+    - name: JordanPath_6_Convergence
+      guid: 2bbdc2f2e742b644a66d4f01ce3c6ba3
+      id: 1600492463
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 4_JordanPath
+        ObjectType: 4
+        guid: 9bb0d35b876f0c47bdaadd884108699d
+      - ElementName: JordanPath_6_Convergence
+        ObjectType: 3
+        guid: 2bbdc2f2e742b644a66d4f01ce3c6ba3
+      Path: Events\Default Work Unit\4_JordanPath\JordanPath_6_Convergence
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lost_1_Start
+      guid: 44be6f8a3fa0674ba2cbd2640502694a
+      id: 1865286578
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 6_Lost
+        ObjectType: 4
+        guid: 8f3205cd6623604987cb04bf234c99f2
+      - ElementName: Lost_1_Start
+        ObjectType: 3
+        guid: 44be6f8a3fa0674ba2cbd2640502694a
+      Path: Events\Default Work Unit\6_Lost\Lost_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lost_2_Wandering
+      guid: 89c7c78768dd0d4baf509cb2aa05380e
+      id: 698786280
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 6_Lost
+        ObjectType: 4
+        guid: 8f3205cd6623604987cb04bf234c99f2
+      - ElementName: Lost_2_Wandering
+        ObjectType: 3
+        guid: 89c7c78768dd0d4baf509cb2aa05380e
+      Path: Events\Default Work Unit\6_Lost\Lost_2_Wandering
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lost_3_OpenDoor
+      guid: d2ea74d1f497444894070a1ceb538be1
+      id: 3782822400
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 6_Lost
+        ObjectType: 4
+        guid: 8f3205cd6623604987cb04bf234c99f2
+      - ElementName: Lost_3_OpenDoor
+        ObjectType: 3
+        guid: d2ea74d1f497444894070a1ceb538be1
+      Path: Events\Default Work Unit\6_Lost\Lost_3_OpenDoor
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainHall_1_Start
+      guid: 953003bc006d4c438a30826a9d969281
+      id: 3544422110
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 3_MainHall
+        ObjectType: 4
+        guid: 5efa752519fa3d4299927d27df2b0c3d
+      - ElementName: MainHall_1_Start
+        ObjectType: 3
+        guid: 953003bc006d4c438a30826a9d969281
+      Path: Events\Default Work Unit\3_MainHall\MainHall_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MainHall_2_QuestionSilence
+      guid: 1209a0e7cb08e44395199312dafa1ccb
+      id: 4276963228
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 3_MainHall
+        ObjectType: 4
+        guid: 5efa752519fa3d4299927d27df2b0c3d
+      - ElementName: MainHall_2_QuestionSilence
+        ObjectType: 3
+        guid: 1209a0e7cb08e44395199312dafa1ccb
+      Path: Events\Default Work Unit\3_MainHall\MainHall_2_QuestionSilence
+      maxAttenuation: 0
+      maxDuration: 6.104583
+      minDuration: 6.104583
+    - name: MainHall_3_QuestionJordan
+      guid: b370618f18582e4bbfff5da6f841bdfa
+      id: 337340554
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 3_MainHall
+        ObjectType: 4
+        guid: 5efa752519fa3d4299927d27df2b0c3d
+      - ElementName: MainHall_3_QuestionJordan
+        ObjectType: 3
+        guid: b370618f18582e4bbfff5da6f841bdfa
+      Path: Events\Default Work Unit\3_MainHall\MainHall_3_QuestionJordan
+      maxAttenuation: 0
+      maxDuration: 5.689437
+      minDuration: 5.689437
+    - name: MainHall_4_QuestionPaulHazel
+      guid: b69ab4062d94f1488daa11b285bf3278
+      id: 4225137367
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 3_MainHall
+        ObjectType: 4
+        guid: 5efa752519fa3d4299927d27df2b0c3d
+      - ElementName: MainHall_4_QuestionPaulHazel
+        ObjectType: 3
+        guid: b69ab4062d94f1488daa11b285bf3278
+      Path: Events\Default Work Unit\3_MainHall\MainHall_4_QuestionPaulHazel
+      maxAttenuation: 0
+      maxDuration: 6.083416
+      minDuration: 6.083416
+    - name: MainHall_5_Question1
+      guid: 052133cab872be4fb776ae8098c712d4
+      id: 2281683023
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 3_MainHall
+        ObjectType: 4
+        guid: 5efa752519fa3d4299927d27df2b0c3d
+      - ElementName: MainHall_5_Question1
+        ObjectType: 3
+        guid: 052133cab872be4fb776ae8098c712d4
+      Path: Events\Default Work Unit\3_MainHall\MainHall_5_Question1
+      maxAttenuation: 0
+      maxDuration: 18.219896
+      minDuration: 18.219896
+    - name: MainHall_6_Question2
+      guid: fa504ae4c8e13d4da9eae54c407bf265
+      id: 151054627
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 3_MainHall
+        ObjectType: 4
+        guid: 5efa752519fa3d4299927d27df2b0c3d
+      - ElementName: MainHall_6_Question2
+        ObjectType: 3
+        guid: fa504ae4c8e13d4da9eae54c407bf265
+      Path: Events\Default Work Unit\3_MainHall\MainHall_6_Question2
+      maxAttenuation: 0
+      maxDuration: 18.519896
+      minDuration: 18.519896
+    - name: Outside_1_Start
+      guid: 7ab9e0a65ea91b4c8db400801e4e3f08
+      id: 4135508743
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_1_Start
+        ObjectType: 3
+        guid: 7ab9e0a65ea91b4c8db400801e4e3f08
+      Path: Events\Default Work Unit\2_Outside\Outside_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Outside_10_QuestionDone
+      guid: 8405514bea31bc4eae42bac25981fa38
+      id: 3099819921
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_10_QuestionDone
+        ObjectType: 3
+        guid: 8405514bea31bc4eae42bac25981fa38
+      Path: Events\Default Work Unit\2_Outside\Outside_10_QuestionDone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Outside_2_WheresTheDog
+      guid: 71b4827ab02e36479653ffda68804065
+      id: 2822533537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_2_WheresTheDog
+        ObjectType: 3
+        guid: 71b4827ab02e36479653ffda68804065
+      Path: Events\Default Work Unit\2_Outside\Outside_2_WheresTheDog
+      maxAttenuation: 0
+      maxDuration: 5.215167
+      minDuration: 5.215167
+    - name: Outside_3_AnyQuestions
+      guid: a86475e18ee2a54abcff42c72b9fae7a
+      id: 3814056338
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_3_AnyQuestions
+        ObjectType: 3
+        guid: a86475e18ee2a54abcff42c72b9fae7a
+      Path: Events\Default Work Unit\2_Outside\Outside_3_AnyQuestions
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Outside_4_QuestionSilence
+      guid: 7fbb3bd31cd2b6479e485e5ee0c23212
+      id: 952770727
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_4_QuestionSilence
+        ObjectType: 3
+        guid: 7fbb3bd31cd2b6479e485e5ee0c23212
+      Path: Events\Default Work Unit\2_Outside\Outside_4_QuestionSilence
+      maxAttenuation: 0
+      maxDuration: 3.449042
+      minDuration: 3.449042
+    - name: Outside_5_Question1
+      guid: 038ac612dc32c647adae9e582e6eb94e
+      id: 515992182
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_5_Question1
+        ObjectType: 3
+        guid: 038ac612dc32c647adae9e582e6eb94e
+      Path: Events\Default Work Unit\2_Outside\Outside_5_Question1
+      maxAttenuation: 0
+      maxDuration: 14.072166
+      minDuration: 14.072166
+    - name: Outside_6_Question2
+      guid: 49ab0e0bb0d9cf40b6daf32d4e8b4ef0
+      id: 1455642034
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_6_Question2
+        ObjectType: 3
+        guid: 49ab0e0bb0d9cf40b6daf32d4e8b4ef0
+      Path: Events\Default Work Unit\2_Outside\Outside_6_Question2
+      maxAttenuation: 0
+      maxDuration: 8.072166
+      minDuration: 8.072166
+    - name: Outside_7_Question3
+      guid: be3b3958d75d8641bb2c2088b4e68734
+      id: 1115243222
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_7_Question3
+        ObjectType: 3
+        guid: be3b3958d75d8641bb2c2088b4e68734
+      Path: Events\Default Work Unit\2_Outside\Outside_7_Question3
+      maxAttenuation: 0
+      maxDuration: 31.072166
+      minDuration: 31.072166
+    - name: Outside_8_Question4
+      guid: 10365271d156cf4bae18cc06da1456cc
+      id: 3649108154
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_8_Question4
+        ObjectType: 3
+        guid: 10365271d156cf4bae18cc06da1456cc
+      Path: Events\Default Work Unit\2_Outside\Outside_8_Question4
+      maxAttenuation: 0
+      maxDuration: 15.572166
+      minDuration: 15.572166
+    - name: Outside_9_Question5
+      guid: 59e575fb6e67654a990c09c2956213f0
+      id: 2518420982
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 2_Outside
+        ObjectType: 4
+        guid: 14fab4a32184d741854c3eaddaf2a792
+      - ElementName: Outside_9_Question5
+        ObjectType: 3
+        guid: 59e575fb6e67654a990c09c2956213f0
+      Path: Events\Default Work Unit\2_Outside\Outside_9_Question5
+      maxAttenuation: 0
+      maxDuration: 7.072166
+      minDuration: 7.072166
+    - name: PaulHazelPath_1_Start
+      guid: 0aa5602d6ef35c4f8307baf76f9a0d41
+      id: 1026621327
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      - ElementName: PaulHazelPath_1_Start
+        ObjectType: 3
+        guid: 0aa5602d6ef35c4f8307baf76f9a0d41
+      Path: Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PaulHazelPath_2_PaulsPhone
+      guid: 47ed35c0224de9478c2af8052a769788
+      id: 2430529715
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      - ElementName: PaulHazelPath_2_PaulsPhone
+        ObjectType: 3
+        guid: 47ed35c0224de9478c2af8052a769788
+      Path: Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PaulHazelPath_3_QuestionSilence
+      guid: 099669c326d48444aca46411cc6ccbd6
+      id: 2219090144
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      - ElementName: PaulHazelPath_3_QuestionSilence
+        ObjectType: 3
+        guid: 099669c326d48444aca46411cc6ccbd6
+      Path: Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_3_QuestionSilence
+      maxAttenuation: 0
+      maxDuration: 4.728687
+      minDuration: 4.728687
+    - name: PaulHazelPath_4_QuestionBasement
+      guid: e65d79f43fb4704698d3a0d8fba3df91
+      id: 451119209
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      - ElementName: PaulHazelPath_4_QuestionBasement
+        ObjectType: 3
+        guid: e65d79f43fb4704698d3a0d8fba3df91
+      Path: Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_4_QuestionBasement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PaulHazelPath_5_QuestionOutside
+      guid: 3a0eb98810957144bbbbcd709006734a
+      id: 1545259710
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      - ElementName: PaulHazelPath_5_QuestionOutside
+        ObjectType: 3
+        guid: 3a0eb98810957144bbbbcd709006734a
+      Path: Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_5_QuestionOutside
+      maxAttenuation: 0
+      maxDuration: 8.602041
+      minDuration: 8.602041
+    - name: PaulHazelPath_6_QuestionAttic
+      guid: da69429b7623554a92e8ef94577b7df7
+      id: 2823132453
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      - ElementName: PaulHazelPath_6_QuestionAttic
+        ObjectType: 3
+        guid: da69429b7623554a92e8ef94577b7df7
+      Path: Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_6_QuestionAttic
+      maxAttenuation: 0
+      maxDuration: 11.427229
+      minDuration: 11.427229
+    - name: PaulHazelPath_7_QuestionKitchen
+      guid: e67650c0e8566f458111b14dafc5db30
+      id: 2850250765
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      - ElementName: PaulHazelPath_7_QuestionKitchen
+        ObjectType: 3
+        guid: e67650c0e8566f458111b14dafc5db30
+      Path: Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_7_QuestionKitchen
+      maxAttenuation: 0
+      maxDuration: 9.534062
+      minDuration: 9.534062
+    - name: PaulHazelPath_8_Basement
+      guid: 660a890915d04045ab57c9529209f1d6
+      id: 1486463477
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 5_PaulHazelPath
+        ObjectType: 4
+        guid: 35d0554227ed8e4ab978a0a1047d0c51
+      - ElementName: PaulHazelPath_8_Basement
+        ObjectType: 3
+        guid: 660a890915d04045ab57c9529209f1d6
+      Path: Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_8_Basement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PreGame_1_Start
+      guid: ff529e8645406e4682cb0b08de2cbbf7
+      id: 2639078919
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 1_PreGame
+        ObjectType: 4
+        guid: 03b01d9d47a3364bb7933ab0c22915f0
+      - ElementName: PreGame_1_Start
+        ObjectType: 3
+        guid: ff529e8645406e4682cb0b08de2cbbf7
+      Path: Events\Default Work Unit\1_PreGame\PreGame_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PreGame_2_Calibration
+      guid: b729343525a3fb4d981ddc554fd2087d
+      id: 3945020548
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 1_PreGame
+        ObjectType: 4
+        guid: 03b01d9d47a3364bb7933ab0c22915f0
+      - ElementName: PreGame_2_Calibration
+        ObjectType: 3
+        guid: b729343525a3fb4d981ddc554fd2087d
+      Path: Events\Default Work Unit\1_PreGame\PreGame_2_Calibration
+      maxAttenuation: 0
+      maxDuration: 3.814938
+      minDuration: 3.814938
+    - name: PreGame_3_BeginGame
+      guid: bb1e581bcaa28f4694ec12406d0aaf57
+      id: 1774853624
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 1_PreGame
+        ObjectType: 4
+        guid: 03b01d9d47a3364bb7933ab0c22915f0
+      - ElementName: PreGame_3_BeginGame
+        ObjectType: 3
+        guid: bb1e581bcaa28f4694ec12406d0aaf57
+      Path: Events\Default Work Unit\1_PreGame\PreGame_3_BeginGame
+      maxAttenuation: 0
+      maxDuration: 66
+      minDuration: 66
+    - name: TheresHazel_1_Start
+      guid: b25577d4e528f44dbb2207fef482fad6
+      id: 2558663491
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: 7_TheresHazel
+        ObjectType: 4
+        guid: f606029c2e735c448b29a773cb86ba69
+      - ElementName: TheresHazel_1_Start
+        ObjectType: 3
+        guid: b25577d4e528f44dbb2207fef482fad6
+      Path: Events\Default Work Unit\7_TheresHazel\TheresHazel_1_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +1274,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 1698c102bb40704b84b74d78f0c58b0b
     GuidInternal: 
-    m_lastTime: -8585671669295716128
+    m_lastTime: -8585671804928378395
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -108,7 +1288,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 7a3706555a93e248bcb1b7bbc4f34446
     GuidInternal: 
-    m_lastTime: -8585671669294906474
+    m_lastTime: -8585671804927752856
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -122,7 +1302,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5ab2c75e6d7c9740a105583517545234
     GuidInternal: 
-    m_lastTime: -8585671669294886484
+    m_lastTime: -8585671804928088145
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -136,10 +1316,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 63f1090e22c4d84e889695c9ea805e0c
     GuidInternal: 
-    m_lastTime: -8585671669294886484
+    m_lastTime: -8585671804928928867
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 1400000015000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

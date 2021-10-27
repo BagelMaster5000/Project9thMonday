@@ -11,10 +11,679 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="393239870" Language="SFX" Hash="3854254792">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="701771228" Name="Climax_1_Start" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_1_Start" DurationType="Infinite"/>
+				<Event Id="1609389066" Name="GoodEnding_1_Start" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="2289545831" Name="JordanPath_1_Start" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_1_Start" DurationType="Infinite"/>
+				<Event Id="1600492463" Name="JordanPath_6_Convergence" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_6_Convergence" DurationType="Infinite"/>
+				<Event Id="698786280" Name="Lost_2_Wandering" ObjectPath="\Events\Default Work Unit\6_Lost\Lost_2_Wandering" DurationType="Infinite"/>
+				<Event Id="3782822400" Name="Lost_3_OpenDoor" ObjectPath="\Events\Default Work Unit\6_Lost\Lost_3_OpenDoor" DurationType="Infinite"/>
+				<Event Id="3544422110" Name="MainHall_1_Start" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_1_Start" DurationType="Infinite"/>
+				<Event Id="3099819921" Name="Outside_10_QuestionDone" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_10_QuestionDone" DurationType="Infinite"/>
+				<Event Id="4135508743" Name="Outside_1_Start" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_1_Start" DurationType="Infinite"/>
+				<Event Id="3814056338" Name="Outside_3_AnyQuestions" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_3_AnyQuestions" DurationType="Infinite"/>
+				<Event Id="1026621327" Name="PaulHazelPath_1_Start" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_1_Start" DurationType="Infinite"/>
+				<Event Id="2430529715" Name="PaulHazelPath_2_PaulsPhone" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone" DurationType="Infinite"/>
+				<Event Id="451119209" Name="PaulHazelPath_4_QuestionBasement" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_4_QuestionBasement" DurationType="Infinite"/>
+				<Event Id="1486463477" Name="PaulHazelPath_8_Basement" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_8_Basement" DurationType="Infinite"/>
+				<Event Id="2558663491" Name="TheresHazel_1_Start" ObjectPath="\Events\Default Work Unit\7_TheresHazel\TheresHazel_1_Start" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="8893912" Language="SFX">
+					<ShortName>Clap.wav</ShortName>
+					<Path>SFX\Clap_10C4C929.wem</Path>
+				</File>
+				<File Id="40511012" Language="SFX">
+					<ShortName>Light Switch Flip.wav</ShortName>
+					<Path>SFX\Light Switch Flip_10C4C929.wem</Path>
+				</File>
+				<File Id="43392548" Language="SFX">
+					<ShortName>Wardrobe Open.wav</ShortName>
+					<Path>SFX\Wardrobe Open_10C4C929.wem</Path>
+				</File>
+				<File Id="74742912" Language="SFX">
+					<ShortName>Caution Tape Ripped.wav</ShortName>
+					<Path>SFX\Caution Tape Ripped_10C4C929.wem</Path>
+				</File>
+				<File Id="87046628" Language="SFX">
+					<ShortName>meatSplattering_00_v2.wav</ShortName>
+					<Path>SFX\meatSplattering_00_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="147339903" Language="SFX">
+					<ShortName>electricalLights_00_v1.wav</ShortName>
+					<Path>SFX\electricalLights_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="161984323" Language="SFX">
+					<ShortName>Main Door Open.wav</ShortName>
+					<Path>SFX\Main Door Open_10C4C929.wem</Path>
+				</File>
+				<File Id="183420027" Language="SFX">
+					<ShortName>footstepsInsideStairs_00_v1.wav</ShortName>
+					<Path>SFX\footstepsInsideStairs_00_v1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="265874096" Language="SFX">
+					<ShortName>climbingLadder_00_v1.wav</ShortName>
+					<Path>SFX\climbingLadder_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="318885068" Language="SFX">
+					<ShortName>Gag Undone.wav</ShortName>
+					<Path>SFX\Gag Undone_10C4C929.wem</Path>
+				</File>
+				<File Id="331504033" Language="SFX">
+					<ShortName>Attic Door Slam Shut.wav</ShortName>
+					<Path>SFX\Attic Door Slam Shut_10C4C929.wem</Path>
+				</File>
+				<File Id="331546576" Language="SFX">
+					<ShortName>footstepsOustide_00_v1.wav</ShortName>
+					<Path>SFX\footstepsOustide_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="360092484" Language="SFX">
+					<ShortName>bonesCrunching_00_v2.wav</ShortName>
+					<Path>SFX\bonesCrunching_00_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="369871226" Language="SFX">
+					<ShortName>Paul Muffled Screaming.wav</ShortName>
+					<Path>SFX\Paul Muffled Screaming_D79FB2B7.wem</Path>
+				</File>
+				<File Id="448726654" Language="SFX">
+					<ShortName>JordanKnockOut.wav</ShortName>
+					<Path>SFX\JordanKnockOut_10C4C929.wem</Path>
+				</File>
+				<File Id="449726745" Language="SFX">
+					<ShortName>footstepsInside_02_v2.wav</ShortName>
+					<Path>SFX\footstepsInside_02_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="456542664" Language="SFX">
+					<ShortName>electricalLightsOff_00_v1.wav</ShortName>
+					<Path>SFX\electricalLightsOff_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="462799146" Language="SFX">
+					<ShortName>crashingDishes_00_v1.wav</ShortName>
+					<Path>SFX\crashingDishes_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="474755386" Language="SFX">
+					<ShortName>footstepsInside_03_v2.wav</ShortName>
+					<Path>SFX\footstepsInside_03_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="485555852" Language="SFX">
+					<ShortName>footstepsInsidebasement_02_v2.wav</ShortName>
+					<Path>SFX\footstepsInsidebasement_02_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="495975836" Language="SFX">
+					<ShortName>footstepsInsideRunning_00_v1.wav</ShortName>
+					<Path>SFX\footstepsInsideRunning_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="536962768" Language="SFX">
+					<ShortName>footstepsInsideAttic_00_v1.wav</ShortName>
+					<Path>SFX\footstepsInsideAttic_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="600899147" Language="SFX">
+					<ShortName>footstepsInsidebasement_01_v2.wav</ShortName>
+					<Path>SFX\footstepsInsidebasement_01_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="627312910" Language="SFX">
+					<ShortName>footstepsInside_01_v2.wav</ShortName>
+					<Path>SFX\footstepsInside_01_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="681426235" Language="SFX">
+					<ShortName>footstepsInside_04_v2.wav</ShortName>
+					<Path>SFX\footstepsInside_04_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="702956936" Language="SFX">
+					<ShortName>Light Door Open.wav</ShortName>
+					<Path>SFX\Light Door Open_10C4C929.wem</Path>
+				</File>
+				<File Id="703061549" Language="SFX">
+					<ShortName>Attic Ladder Lowered.wav</ShortName>
+					<Path>SFX\Attic Ladder Lowered_10C4C929.wem</Path>
+				</File>
+				<File Id="723387441" Language="SFX">
+					<ShortName>Long Electronic Beep.wav</ShortName>
+					<Path>SFX\Long Electronic Beep_10C4C929.wem</Path>
+				</File>
+				<File Id="738173370" Language="SFX">
+					<ShortName>Phone Typing Noises.wav</ShortName>
+					<Path>SFX\Phone Typing Noises_10C4C929.wem</Path>
+				</File>
+				<File Id="756594746" Language="SFX">
+					<ShortName>Mouse Click.wav</ShortName>
+					<Path>SFX\Mouse Click_10C4C929.wem</Path>
+				</File>
+				<File Id="760283098" Language="SFX">
+					<ShortName>shadowInTheDark_00_v1.wav</ShortName>
+					<Path>SFX\shadowInTheDark_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="785268161" Language="SFX">
+					<ShortName>footstepsInsidebasement_03_v2.wav</ShortName>
+					<Path>SFX\footstepsInsidebasement_03_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="850165307" Language="SFX">
+					<ShortName>computerProcessingNoise.wav</ShortName>
+					<Path>SFX\computerProcessingNoise_10C4C929.wem</Path>
+				</File>
+				<File Id="853120773" Language="SFX">
+					<ShortName>footstepsInsideStairs_01_v1.wav</ShortName>
+					<Path>SFX\footstepsInsideStairs_01_v1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="880635936" Language="SFX">
+					<ShortName>footstepsOustide_03_v1.wav</ShortName>
+					<Path>SFX\footstepsOustide_03_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="882442922" Language="SFX">
+					<ShortName>footstepsInside_00_v2.wav</ShortName>
+					<Path>SFX\footstepsInside_00_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="912969919" Language="SFX">
+					<ShortName>Jordan Muffled Screaming.wav</ShortName>
+					<Path>SFX\Jordan Muffled Screaming_D79FB2B7.wem</Path>
+				</File>
+				<File Id="942253408" Language="SFX">
+					<ShortName>Phone Message Send.wav</ShortName>
+					<Path>SFX\Phone Message Send_10C4C929.wem</Path>
+				</File>
+				<File Id="963000077" Language="SFX">
+					<ShortName>Rummaging Through Boxes.wav</ShortName>
+					<Path>SFX\Rummaging Through Boxes_10C4C929.wem</Path>
+				</File>
+				<File Id="974112564" Language="SFX">
+					<ShortName>footstepsOustide_01_v1.wav</ShortName>
+					<Path>SFX\footstepsOustide_01_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="994177394" Language="SFX">
+					<ShortName>footstepsInsidebasement_00_v2.wav</ShortName>
+					<Path>SFX\footstepsInsidebasement_00_v2_10C4C929.wem</Path>
+				</File>
+				<File Id="1012289066" Language="SFX">
+					<ShortName>footstepsOustide_02_v1.wav</ShortName>
+					<Path>SFX\footstepsOustide_02_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="1034623065" Language="SFX">
+					<ShortName>crashingPans_00_v1.wav</ShortName>
+					<Path>SFX\crashingPans_00_v1_10C4C929.wem</Path>
+				</File>
+				<File Id="1072233846" Language="SFX">
+					<ShortName>Light Door Close.wav</ShortName>
+					<Path>SFX\Light Door Close_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1147299202">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1669749372" Language="SFX" Hash="563573726">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue1</ObjectPath>
+			<ShortName>Dialogue1</ShortName>
+			<Path>Dialogue1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="701771228" Name="Climax_1_Start" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_1_Start" DurationType="Infinite"/>
+				<Event Id="963701436" Name="Climax_2_DoYouWantToDie" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_2_DoYouWantToDie" DurationType="OneShot" DurationMin="3.588750" DurationMax="3.588750"/>
+				<Event Id="3444808587" Name="Climax_3_QuestionYes" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_3_QuestionYes" DurationType="OneShot" DurationMin="5.244875" DurationMax="5.244875"/>
+				<Event Id="4240221102" Name="Climax_4_QuestionNo" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_4_QuestionNo" DurationType="OneShot" DurationMin="1.524646" DurationMax="1.524646"/>
+				<Event Id="1609389066" Name="GoodEnding_1_Start" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="3143399903" Name="GoodEnding_2_QuestionCorrect" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_2_QuestionCorrect" DurationType="OneShot" DurationMin="2.687229" DurationMax="2.687229"/>
+				<Event Id="3904011779" Name="GoodEnding_3_QuestionWrong" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_3_QuestionWrong" DurationType="OneShot" DurationMin="3.609604" DurationMax="3.609604"/>
+				<Event Id="3187675689" Name="GoodEnding_4_JewelsReal" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_4_JewelsReal" DurationType="OneShot" DurationMin="16.890917" DurationMax="16.890917"/>
+				<Event Id="3447993485" Name="GoodEnding_5_AICongratulations" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="36710707" Language="SFX">
+					<ShortName>GoodEnding_1_Start_6.wav</ShortName>
+					<Path>SFX\GoodEnding_1_Start_6_10C4C929.wem</Path>
+				</File>
+				<File Id="77686452" Language="SFX">
+					<ShortName>GoodEnding_5_AICongratulations.wav</ShortName>
+					<Path>SFX\GoodEnding_5_AICongratulations_10C4C929.wem</Path>
+				</File>
+				<File Id="178920580" Language="SFX">
+					<ShortName>GoodEnding_1_Start_3_Mono.wav</ShortName>
+					<Path>SFX\GoodEnding_1_Start_3_Mono_10C4C929.wem</Path>
+				</File>
+				<File Id="184396589" Language="SFX">
+					<ShortName>GoodEnding_1_Start_4_Stereo.wav</ShortName>
+					<Path>SFX\GoodEnding_1_Start_4_Stereo_10C4C929.wem</Path>
+				</File>
+				<File Id="209044048" Language="SFX">
+					<ShortName>Climax_1_Start.wav</ShortName>
+					<Path>SFX\Climax_1_Start_10C4C929.wem</Path>
+				</File>
+				<File Id="244917187" Language="SFX">
+					<ShortName>Climax_2_DoYouWantToDie.wav</ShortName>
+					<Path>SFX\Climax_2_DoYouWantToDie_10C4C929.wem</Path>
+				</File>
+				<File Id="252193191" Language="SFX">
+					<ShortName>GoodEnding_1_Start_7.wav</ShortName>
+					<Path>SFX\GoodEnding_1_Start_7_10C4C929.wem</Path>
+				</File>
+				<File Id="292593774" Language="SFX">
+					<ShortName>GoodEnding_4_JewelIsReal.wav</ShortName>
+					<Path>SFX\GoodEnding_4_JewelIsReal_10C4C929.wem</Path>
+				</File>
+				<File Id="321789213" Language="SFX">
+					<ShortName>GoodEnding_1_Start_2.wav</ShortName>
+					<Path>SFX\GoodEnding_1_Start_2_10C4C929.wem</Path>
+				</File>
+				<File Id="350908385" Language="SFX">
+					<ShortName>Climax_1_Start_7.wav</ShortName>
+					<Path>SFX\Climax_1_Start_7_10C4C929.wem</Path>
+				</File>
+				<File Id="356300930" Language="SFX">
+					<ShortName>GoodEnding_1_Start_5.wav</ShortName>
+					<Path>SFX\GoodEnding_1_Start_5_10C4C929.wem</Path>
+				</File>
+				<File Id="365771210" Language="SFX">
+					<ShortName>GoodEnding_1_Start.wav</ShortName>
+					<Path>SFX\GoodEnding_1_Start_10C4C929.wem</Path>
+				</File>
+				<File Id="470022677" Language="SFX">
+					<ShortName>GoodEnding_2_QuestionCorrect.wav</ShortName>
+					<Path>SFX\GoodEnding_2_QuestionCorrect_10C4C929.wem</Path>
+				</File>
+				<File Id="522232335" Language="SFX">
+					<ShortName>BadEnding_1_Start_2.wav</ShortName>
+					<Path>SFX\BadEnding_1_Start_2_10C4C929.wem</Path>
+				</File>
+				<File Id="530486632" Language="SFX">
+					<ShortName>GoodEnding_1_Start_4_Mono.wav</ShortName>
+					<Path>SFX\GoodEnding_1_Start_4_Mono_10C4C929.wem</Path>
+				</File>
+				<File Id="540234396" Language="SFX">
+					<ShortName>GoodEnding_4_JewelIsReal_JordanLaugh.wav</ShortName>
+					<Path>SFX\GoodEnding_4_JewelIsReal_JordanLaugh_10C4C929.wem</Path>
+				</File>
+				<File Id="623319299" Language="SFX">
+					<ShortName>Climax_1_Start_5.wav</ShortName>
+					<Path>SFX\Climax_1_Start_5_10C4C929.wem</Path>
+				</File>
+				<File Id="649947685" Language="SFX">
+					<ShortName>GoodEnding_3_QuestionIncorrect.wav</ShortName>
+					<Path>SFX\GoodEnding_3_QuestionIncorrect_10C4C929.wem</Path>
+				</File>
+				<File Id="660397308" Language="SFX">
+					<ShortName>Climax_1_Start_4.wav</ShortName>
+					<Path>SFX\Climax_1_Start_4_10C4C929.wem</Path>
+				</File>
+				<File Id="689640554" Language="SFX">
+					<ShortName>Climax_1_Start_6.wav</ShortName>
+					<Path>SFX\Climax_1_Start_6_10C4C929.wem</Path>
+				</File>
+				<File Id="737315221" Language="SFX">
+					<ShortName>Climax_1_Start_2.wav</ShortName>
+					<Path>SFX\Climax_1_Start_2_10C4C929.wem</Path>
+				</File>
+				<File Id="819957234" Language="SFX">
+					<ShortName>Climax_1_Start_3.wav</ShortName>
+					<Path>SFX\Climax_1_Start_3_10C4C929.wem</Path>
+				</File>
+				<File Id="910347566" Language="SFX">
+					<ShortName>GoodEnding_4_JewelIsReal_Jordan.wav</ShortName>
+					<Path>SFX\GoodEnding_4_JewelIsReal_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="972963197" Language="SFX">
+					<ShortName>Climax_4_QuestionNo.wav</ShortName>
+					<Path>SFX\Climax_4_QuestionNo_10C4C929.wem</Path>
+				</File>
+				<File Id="992541443" Language="SFX">
+					<ShortName>BadEnding_1_Start.wav</ShortName>
+					<Path>SFX\BadEnding_1_Start_10C4C929.wem</Path>
+				</File>
+				<File Id="1058034623" Language="SFX">
+					<ShortName>Climax_3_QuestionYes.wav</ShortName>
+					<Path>SFX\Climax_3_QuestionYes_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1669749374" Language="SFX" Hash="3790923919">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue3</ObjectPath>
+			<ShortName>Dialogue3</ShortName>
+			<Path>Dialogue3.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2289545831" Name="JordanPath_1_Start" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_1_Start" DurationType="Infinite"/>
+				<Event Id="3099819921" Name="Outside_10_QuestionDone" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_10_QuestionDone" DurationType="Infinite"/>
+				<Event Id="4135508743" Name="Outside_1_Start" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_1_Start" DurationType="Infinite"/>
+				<Event Id="2822533537" Name="Outside_2_WheresTheDog" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_2_WheresTheDog" DurationType="OneShot" DurationMin="5.215167" DurationMax="5.215167"/>
+				<Event Id="3814056338" Name="Outside_3_AnyQuestions" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_3_AnyQuestions" DurationType="Infinite"/>
+				<Event Id="952770727" Name="Outside_4_QuestionSilence" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_4_QuestionSilence" DurationType="OneShot" DurationMin="3.449042" DurationMax="3.449042"/>
+				<Event Id="515992182" Name="Outside_5_Question1" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_5_Question1" DurationType="OneShot" DurationMin="14.072166" DurationMax="14.072166"/>
+				<Event Id="1455642034" Name="Outside_6_Question2" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_6_Question2" DurationType="OneShot" DurationMin="8.072166" DurationMax="8.072166"/>
+				<Event Id="1115243222" Name="Outside_7_Question3" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_7_Question3" DurationType="OneShot" DurationMin="31.072166" DurationMax="31.072166"/>
+				<Event Id="3649108154" Name="Outside_8_Question4" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_8_Question4" DurationType="OneShot" DurationMin="15.572166" DurationMax="15.572166"/>
+				<Event Id="2518420982" Name="Outside_9_Question5" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_9_Question5" DurationType="OneShot" DurationMin="7.072166" DurationMax="7.072166"/>
+				<Event Id="1026621327" Name="PaulHazelPath_1_Start" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_1_Start" DurationType="Infinite"/>
+				<Event Id="2430529715" Name="PaulHazelPath_2_PaulsPhone" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone" DurationType="Infinite"/>
+				<Event Id="2219090144" Name="PaulHazelPath_3_QuestionSilence" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_3_QuestionSilence" DurationType="OneShot" DurationMin="4.728687" DurationMax="4.728687"/>
+				<Event Id="451119209" Name="PaulHazelPath_4_QuestionBasement" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_4_QuestionBasement" DurationType="Infinite"/>
+				<Event Id="1545259710" Name="PaulHazelPath_5_QuestionOutside" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_5_QuestionOutside" DurationType="OneShot" DurationMin="8.602041" DurationMax="8.602041"/>
+				<Event Id="2823132453" Name="PaulHazelPath_6_QuestionAttic" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_6_QuestionAttic" DurationType="OneShot" DurationMin="11.427229" DurationMax="11.427229"/>
+				<Event Id="2850250765" Name="PaulHazelPath_7_QuestionKitchen" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_7_QuestionKitchen" DurationType="OneShot" DurationMin="9.534062" DurationMax="9.534062"/>
+				<Event Id="1486463477" Name="PaulHazelPath_8_Basement" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_8_Basement" DurationType="Infinite"/>
+				<Event Id="2639078919" Name="PreGame_1_Start" ObjectPath="\Events\Default Work Unit\1_PreGame\PreGame_1_Start" DurationType="Infinite"/>
+				<Event Id="3945020548" Name="PreGame_2_Calibration" ObjectPath="\Events\Default Work Unit\1_PreGame\PreGame_2_Calibration" DurationType="OneShot" DurationMin="3.814938" DurationMax="3.814938"/>
+				<Event Id="1774853624" Name="PreGame_3_BeginGame" ObjectPath="\Events\Default Work Unit\1_PreGame\PreGame_3_BeginGame" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000"/>
+				<Event Id="2558663491" Name="TheresHazel_1_Start" ObjectPath="\Events\Default Work Unit\7_TheresHazel\TheresHazel_1_Start" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1156273" Language="SFX">
+					<ShortName>PaulHazelPath_2_PaulsPhone_Paul_2.wav</ShortName>
+					<Path>SFX\PaulHazelPath_2_PaulsPhone_Paul_2_10C4C929.wem</Path>
+				</File>
+				<File Id="16287700" Language="SFX">
+					<ShortName>PaulHazelPath_8_Basement_Paul.wav</ShortName>
+					<Path>SFX\PaulHazelPath_8_Basement_Paul_10C4C929.wem</Path>
+				</File>
+				<File Id="57389786" Language="SFX">
+					<ShortName>Outside_1_Start_Hazel.wav</ShortName>
+					<Path>SFX\Outside_1_Start_Hazel_10C4C929.wem</Path>
+				</File>
+				<File Id="76820317" Language="SFX">
+					<ShortName>Outside_3_Jordan.wav</ShortName>
+					<Path>SFX\Outside_3_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="78707805" Language="SFX">
+					<ShortName>PaulHazelPath_8_Basement_Hazel.wav</ShortName>
+					<Path>SFX\PaulHazelPath_8_Basement_Hazel_10C4C929.wem</Path>
+				</File>
+				<File Id="83428840" Language="SFX">
+					<ShortName>Outside_6_Jordan.wav</ShortName>
+					<Path>SFX\Outside_6_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="100031452" Language="SFX">
+					<ShortName>Outside_3_Jordan_AnyQuestionsLoop.wav</ShortName>
+					<Path>SFX\Outside_3_Jordan_AnyQuestionsLoop_10C4C929.wem</Path>
+				</File>
+				<File Id="114101766" Language="SFX">
+					<ShortName>PaulHazelPath_1_Start edit.wav</ShortName>
+					<Path>SFX\PaulHazelPath_1_Start edit_10C4C929.wem</Path>
+				</File>
+				<File Id="188476900" Language="SFX">
+					<ShortName>PaulHazelPath_7_QuestionKitchen.wav</ShortName>
+					<Path>SFX\PaulHazelPath_7_QuestionKitchen_10C4C929.wem</Path>
+				</File>
+				<File Id="244707463" Language="SFX">
+					<ShortName>Outside_10_Jordan.wav</ShortName>
+					<Path>SFX\Outside_10_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="280361115" Language="SFX">
+					<ShortName>PaulHazelPath_4_QuestionBasement.wav</ShortName>
+					<Path>SFX\PaulHazelPath_4_QuestionBasement_10C4C929.wem</Path>
+				</File>
+				<File Id="340055765" Language="SFX">
+					<ShortName>PreGame_1_Start.wav</ShortName>
+					<Path>SFX\PreGame_1_Start_10C4C929.wem</Path>
+				</File>
+				<File Id="348912003" Language="SFX">
+					<ShortName>PaulHazelPath_6_QuestionAttic.wav</ShortName>
+					<Path>SFX\PaulHazelPath_6_QuestionAttic_10C4C929.wem</Path>
+				</File>
+				<File Id="350839221" Language="SFX">
+					<ShortName>Outside_2_Hazel.wav</ShortName>
+					<Path>SFX\Outside_2_Hazel_10C4C929.wem</Path>
+				</File>
+				<File Id="364928317" Language="SFX">
+					<ShortName>PreGame_2_Calibration.wav</ShortName>
+					<Path>SFX\PreGame_2_Calibration_10C4C929.wem</Path>
+				</File>
+				<File Id="365428077" Language="SFX">
+					<ShortName>PaulHazelPath_5_QuestionOutside.wav</ShortName>
+					<Path>SFX\PaulHazelPath_5_QuestionOutside_10C4C929.wem</Path>
+				</File>
+				<File Id="423431881" Language="SFX">
+					<ShortName>Outside_4_Jordan.wav</ShortName>
+					<Path>SFX\Outside_4_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="443276431" Language="SFX">
+					<ShortName>PaulHazelPath_3_QuestionSilence.wav</ShortName>
+					<Path>SFX\PaulHazelPath_3_QuestionSilence_10C4C929.wem</Path>
+				</File>
+				<File Id="466833142" Language="SFX">
+					<ShortName>PaulHazelPath_8_Basement_Paul_3.wav</ShortName>
+					<Path>SFX\PaulHazelPath_8_Basement_Paul_3_10C4C929.wem</Path>
+				</File>
+				<File Id="492133702" Language="SFX">
+					<ShortName>Outside_3_JordanAnyQuestions.wav</ShortName>
+					<Path>SFX\Outside_3_JordanAnyQuestions_10C4C929.wem</Path>
+				</File>
+				<File Id="499270571" Language="SFX">
+					<ShortName>Outside_5_Jordan.wav</ShortName>
+					<Path>SFX\Outside_5_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="515981678" Language="SFX">
+					<ShortName>Outside_3_Paul_2.wav</ShortName>
+					<Path>SFX\Outside_3_Paul_2_10C4C929.wem</Path>
+				</File>
+				<File Id="523828918" Language="SFX">
+					<ShortName>TheresHazel_1_Start_4.wav</ShortName>
+					<Path>SFX\TheresHazel_1_Start_4_10C4C929.wem</Path>
+				</File>
+				<File Id="552761836" Language="SFX">
+					<ShortName>TheresHazel_1_Start_1.wav</ShortName>
+					<Path>SFX\TheresHazel_1_Start_1_10C4C929.wem</Path>
+				</File>
+				<File Id="596002357" Language="SFX">
+					<ShortName>PreGame_3_BeginGame.wav</ShortName>
+					<Path>SFX\PreGame_3_BeginGame_10C4C929.wem</Path>
+				</File>
+				<File Id="605919021" Language="SFX">
+					<ShortName>Outside_8_Jordan.wav</ShortName>
+					<Path>SFX\Outside_8_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="622678969" Language="SFX">
+					<ShortName>Outside_2_Jordan.wav</ShortName>
+					<Path>SFX\Outside_2_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="654433855" Language="SFX">
+					<ShortName>Outside_3_Paul.wav</ShortName>
+					<Path>SFX\Outside_3_Paul_10C4C929.wem</Path>
+				</File>
+				<File Id="664954262" Language="SFX">
+					<ShortName>PaulHazelPath_8_Basement_Paul_2.wav</ShortName>
+					<Path>SFX\PaulHazelPath_8_Basement_Paul_2_10C4C929.wem</Path>
+				</File>
+				<File Id="679073338" Language="SFX">
+					<ShortName>PaulHazelPath_2_PaulsPhone_Ringtone.wav</ShortName>
+					<Path>SFX\PaulHazelPath_2_PaulsPhone_Ringtone_10C4C929.wem</Path>
+				</File>
+				<File Id="696334540" Language="SFX">
+					<ShortName>PaulHazelPath_2_PaulsPhone_Paul_3.wav</ShortName>
+					<Path>SFX\PaulHazelPath_2_PaulsPhone_Paul_3_10C4C929.wem</Path>
+				</File>
+				<File Id="774092684" Language="SFX">
+					<ShortName>PaulHazelPath_1_Start.wav</ShortName>
+					<Path>SFX\PaulHazelPath_1_Start_10C4C929.wem</Path>
+				</File>
+				<File Id="846471331" Language="SFX">
+					<ShortName>Outside_7_Jordan.wav</ShortName>
+					<Path>SFX\Outside_7_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="945696856" Language="SFX">
+					<ShortName>Outside_9_Jordan.wav</ShortName>
+					<Path>SFX\Outside_9_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="949490232" Language="SFX">
+					<ShortName>Outside_3_JordanAnyQuestions_2.wav</ShortName>
+					<Path>SFX\Outside_3_JordanAnyQuestions_2_10C4C929.wem</Path>
+				</File>
+				<File Id="982794656" Language="SFX">
+					<ShortName>TheresHazel_1_Start_3.wav</ShortName>
+					<Path>SFX\TheresHazel_1_Start_3_10C4C929.wem</Path>
+				</File>
+				<File Id="986434443" Language="SFX">
+					<ShortName>PaulHazelPath_2_PaulsPhone_Hazel.wav</ShortName>
+					<Path>SFX\PaulHazelPath_2_PaulsPhone_Hazel_10C4C929.wem</Path>
+				</File>
+				<File Id="990590745" Language="SFX">
+					<ShortName>PaulHazelPath_2_PaulsPhone_Paul.wav</ShortName>
+					<Path>SFX\PaulHazelPath_2_PaulsPhone_Paul_10C4C929.wem</Path>
+				</File>
+				<File Id="1052322465" Language="SFX">
+					<ShortName>Outside_1_Start_Paul.wav</ShortName>
+					<Path>SFX\Outside_1_Start_Paul_10C4C929.wem</Path>
+				</File>
+				<File Id="1055423717" Language="SFX">
+					<ShortName>TheresHazel_1_Start_2.wav</ShortName>
+					<Path>SFX\TheresHazel_1_Start_2_10C4C929.wem</Path>
+				</File>
+				<File Id="1068140129" Language="SFX">
+					<ShortName>Outside_1_Jordan.wav</ShortName>
+					<Path>SFX\Outside_1_Jordan_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1669749375" Language="SFX" Hash="1257257889">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue2</ObjectPath>
+			<ShortName>Dialogue2</ShortName>
+			<Path>Dialogue2.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2289545831" Name="JordanPath_1_Start" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_1_Start" DurationType="Infinite"/>
+				<Event Id="2886166122" Name="JordanPath_2_Question1Silence" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_2_Question1Silence" DurationType="OneShot" DurationMin="3.896583" DurationMax="3.896583"/>
+				<Event Id="2175008471" Name="JordanPath_3_TacklingTime" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_3_TacklingTime" DurationType="OneShot" DurationMin="4.830396" DurationMax="4.830396"/>
+				<Event Id="3839701134" Name="JordanPath_4_Ignoring1" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_4_Ignoring1" DurationType="OneShot" DurationMin="5.728312" DurationMax="5.728312"/>
+				<Event Id="4127299064" Name="JordanPath_5_Ignoring2" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_5_Ignoring2" DurationType="OneShot" DurationMin="5.748312" DurationMax="5.748312"/>
+				<Event Id="1600492463" Name="JordanPath_6_Convergence" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_6_Convergence" DurationType="Infinite"/>
+				<Event Id="3544422110" Name="MainHall_1_Start" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_1_Start" DurationType="Infinite"/>
+				<Event Id="4276963228" Name="MainHall_2_QuestionSilence" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_2_QuestionSilence" DurationType="OneShot" DurationMin="6.104583" DurationMax="6.104583"/>
+				<Event Id="337340554" Name="MainHall_3_QuestionJordan" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_3_QuestionJordan" DurationType="OneShot" DurationMin="5.689437" DurationMax="5.689437"/>
+				<Event Id="4225137367" Name="MainHall_4_QuestionPaulHazel" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_4_QuestionPaulHazel" DurationType="OneShot" DurationMin="6.083416" DurationMax="6.083416"/>
+				<Event Id="2281683023" Name="MainHall_5_Question1" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_5_Question1" DurationType="OneShot" DurationMin="18.219896" DurationMax="18.219896"/>
+				<Event Id="151054627" Name="MainHall_6_Question2" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_6_Question2" DurationType="OneShot" DurationMin="18.519896" DurationMax="18.519896"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="43322770" Language="SFX">
+					<ShortName>MainHall_1_Start_Paul.wav</ShortName>
+					<Path>SFX\MainHall_1_Start_Paul_10C4C929.wem</Path>
+				</File>
+				<File Id="49004855" Language="SFX">
+					<ShortName>MainHall_5_Question_Jordan.wav</ShortName>
+					<Path>SFX\MainHall_5_Question_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="222842923" Language="SFX">
+					<ShortName>MainHall_1_Start.wav</ShortName>
+					<Path>SFX\MainHall_1_Start_10C4C929.wem</Path>
+				</File>
+				<File Id="224093101" Language="SFX">
+					<ShortName>MainHall_1_Start_Jordan.wav</ShortName>
+					<Path>SFX\MainHall_1_Start_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="234748098" Language="SFX">
+					<ShortName>MainHall_2_Question_Jordan_2.wav</ShortName>
+					<Path>SFX\MainHall_2_Question_Jordan_2_10C4C929.wem</Path>
+				</File>
+				<File Id="413606015" Language="SFX">
+					<ShortName>MainHall_3_Question_Jordan.wav</ShortName>
+					<Path>SFX\MainHall_3_Question_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="439318962" Language="SFX">
+					<ShortName>MainHall_6_Question2_Jordan.wav</ShortName>
+					<Path>SFX\MainHall_6_Question2_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="489046773" Language="SFX">
+					<ShortName>MainHall_3_Question_Jordan_No.wav</ShortName>
+					<Path>SFX\MainHall_3_Question_Jordan_No_10C4C929.wem</Path>
+				</File>
+				<File Id="557594314" Language="SFX">
+					<ShortName>MainHall_1_Start_Hazel_2.wav</ShortName>
+					<Path>SFX\MainHall_1_Start_Hazel_2_10C4C929.wem</Path>
+				</File>
+				<File Id="574761576" Language="SFX">
+					<ShortName>JordanPath_6_Convergence.wav</ShortName>
+					<Path>SFX\JordanPath_6_Convergence_10C4C929.wem</Path>
+				</File>
+				<File Id="576726090" Language="SFX">
+					<ShortName>MainHall_1_Start_Paul_3.wav</ShortName>
+					<Path>SFX\MainHall_1_Start_Paul_3_10C4C929.wem</Path>
+				</File>
+				<File Id="613783520" Language="SFX">
+					<ShortName>JordanPath_2_QuestionSilence.wav</ShortName>
+					<Path>SFX\JordanPath_2_QuestionSilence_10C4C929.wem</Path>
+				</File>
+				<File Id="631010967" Language="SFX">
+					<ShortName>MainHall_2_Question_Jordan.wav</ShortName>
+					<Path>SFX\MainHall_2_Question_Jordan_10C4C929.wem</Path>
+				</File>
+				<File Id="634360048" Language="SFX">
+					<ShortName>JordanPath_3_TacklingTime.wav</ShortName>
+					<Path>SFX\JordanPath_3_TacklingTime_10C4C929.wem</Path>
+				</File>
+				<File Id="901326728" Language="SFX">
+					<ShortName>MainHall_1_Start_Paul 2.wav</ShortName>
+					<Path>SFX\MainHall_1_Start_Paul 2_10C4C929.wem</Path>
+				</File>
+				<File Id="910723852" Language="SFX">
+					<ShortName>MainHall_3_Question_Jordan_Yes.wav</ShortName>
+					<Path>SFX\MainHall_3_Question_Jordan_Yes_10C4C929.wem</Path>
+				</File>
+				<File Id="930448845" Language="SFX">
+					<ShortName>JordanPath_4_Ignoring1.wav</ShortName>
+					<Path>SFX\JordanPath_4_Ignoring1_10C4C929.wem</Path>
+				</File>
+				<File Id="977956462" Language="SFX">
+					<ShortName>JordanPath_1_Start.wav</ShortName>
+					<Path>SFX\JordanPath_1_Start_10C4C929.wem</Path>
+				</File>
+				<File Id="1047794453" Language="SFX">
+					<ShortName>JordanPath_5_Ignoring2.wav</ShortName>
+					<Path>SFX\JordanPath_5_Ignoring2_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="2598673317">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="701771228" Name="Climax_1_Start" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_1_Start" DurationType="Infinite"/>
+				<Event Id="1609389066" Name="GoodEnding_1_Start" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="3187675689" Name="GoodEnding_4_JewelsReal" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_4_JewelsReal" DurationType="OneShot" DurationMin="16.890917" DurationMax="16.890917"/>
+				<Event Id="3447993485" Name="GoodEnding_5_AICongratulations" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000"/>
+				<Event Id="2289545831" Name="JordanPath_1_Start" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_1_Start" DurationType="Infinite"/>
+				<Event Id="1865286578" Name="Lost_1_Start" ObjectPath="\Events\Default Work Unit\6_Lost\Lost_1_Start" DurationType="Infinite"/>
+				<Event Id="698786280" Name="Lost_2_Wandering" ObjectPath="\Events\Default Work Unit\6_Lost\Lost_2_Wandering" DurationType="Infinite"/>
+				<Event Id="3544422110" Name="MainHall_1_Start" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_1_Start" DurationType="Infinite"/>
+				<Event Id="3099819921" Name="Outside_10_QuestionDone" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_10_QuestionDone" DurationType="Infinite"/>
+				<Event Id="4135508743" Name="Outside_1_Start" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_1_Start" DurationType="Infinite"/>
+				<Event Id="2430529715" Name="PaulHazelPath_2_PaulsPhone" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone" DurationType="Infinite"/>
+				<Event Id="2639078919" Name="PreGame_1_Start" ObjectPath="\Events\Default Work Unit\1_PreGame\PreGame_1_Start" DurationType="Infinite"/>
+				<Event Id="1774853624" Name="PreGame_3_BeginGame" ObjectPath="\Events\Default Work Unit\1_PreGame\PreGame_3_BeginGame" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000"/>
+				<Event Id="2558663491" Name="TheresHazel_1_Start" ObjectPath="\Events\Default Work Unit\7_TheresHazel\TheresHazel_1_Start" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="340294155" Language="SFX">
+					<ShortName>aiScene_00_v4.wav</ShortName>
+					<Path>SFX\aiScene_00_v4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="434256494" Language="SFX">
+					<ShortName>exploringHouseLost_00_v2.wav</ShortName>
+					<Path>SFX\exploringHouseLost_00_v2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="551683893" Language="SFX">
+					<ShortName>exploringHouseNormal_00_v2.wav</ShortName>
+					<Path>SFX\exploringHouseNormal_00_v2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="641772538" Language="SFX">
+					<ShortName>outsideScene_00_v2.wav</ShortName>
+					<Path>SFX\outsideScene_00_v2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="799058127" Language="SFX">
+					<ShortName>outsideScene_00_v1.wav</ShortName>
+					<Path>SFX\outsideScene_00_v1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="841771930" Language="SFX">
+					<ShortName>finalConflict_00_v1.wav</ShortName>
+					<Path>SFX\finalConflict_00_v1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1049129513" Language="SFX">
+					<ShortName>aiScene_00_v3.wav</ShortName>
+					<Path>SFX\aiScene_00_v3_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

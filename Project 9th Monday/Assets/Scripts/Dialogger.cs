@@ -16,7 +16,7 @@ public class Dialogger : MonoBehaviour
     // Player Variables
     bool waitingForChoice = false;
     Coroutine advanceDialogAfterDelay;
-    [SerializeField] float defaultAutoAdvanceDelay = 2;
+    [SerializeField] float defaultLineDuration = 2;
 
 
     // Delegates
@@ -56,7 +56,7 @@ public class Dialogger : MonoBehaviour
 
     private void Update()
     {
-        // Regardless of how high the auto silence timeout is, the dictation recognizer still stops itself so it needs to be restarted
+        // Regardless of how high the auto silence timeout is, the dictation recognizer still stops automatically so it needs to be restarted
         if (dictationRecognizer.Status != SpeechSystemStatus.Running)
             dictationRecognizer.Start();
 
@@ -99,11 +99,20 @@ public class Dialogger : MonoBehaviour
 
 
 
-    void AdvanceStory()
+    public void AdvanceStory()
     {
         story.Continue();
-        ParseTags();
-        InvokeSubtitleDelegate(story.currentText);
+
+
+        ParseTagsForAudioEvents();
+
+        float lineDuration = ParseTagsForLineDuration();
+        if (advanceDialogAfterDelay != null)
+            StopCoroutine(advanceDialogAfterDelay);
+        advanceDialogAfterDelay = StartCoroutine(AdvanceOrLoopAfterDelay(lineDuration));
+
+
+        InvokeSubtitleDelegate(story.currentText, lineDuration);
         InvokeChoicesDelegate(story.currentChoices);
     }
     void FinishStory() { } // FIXME Put an end behavior such as loading next scene
@@ -127,32 +136,33 @@ public class Dialogger : MonoBehaviour
             FinishStory();
     }
 
-    void ParseTags()
+    void ParseTagsForAudioEvents()
     {
-        float delay = defaultAutoAdvanceDelay;
-        if (story.currentTags.Count > 0)
-            float.TryParse(story.currentTags[0], out delay);
-
-        if (advanceDialogAfterDelay != null)
-            StopCoroutine(advanceDialogAfterDelay);
-        advanceDialogAfterDelay = StartCoroutine(AdvanceOrLoopAfterDelay(delay));
-
-
-        if (story.currentTags.Count > 1)
+        for (int t = 0; t < story.currentTags.Count; t++)
         {
-            for (int t = 1; t < story.currentTags.Count; t++)
-            {
-                string prefix = story.currentTags[t].Split(' ')[0];
-                string param = story.currentTags[t].Split(' ')[1];
-
-                switch (prefix.ToLower())
-                {
-                    case "wwise":
-                        // Post Wwise event here
-                        break;
-                }
+            if (story.currentTags[t].Split(' ')[0] == "wwise")
+            { 
+                string eventToPost = story.currentTags[t].Split(' ')[1];
+                Debug.Log("Posting Event " + eventToPost);
+                AkSoundEngine.PostEvent(eventToPost, gameObject);
+                break;
             }
         }
+    }
+
+    float ParseTagsForLineDuration()
+    {
+        float lineDuration = defaultLineDuration;
+        for (int t = 0; t < story.currentTags.Count; t++)
+        {
+            if (float.TryParse(story.currentTags[t], out float tempLineDuration))
+            {
+                lineDuration = tempLineDuration;
+                break;
+            }
+        }
+
+        return lineDuration;
     }
 
 
@@ -163,10 +173,10 @@ public class Dialogger : MonoBehaviour
             onPhraseRecognized(dictationText);
     }
 
-    void InvokeSubtitleDelegate(string curLine)
+    void InvokeSubtitleDelegate(string curLine, float lineDuration)
     {
         if (onSubtitleChanged != null)
-            onSubtitleChanged(curLine, 2);
+            onSubtitleChanged(curLine, lineDuration);
     }
 
     void InvokeChoicesDelegate(List<Choice> curChoices)

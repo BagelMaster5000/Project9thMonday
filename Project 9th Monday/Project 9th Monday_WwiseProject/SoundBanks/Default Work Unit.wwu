@@ -3,11 +3,120 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{B9F7C04B-0A6D-4234-8763-917A5F0B16E1}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="GlobalSoundBank" ID="{9D77582E-167B-41C1-BBA0-D3F92AE58706}">
+				<SoundBank Name="Dialogue1" ID="{17E1D6BC-C975-4D01-9DC0-120C6E55D2FD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="GoodEnding_2_QuestionCorrect" ID="{8C6874DA-4C8A-408B-8DC2-5308C1161174}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_1_Start_5" ID="{8F3DF6DE-B01B-408B-B1F4-5A11554C3968}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_5_AICongratulations" ID="{5193BB85-049B-408F-99F5-C87FAE0BD174}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_3_QuestionYes" ID="{A9CC7BE2-D1E4-40D6-A005-EBE8C8190051}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_4_JewelIsReal_Jordan" ID="{974DEE6E-F9C9-4217-876E-078EAF83F660}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_1_Start_6" ID="{A598AE4E-EC73-434F-BFF8-E7CFD83A7321}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_2_DoYouWantToDie" ID="{988FA7F9-ED3E-4449-B1FE-B53F8609B488}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_1_Start" ID="{55A7ED3D-3E6B-447D-AEF1-D662469FA58C}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_4_JewelIsReal_JordanLaugh" ID="{7A586BF4-8AEF-4486-BFE9-B17554796D9C}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_3_QuestionIncorrect" ID="{C9A86A04-E17D-4741-B71C-D26286387CEE}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_1_Start_4_Stereo" ID="{7D1E0367-7CE5-4826-B0A3-D3827E9DCE38}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BadEnding_1_Start" ID="{FF6C3E76-8D76-4837-9A54-1218D4EC01CA}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_1_Start_4_Mono" ID="{57C9E666-6B59-483D-A286-118A26B45A71}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_1_Start_2" ID="{BB899032-27DF-48F8-A240-4698CBEBABCC}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_1_Start_5" ID="{366F3E08-51EE-4939-90BE-EC89A1EADD41}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_1_Start_7" ID="{30B7F03D-8023-497C-8813-C19126C2AA88}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_4_QuestionNo" ID="{5F072A0B-830D-49C3-BF81-9B3BE024811B}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BadEnding_1_Start_2" ID="{2DBDF06E-092E-49DD-A334-340ADEDA0AAE}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_1_Start_6" ID="{50E5C8AD-F2F0-4B40-8F56-3248F3A67A23}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_1_Start" ID="{F3F6CEA4-4F49-4BF3-8924-934BEBE00408}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_1_Start_3" ID="{E0821992-E03C-4C83-B9CD-149AECC1945E}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_1_Start_7" ID="{8D797114-6DBF-4DBB-86B1-2C527EA59686}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Climax_1_Start_4" ID="{E9C06DA4-2388-4DF3-BE62-0B18C1F1CE8F}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_1_Start_3_Mono" ID="{DD03B2D1-EF11-4EBD-A1A8-87FD0A5A8945}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_1_Start_2" ID="{E02F57E3-71BA-4F57-8059-E0CE1DD5E138}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoodEnding_4_JewelIsReal" ID="{2F15B425-A3FE-4FB6-BCE4-EAC48F74B897}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dialogue2" ID="{22C4C706-A12A-49C6-9A57-E3FF036D6065}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MainHall_6_Question2_Jordan" ID="{B135B188-F554-4120-9042-34C4EDCE664A}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JordanPath_4_Ignoring1" ID="{010EC448-1721-4126-BAC4-25D91AA74CA7}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JordanPath_3_TacklingTime" ID="{1174DA0E-CCB5-41C5-854D-ED1B15D203C2}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JordanPath_6_Convergence" ID="{8609DA2A-0CA6-4269-B549-C5F7C9A47D93}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JordanPath_1_Start" ID="{66BCE001-8C43-4380-BFC6-FC6B520A7F91}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_5_Question_Jordan" ID="{E8D2C76F-1F36-43E9-B277-2351D667C0B7}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_1_Start_Paul 2" ID="{2ADE39FB-D1B8-4486-A0E7-936CEE6ED7BE}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_2_Question_Jordan_2" ID="{B34548AE-77E6-44F6-ADFE-EDB9AB2FB50F}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_1_Start" ID="{BF247400-E904-451E-A221-E87376FFB0E6}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_1_Start_Jordan" ID="{E3088A15-2C2E-45A7-909E-30334F9E81F0}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_1_Start_Paul" ID="{E94761DA-E2AA-45C9-AB9C-158B4CD42EF9}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_3_Question_Jordan_Yes" ID="{42935EFE-B53F-4619-AC72-D3732E9D4CB1}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_3_Question_Jordan" ID="{67F9B892-B0FD-468A-A9D1-79979183C344}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JordanPath_2_QuestionSilence" ID="{67299F52-1150-4924-814E-29C27484FDD7}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_1_Start_Hazel_2" ID="{B460995F-F44A-49B9-8849-020E5B684F25}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_1_Start_Paul_3" ID="{0D05E028-4152-4BD4-A248-CB17018255C8}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_3_Question_Jordan_No" ID="{256831F5-42DD-4C41-B0B1-6BD1AFF94D6C}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MainHall_2_Question_Jordan" ID="{9E164C5E-6524-4D58-975D-5B6057B72B22}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JordanPath_5_Ignoring2" ID="{5A2F2212-8D2D-4DED-A45E-532DF498C8F8}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dialogue3" ID="{FC57D0D6-4422-42F4-9537-6F00AF4355E4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Outside_3_Jordan_AnyQuestionsLoop" ID="{5775428C-8F35-401D-A9C5-07519478A458}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_1_Jordan" ID="{5435C4BC-5106-4034-99D1-0BFF9EBCAAB5}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TheresHazel_1_Start_2" ID="{8BB08AE6-06D8-4044-9034-5D44DF104C26}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_8_Jordan" ID="{AC97F735-38E4-40C3-B506-9B988D8753EA}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_2_Hazel" ID="{5569B1EB-CB5A-4106-824E-2EDC19C0425F}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_1_Start_Paul" ID="{240E6D64-9796-4118-9E09-EA74F2116882}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PreGame_1_Start" ID="{140284F2-3A6E-4151-86FE-51623F3DCB6E}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_1_Start edit" ID="{78F50DA6-EE6B-4182-958B-2180F1339DD3}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TheresHazel_1_Start_1" ID="{1006581E-771C-41F5-97CF-DDFA40290B99}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_5_Jordan" ID="{E32AA9B6-283D-41F7-818B-22E50D4CF38C}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_3_QuestionSilence" ID="{5A64C7DE-EF8E-4357-A210-940A28BCFD87}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_1_Start_Hazel" ID="{6D7E9407-4339-4387-B250-4796A3F26251}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_9_Jordan" ID="{FEC27291-D072-4396-AD8F-F90A5498E59F}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_2_PaulsPhone_Paul_2" ID="{5DC8FA82-AAB1-439E-A253-888103CA33D3}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TheresHazel_1_Start_4" ID="{C21A3B8C-FF84-43F0-89E2-922DA1944CAB}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_1_Start" ID="{9F42FE29-AD81-4459-850C-D122CCF4268A}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_2_PaulsPhone_Ringtone" ID="{42BC220D-8B37-4469-BBD6-486CD6BD8B36}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PreGame_2_Calibration" ID="{9522464E-CBA4-449B-B703-9B0085270C87}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_8_Basement_Hazel" ID="{D2BF681B-68D5-4500-B306-000F91CA07C0}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_2_PaulsPhone_Hazel" ID="{5742128C-3C07-4551-8D7D-E415EDDD125E}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TheresHazel_1_Start_3" ID="{F66A72B3-9D48-45BA-96D9-077D2D32A32F}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_8_Basement_Paul" ID="{5C7539E2-D061-45DD-925B-FC632B8C4401}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_3_JordanAnyQuestions_2" ID="{DDF4112E-9F74-4628-929F-6D0159BA9B4E}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_6_QuestionAttic" ID="{F99377AF-0EB7-46E4-8EF7-52D0196DF686}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_3_Paul_2" ID="{E97F3E8D-B972-473E-8C37-D44FBC8142EA}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_7_Jordan" ID="{2786AA3E-7F22-4836-8983-268D48A7B8DB}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_3_Paul" ID="{E91F9587-09D8-48BA-879D-D8A95A706EAE}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_8_Basement_Paul_3" ID="{9267345A-D4CB-49E4-88FD-375AB0F8DB15}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_5_QuestionOutside" ID="{39D783CC-D1E5-4A29-9426-F4C7F8B36C12}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_3_JordanAnyQuestions" ID="{111A8B8D-2667-4B9D-B5C0-5FA892218742}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_3_Jordan" ID="{C6811CB5-F7A1-4BCA-A9D3-7CAAC1C1D4A9}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_6_Jordan" ID="{B26254DC-B2F1-4BD2-B9D5-7DD825DC1693}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_2_Jordan" ID="{11DF8DDD-9DCC-4BE8-B05A-52D757122BA9}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_2_PaulsPhone_Paul_3" ID="{4A5099A2-79C9-4C26-B9C7-433189FDC82E}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PreGame_3_BeginGame" ID="{9CB0F508-2A9C-4C97-BF17-C38346B87884}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_10_Jordan" ID="{1F0EDFB8-EA3B-4CB2-AB8B-DFFBBD4F8FFC}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outside_4_Jordan" ID="{2B3435C3-D293-4DE2-BF8E-EAE9F875C4AA}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_4_QuestionBasement" ID="{FC4503CD-C565-4E81-8D61-F6633E8744D6}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_7_QuestionKitchen" ID="{E50F9C1A-4828-4EB1-8B91-118CCEFF9642}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_8_Basement_Paul_2" ID="{F35E2B89-BA2E-4F2D-BD85-A79824CD2471}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PaulHazelPath_2_PaulsPhone_Paul" ID="{000025D1-31FC-4FF9-93D7-FD6A0404EEC9}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{D3319F42-36DA-4D9E-95C6-2CAAB90AE731}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{CE1FEB2B-D72C-4825-B890-8D2353DC1C48}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{4EDAE6AB-C6E9-4E16-9B60-FF024C27F9E5}">
 					<ObjectInclusionList>
 						<ObjectRef Name="SFX" ID="{82A3EF87-5CDC-4407-8EF2-077DDCDA80A4}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Dialogue" ID="{31475B7E-8553-4533-BC4B-7EAC2B296DCD}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Music" ID="{CE1FEB2B-D72C-4825-B890-8D2353DC1C48}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

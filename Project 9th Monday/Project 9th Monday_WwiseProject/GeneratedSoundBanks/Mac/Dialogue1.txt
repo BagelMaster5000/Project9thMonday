@@ -1,0 +1,40 @@
+Event	ID	Name			Wwise Object Path	Notes
+	701771228	Climax_1_Start			\Default Work Unit\8_Climax\Climax_1_Start	
+	963701436	Climax_2_DoYouWantToDie			\Default Work Unit\8_Climax\Climax_2_DoYouWantToDie	
+	1609389066	GoodEnding_1_Start			\Default Work Unit\10_GoodEnding\GoodEnding_1_Start	
+	3143399903	GoodEnding_2_QuestionCorrect			\Default Work Unit\10_GoodEnding\GoodEnding_2_QuestionCorrect	
+	3187675689	GoodEnding_4_JewelsReal			\Default Work Unit\10_GoodEnding\GoodEnding_4_JewelsReal	
+	3444808587	Climax_3_QuestionYes			\Default Work Unit\8_Climax\Climax_3_QuestionYes	
+	3447993485	GoodEnding_5_AICongratulations			\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations	
+	3904011779	GoodEnding_3_QuestionWrong			\Default Work Unit\10_GoodEnding\GoodEnding_3_QuestionWrong	
+	4051362494	BadEnding_1_Start			\Default Work Unit\9_BadEnding\BadEnding_1_Start	
+	4240221102	Climax_4_QuestionNo			\Default Work Unit\8_Climax\Climax_4_QuestionNo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	36710707	GoodEnding_1_Start_6	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_1_Start_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_1_Start_6		622120
+	77686452	GoodEnding_5_AICongratulations	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_5_AICongratulations_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_5_AICongratulations		2667772
+	178920580	GoodEnding_1_Start_3_Mono	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_1_Start_3_Mono_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_1_Start_3_Mono		4274256
+	184396589	GoodEnding_1_Start_4_Stereo	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_1_Start_4_Stereo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_1_Start_4_Stereo		1947452
+	209044048	Climax_1_Start	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_1_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_1_Start		948528
+	244917187	Climax_2_DoYouWantToDie	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_2_DoYouWantToDie_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_2_DoYouWantToDie		689104
+	252193191	GoodEnding_1_Start_7	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_1_Start_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_1_Start_7		952800
+	292593774	GoodEnding_4_JewelIsReal	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_4_JewelIsReal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_4_JewelIsReal		742272
+	321789213	GoodEnding_1_Start_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_1_Start_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_1_Start_2		1166856
+	350908385	Climax_1_Start_7	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_1_Start_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_1_Start_7		895276
+	356300930	GoodEnding_1_Start_5	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_1_Start_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_1_Start_5		716614
+	365771210	GoodEnding_1_Start	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_1_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_1_Start		3140100
+	470022677	GoodEnding_2_QuestionCorrect	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_2_QuestionCorrect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_2_QuestionCorrect		258038
+	522232335	BadEnding_1_Start_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\BadEnding_1_Start_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\BadEnding_1_Start_2		3153600
+	530486632	GoodEnding_1_Start_4_Mono	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_1_Start_4_Mono_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_1_Start_4_Mono		973758
+	540234396	GoodEnding_4_JewelIsReal_JordanLaugh	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_4_JewelIsReal_JordanLaugh_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_4_JewelIsReal_JordanLaugh		565592
+	623319299	Climax_1_Start_5	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_1_Start_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_1_Start_5		1213128
+	649947685	GoodEnding_3_QuestionIncorrect	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_3_QuestionIncorrect_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_3_QuestionIncorrect		346586
+	660397308	Climax_1_Start_4	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_1_Start_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_1_Start_4		702712
+	689640554	Climax_1_Start_6	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_1_Start_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_1_Start_6		912132
+	737315221	Climax_1_Start_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_1_Start_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_1_Start_2		1125772
+	819957234	Climax_1_Start_3	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_1_Start_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_1_Start_3		509116
+	910347566	GoodEnding_4_JewelIsReal_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\GoodEnding_4_JewelIsReal_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\GoodEnding_4_JewelIsReal_Jordan		765182
+	972963197	Climax_4_QuestionNo	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_4_QuestionNo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_4_QuestionNo		292796
+	992541443	BadEnding_1_Start	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\BadEnding_1_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\BadEnding_1_Start		804552
+	1058034623	Climax_3_QuestionYes	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\Climax_3_QuestionYes_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Climax_3_QuestionYes		1007080
+

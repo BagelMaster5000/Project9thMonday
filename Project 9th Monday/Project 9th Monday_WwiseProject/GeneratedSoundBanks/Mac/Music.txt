@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	698786280	Lost_2_Wandering			\Default Work Unit\6_Lost\Lost_2_Wandering	
+	701771228	Climax_1_Start			\Default Work Unit\8_Climax\Climax_1_Start	
+	1609389066	GoodEnding_1_Start			\Default Work Unit\10_GoodEnding\GoodEnding_1_Start	
+	1774853624	PreGame_3_BeginGame			\Default Work Unit\1_PreGame\PreGame_3_BeginGame	
+	1865286578	Lost_1_Start			\Default Work Unit\6_Lost\Lost_1_Start	
+	2289545831	JordanPath_1_Start			\Default Work Unit\4_JordanPath\JordanPath_1_Start	
+	2430529715	PaulHazelPath_2_PaulsPhone			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone	
+	2558663491	TheresHazel_1_Start			\Default Work Unit\7_TheresHazel\TheresHazel_1_Start	
+	2639078919	PreGame_1_Start			\Default Work Unit\1_PreGame\PreGame_1_Start	
+	3099819921	Outside_10_QuestionDone			\Default Work Unit\2_Outside\Outside_10_QuestionDone	
+	3187675689	GoodEnding_4_JewelsReal			\Default Work Unit\10_GoodEnding\GoodEnding_4_JewelsReal	
+	3447993485	GoodEnding_5_AICongratulations			\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations	
+	3544422110	MainHall_1_Start			\Default Work Unit\3_MainHall\MainHall_1_Start	
+	4051362494	BadEnding_1_Start			\Default Work Unit\9_BadEnding\BadEnding_1_Start	
+	4135508743	Outside_1_Start			\Default Work Unit\2_Outside\Outside_1_Start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	340294155	aiScene_00_v4	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\aiScene_00_v4_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\aiScene_00_v4		6912064
+	434256494	exploringHouseLost_00_v2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\exploringHouseLost_00_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\exploringHouseLost_00_v2		18432064
+	551683893	exploringHouseNormal_00_v2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\exploringHouseNormal_00_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\exploringHouseNormal_00_v2		9600064
+	641772538	outsideScene_00_v2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\outsideScene_00_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\outsideScene_00_v2		2400064
+	799058127	outsideScene_00_v1	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\outsideScene_00_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\outsideScene_00_v1		2400064
+	841771930	finalConflict_00_v1	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\finalConflict_00_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\finalConflict_00_v1		15360064
+	1049129513	aiScene_00_v3	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\aiScene_00_v3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\aiScene_00_v3		12672064
+

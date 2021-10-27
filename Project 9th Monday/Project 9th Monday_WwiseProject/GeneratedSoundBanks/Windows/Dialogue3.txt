@@ -1,0 +1,71 @@
+Event	ID	Name			Wwise Object Path	Notes
+	451119209	PaulHazelPath_4_QuestionBasement			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_4_QuestionBasement	
+	515992182	Outside_5_Question1			\Default Work Unit\2_Outside\Outside_5_Question1	
+	952770727	Outside_4_QuestionSilence			\Default Work Unit\2_Outside\Outside_4_QuestionSilence	
+	1026621327	PaulHazelPath_1_Start			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_1_Start	
+	1115243222	Outside_7_Question3			\Default Work Unit\2_Outside\Outside_7_Question3	
+	1455642034	Outside_6_Question2			\Default Work Unit\2_Outside\Outside_6_Question2	
+	1486463477	PaulHazelPath_8_Basement			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_8_Basement	
+	1545259710	PaulHazelPath_5_QuestionOutside			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_5_QuestionOutside	
+	1774853624	PreGame_3_BeginGame			\Default Work Unit\1_PreGame\PreGame_3_BeginGame	
+	2219090144	PaulHazelPath_3_QuestionSilence			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_3_QuestionSilence	
+	2289545831	JordanPath_1_Start			\Default Work Unit\4_JordanPath\JordanPath_1_Start	
+	2430529715	PaulHazelPath_2_PaulsPhone			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone	
+	2518420982	Outside_9_Question5			\Default Work Unit\2_Outside\Outside_9_Question5	
+	2558663491	TheresHazel_1_Start			\Default Work Unit\7_TheresHazel\TheresHazel_1_Start	
+	2639078919	PreGame_1_Start			\Default Work Unit\1_PreGame\PreGame_1_Start	
+	2822533537	Outside_2_WheresTheDog			\Default Work Unit\2_Outside\Outside_2_WheresTheDog	
+	2823132453	PaulHazelPath_6_QuestionAttic			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_6_QuestionAttic	
+	2850250765	PaulHazelPath_7_QuestionKitchen			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_7_QuestionKitchen	
+	3099819921	Outside_10_QuestionDone			\Default Work Unit\2_Outside\Outside_10_QuestionDone	
+	3649108154	Outside_8_Question4			\Default Work Unit\2_Outside\Outside_8_Question4	
+	3814056338	Outside_3_AnyQuestions			\Default Work Unit\2_Outside\Outside_3_AnyQuestions	
+	3945020548	PreGame_2_Calibration			\Default Work Unit\1_PreGame\PreGame_2_Calibration	
+	4135508743	Outside_1_Start			\Default Work Unit\2_Outside\Outside_1_Start	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1990128658	Room_Medium	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1156273	PaulHazelPath_2_PaulsPhone_Paul_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_2_PaulsPhone_Paul_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_2_PaulsPhone_Paul_2		4641052
+	16287700	PaulHazelPath_8_Basement_Paul	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_8_Basement_Paul_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_8_Basement_Paul		1970064
+	57389786	Outside_1_Start_Hazel	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_1_Start_Hazel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_1_Start_Hazel		892940
+	76820317	Outside_3_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_3_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_3_Jordan		1423632
+	78707805	PaulHazelPath_8_Basement_Hazel	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_8_Basement_Hazel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_8_Basement_Hazel		588328
+	83428840	Outside_6_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_6_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_6_Jordan		517042
+	100031452	Outside_3_Jordan_AnyQuestionsLoop	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_3_Jordan_AnyQuestionsLoop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_3_Jordan_AnyQuestionsLoop		589920
+	114101766	PaulHazelPath_1_Start edit	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_1_Start edit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_1_Start edit		1527692
+	188476900	PaulHazelPath_7_QuestionKitchen	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_7_QuestionKitchen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_7_QuestionKitchen		1830604
+	244707463	Outside_10_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_10_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_10_Jordan		259742
+	280361115	PaulHazelPath_4_QuestionBasement	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_4_QuestionBasement_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_4_QuestionBasement		2165876
+	340055765	PreGame_1_Start	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PreGame_1_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PreGame_1_Start		11781296
+	348912003	PaulHazelPath_6_QuestionAttic	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_6_QuestionAttic_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_6_QuestionAttic		2194092
+	350839221	Outside_2_Hazel	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_2_Hazel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_2_Hazel		1001376
+	364928317	PreGame_2_Calibration	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PreGame_2_Calibration_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PreGame_2_Calibration		732532
+	365428077	PaulHazelPath_5_QuestionOutside	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_5_QuestionOutside_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_5_QuestionOutside		1651656
+	423431881	Outside_4_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_4_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_4_Jordan		662280
+	443276431	PaulHazelPath_3_QuestionSilence	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_3_QuestionSilence_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_3_QuestionSilence		907972
+	466833142	PaulHazelPath_8_Basement_Paul_3	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_8_Basement_Paul_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_8_Basement_Paul_3		6447232
+	492133702	Outside_3_JordanAnyQuestions	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_3_JordanAnyQuestions_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_3_JordanAnyQuestions		664672
+	499270571	Outside_5_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_5_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_5_Jordan		1116688
+	515981678	Outside_3_Paul_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_3_Paul_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_3_Paul_2		890616
+	523828918	TheresHazel_1_Start_4	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\TheresHazel_1_Start_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\TheresHazel_1_Start_4		1105768
+	552761836	TheresHazel_1_Start_1	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\TheresHazel_1_Start_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\TheresHazel_1_Start_1		1175332
+	596002357	PreGame_3_BeginGame	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PreGame_3_BeginGame_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PreGame_3_BeginGame		1261684
+	605919021	Outside_8_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_8_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_8_Jordan		1209430
+	622678969	Outside_2_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_2_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_2_Jordan		1567248
+	654433855	Outside_3_Paul	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_3_Paul_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_3_Paul		2459108
+	664954262	PaulHazelPath_8_Basement_Paul_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_8_Basement_Paul_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_8_Basement_Paul_2		719272
+	679073338	PaulHazelPath_2_PaulsPhone_Ringtone	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_2_PaulsPhone_Ringtone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_2_PaulsPhone_Ringtone		944360
+	696334540	PaulHazelPath_2_PaulsPhone_Paul_3	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_2_PaulsPhone_Paul_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_2_PaulsPhone_Paul_3		1953000
+	774092684	PaulHazelPath_1_Start	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_1_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_1_Start		1527692
+	846471331	Outside_7_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_7_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_7_Jordan		2645888
+	945696856	Outside_9_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_9_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_9_Jordan		429684
+	949490232	Outside_3_JordanAnyQuestions_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_3_JordanAnyQuestions_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_3_JordanAnyQuestions_2		1419856
+	982794656	TheresHazel_1_Start_3	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\TheresHazel_1_Start_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\TheresHazel_1_Start_3		1555536
+	986434443	PaulHazelPath_2_PaulsPhone_Hazel	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_2_PaulsPhone_Hazel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_2_PaulsPhone_Hazel		659368
+	990590745	PaulHazelPath_2_PaulsPhone_Paul	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\PaulHazelPath_2_PaulsPhone_Paul_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_2_PaulsPhone_Paul		7446976
+	1052322465	Outside_1_Start_Paul	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_1_Start_Paul_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_1_Start_Paul		1705476
+	1055423717	TheresHazel_1_Start_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\TheresHazel_1_Start_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\TheresHazel_1_Start_2		1405288
+	1068140129	Outside_1_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Windows\SFX\Outside_1_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Outside_1_Jordan		871962
+

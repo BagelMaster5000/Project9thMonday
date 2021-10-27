@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	151054627	MainHall_6_Question2			\Default Work Unit\3_MainHall\MainHall_6_Question2	
+	337340554	MainHall_3_QuestionJordan			\Default Work Unit\3_MainHall\MainHall_3_QuestionJordan	
+	1600492463	JordanPath_6_Convergence			\Default Work Unit\4_JordanPath\JordanPath_6_Convergence	
+	2175008471	JordanPath_3_TacklingTime			\Default Work Unit\4_JordanPath\JordanPath_3_TacklingTime	
+	2281683023	MainHall_5_Question1			\Default Work Unit\3_MainHall\MainHall_5_Question1	
+	2289545831	JordanPath_1_Start			\Default Work Unit\4_JordanPath\JordanPath_1_Start	
+	2886166122	JordanPath_2_Question1Silence			\Default Work Unit\4_JordanPath\JordanPath_2_Question1Silence	
+	3544422110	MainHall_1_Start			\Default Work Unit\3_MainHall\MainHall_1_Start	
+	3839701134	JordanPath_4_Ignoring1			\Default Work Unit\4_JordanPath\JordanPath_4_Ignoring1	
+	4127299064	JordanPath_5_Ignoring2			\Default Work Unit\4_JordanPath\JordanPath_5_Ignoring2	
+	4225137367	MainHall_4_QuestionPaulHazel			\Default Work Unit\3_MainHall\MainHall_4_QuestionPaulHazel	
+	4276963228	MainHall_2_QuestionSilence			\Default Work Unit\3_MainHall\MainHall_2_QuestionSilence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43322770	MainHall_1_Start_Paul	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_1_Start_Paul_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_1_Start_Paul		1291822
+	49004855	MainHall_5_Question_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_5_Question_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_5_Question_Jordan		1447654
+	222842923	MainHall_1_Start	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_1_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_1_Start		1058576
+	224093101	MainHall_1_Start_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_1_Start_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_1_Start_Jordan		1350660
+	234748098	MainHall_2_Question_Jordan_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_2_Question_Jordan_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_2_Question_Jordan_2		357174
+	413606015	MainHall_3_Question_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_3_Question_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_3_Question_Jordan		973708
+	439318962	MainHall_6_Question2_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_6_Question2_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_6_Question2_Jordan		1451154
+	489046773	MainHall_3_Question_Jordan_No	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_3_Question_Jordan_No_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_3_Question_Jordan_No		584072
+	557594314	MainHall_1_Start_Hazel_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_1_Start_Hazel_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_1_Start_Hazel_2		787160
+	574761576	JordanPath_6_Convergence	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\JordanPath_6_Convergence_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\JordanPath_6_Convergence		2991704
+	576726090	MainHall_1_Start_Paul_3	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_1_Start_Paul_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_1_Start_Paul_3		909940
+	613783520	JordanPath_2_QuestionSilence	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\JordanPath_2_QuestionSilence_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\JordanPath_2_QuestionSilence		374136
+	631010967	MainHall_2_Question_Jordan	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_2_Question_Jordan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_2_Question_Jordan		586104
+	634360048	JordanPath_3_TacklingTime	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\JordanPath_3_TacklingTime_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\JordanPath_3_TacklingTime		463782
+	901326728	MainHall_1_Start_Paul 2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_1_Start_Paul 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_1_Start_Paul 2		1113648
+	910723852	MainHall_3_Question_Jordan_Yes	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\MainHall_3_Question_Jordan_Yes_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\MainHall_3_Question_Jordan_Yes		546250
+	930448845	JordanPath_4_Ignoring1	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\JordanPath_4_Ignoring1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\JordanPath_4_Ignoring1		549982
+	977956462	JordanPath_1_Start	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\JordanPath_1_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\JordanPath_1_Start		4070264
+	1047794453	JordanPath_5_Ignoring2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\JordanPath_5_Ignoring2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\JordanPath_5_Ignoring2		551902
+

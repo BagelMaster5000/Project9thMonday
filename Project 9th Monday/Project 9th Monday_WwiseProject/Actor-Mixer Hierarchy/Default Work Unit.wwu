@@ -9,7 +9,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -936,6 +936,11 @@
 						</Sound>
 						<RandomSequenceContainer Name="OutsideFootsteps" ID="{06AEA950-0BE4-403D-A5B5-ABC4E297BB4C}" ShortID="937642021">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>45</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -972,11 +977,6 @@
 							<ChildrenList>
 								<Sound Name="footstepsOustide_00_v1" ID="{6DB1A84B-704D-4673-AA6D-25AE9DF68846}" ShortID="957360974">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>50</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-14</Value>
@@ -1007,11 +1007,6 @@
 								</Sound>
 								<Sound Name="footstepsOustide_01_v1" ID="{379EBD88-CAA9-4FFE-8D4E-CA993EC84D9A}" ShortID="355651321">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>50</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-13</Value>
@@ -1042,11 +1037,6 @@
 								</Sound>
 								<Sound Name="footstepsOustide_02_v1" ID="{67F466BA-920A-4666-817C-4123F206FD5C}" ShortID="788089791">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>50</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-17</Value>
@@ -1077,11 +1067,6 @@
 								</Sound>
 								<Sound Name="footstepsOustide_03_v1" ID="{F02FA5AC-EACC-4B31-9002-BF5FB7D290BF}" ShortID="981230680">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>50</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-15</Value>
@@ -1733,11 +1718,6 @@
 						</Sound>
 						<Sound Name="Outside_2_Jordan" ID="{11DF8DDD-9DCC-4BE8-B05A-52D757122BA9}" ShortID="974048695">
 							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>3.5</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>4</Value>
@@ -2439,6 +2419,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MainHall_2_Question_Jordan_2" ID="{B34548AE-77E6-44F6-ADFE-EDB9AB2FB50F}" ShortID="955470374">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
