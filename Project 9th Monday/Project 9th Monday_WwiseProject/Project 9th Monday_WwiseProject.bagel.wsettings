@@ -29,9 +29,12 @@
 				<Property Name="Event Action List\{71523610-56D1-4BCF-AE18-CC06DA1456CC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7A82B471-2EB0-4736-9653-FFDA68804065}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{869E52FF-4045-466E-82CB-0B08DE2CBBF7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{87C7C789-DD68-4B0D-AF50-9CB2AA05380E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{88B90E3A-9510-4471-BBBB-CD709006734A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8A3D5C47-F333-411A-9D37-265302E823B7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8A6FBE44-A03F-4B67-A2CB-D2640502694A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8F6170B3-5818-4B2E-BFFF-5DA6F841BDFA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{941A76DD-25CD-4F14-9E73-E18E13BB31D3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9B4269DA-2376-4A55-92E8-EF94577B7DF7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9DC359DE-3A57-492A-B10C-495DBE67468C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A209A6E6-4378-45B9-8F6C-58CC4287032C}\x64_Expand States" Type="string" Value=""/>
@@ -46,6 +49,7 @@
 				<Property Name="Event Action List\{C3699609-D426-4484-ACA4-6411CC6CCBD6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CA332105-72B8-4FBE-B776-AE8098C712D4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CDE817B1-1EA1-4413-8C91-071A014CF65A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D174EAD2-97F4-4844-9407-0A1CEB538BE1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D33BBB7F-D21C-47B6-9E48-5E5EE0C23212}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D47755B2-28E5-4DF4-BB22-07FEF482FAD6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E17564A8-E28E-4AA5-BCFF-42C72B9FAE7A}\x64_Expand States" Type="string" Value=""/>

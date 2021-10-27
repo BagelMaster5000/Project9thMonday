@@ -220,36 +220,6 @@
 				</Folder>
 				<Folder Name="SFX" ID="{82A3EF87-5CDC-4407-8EF2-077DDCDA80A4}" ShortID="566923927">
 					<ChildrenList>
-						<Sound Name="bonesCrunching_00_v1" ID="{0440BDFE-79DD-4C9B-94AD-A63109D736F3}" ShortID="968536214">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="bonesCrunching_00_v1" ID="{AD600637-334F-4E82-920E-56DA687CB729}">
-									<Language>SFX</Language>
-									<AudioFile>bonesCrunching_00_v1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="78267326"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="bonesCrunching_00_v1" ID="{AD600637-334F-4E82-920E-56DA687CB729}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="climbingLadder_00_v1" ID="{49870431-731E-4A2D-8E45-3EA49F940771}" ShortID="692099833">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -277,7 +247,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-21</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -439,6 +409,20 @@
 										<MediaID ID="147339903"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="meatSplattering_00_v2" ID="{10E85E8D-46F5-4962-AA0C-699B09FCB8F9}">
+									<Language>SFX</Language>
+									<AudioFile>meatSplattering_00_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87046628"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="bonesCrunching_00_v2" ID="{D555F526-CB17-4339-BE64-AB74F205BE9B}">
+									<Language>SFX</Language>
+									<AudioFile>bonesCrunching_00_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="360092484"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
@@ -526,36 +510,6 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="footstepsInsideRunning_00_v1" ID="{FAF9B430-D2FF-4CF0-98E2-992199799121}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="meatSplattering_00_v1" ID="{6A508C97-2445-49C0-B3CC-B82A0787B2D4}" ShortID="149688006">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-8</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="meatSplattering_00_v1" ID="{184CF0FB-6ED2-4963-91AF-6BA9F2EF17FC}">
-									<Language>SFX</Language>
-									<AudioFile>meatSplattering_00_v1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="139781279"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="meatSplattering_00_v1" ID="{184CF0FB-6ED2-4963-91AF-6BA9F2EF17FC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="shadowInTheDark_00_v1" ID="{EFFCB2C2-7031-4DF0-9C7F-DEF15581CCE5}" ShortID="807667637">
@@ -673,7 +627,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -818,7 +772,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>25</Value>
+										<Value>5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -848,7 +802,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1161,6 +1115,11 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="InsideFootsteps" ID="{034DEB48-5D2A-4C74-AAC2-F04C26DCD845}" ShortID="832160165">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -1459,6 +1418,9 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<Sound Name="footstepsInsideStairsSlow_00_v1" ID="{2AFC2944-7F38-43B4-A5E0-6EC68CADC9B4}" ShortID="497406136">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1482,6 +1444,14 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="footstepsInsideStairsFast_00_v1" ID="{E5A7A052-B2EF-4D21-A548-284B7B40D09F}" ShortID="465834471">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>34</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -1584,6 +1554,66 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="JordanKnockOut" ID="{9AB6B845-EE02-4421-912C-071312017006}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="meatSplattering_00_v2" ID="{2C6F41E4-5FBC-4279-9B49-772EF846B169}" ShortID="216981181">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="meatSplattering_00_v2" ID="{DD00D1DB-4706-4B7E-9F29-D3CB7F0594E7}">
+									<Language>SFX</Language>
+									<AudioFile>meatSplattering_00_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87046628"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="meatSplattering_00_v2" ID="{DD00D1DB-4706-4B7E-9F29-D3CB7F0594E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="bonesCrunching_00_v2" ID="{A0F8000F-0710-440E-80B5-41818D77AAFF}" ShortID="78668166">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="bonesCrunching_00_v2" ID="{0518416F-7941-4D67-9A2B-DF2273308D8E}">
+									<Language>SFX</Language>
+									<AudioFile>bonesCrunching_00_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="360092484"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="bonesCrunching_00_v2" ID="{0518416F-7941-4D67-9A2B-DF2273308D8E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -3409,6 +3439,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_1_Start" ID="{55A7ED3D-3E6B-447D-AEF1-D662469FA58C}" ShortID="937697977">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3462,6 +3499,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_1_Start_3_Mono" ID="{DD03B2D1-EF11-4EBD-A1A8-87FD0A5A8945}" ShortID="790607791">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3538,6 +3582,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_1_Start_5" ID="{366F3E08-51EE-4939-90BE-EC89A1EADD41}" ShortID="446355820">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3591,6 +3642,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_1_Start_7" ID="{30B7F03D-8023-497C-8813-C19126C2AA88}" ShortID="1029685010">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
