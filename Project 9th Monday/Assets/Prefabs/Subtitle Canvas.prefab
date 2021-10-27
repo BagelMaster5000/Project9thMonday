@@ -879,7 +879,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -100, y: 100}
+  m_SizeDelta: {x: -80, y: 120}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4636448599407577023
 CanvasRenderer:
@@ -1407,12 +1407,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogger: {fileID: 0}
-  text: {fileID: 0}
+  text: {fileID: 8774855392847736911}
   textColor:
     serializedVersion: 2
-    rgba: 0
-  fadeOutDelay: 0
-  fadeOutTime: 0
+    rgba: 4294967040
+  fadeOutDelay: 3
+  fadeOutTime: 0.75
 --- !u!1 &5505216178496760788
 GameObject:
   m_ObjectHideFlags: 0

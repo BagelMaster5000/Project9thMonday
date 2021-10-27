@@ -34,10 +34,12 @@ public class MicrophoneInputDisplay : MonoBehaviour {
     private IEnumerator FadeOut() {
         yield return new WaitForSeconds(fadeOutDelay);
         byte r = (byte)(textColor.r * 255), g = (byte)(textColor.g * 255), b = (byte)(textColor.b * 255);
-        for(float i = fadeOutTime; i > 0; i += Time.deltaTime) {
-            text.color = new Color32(r, b, g, (byte)(i / fadeOutTime * 255));
+        for(float i = fadeOutTime; i > 0; i -= Time.deltaTime) {
+            // I actually don't understand why I have to do this when SubtitleDisplay doesn't but oh well
+            text.color = new Color32((byte)(r * 255), (byte)(g * 255), (byte)(b * 255), (byte)(i / fadeOutTime * 255)); 
             yield return null;
         }
+        text.color = new Color32(r, b, g, 0);
         FadeOutCoroutine = null;
     }
 
