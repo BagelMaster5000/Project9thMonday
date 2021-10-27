@@ -59,6 +59,7 @@ namespace AK
         static const AkUniqueID PREGAME_1_START = 2639078919U;
         static const AkUniqueID PREGAME_2_CALIBRATION = 3945020548U;
         static const AkUniqueID PREGAME_3_BEGINGAME = 1774853624U;
+        static const AkUniqueID STOPALLAUDIO = 14541412U;
         static const AkUniqueID THERESHAZEL_1_START = 2558663491U;
     } // namespace EVENTS
 
@@ -69,6 +70,7 @@ namespace AK
         static const AkUniqueID DIALOGUE2 = 1669749375U;
         static const AkUniqueID DIALOGUE3 = 1669749374U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID OTHER = 2376466361U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 

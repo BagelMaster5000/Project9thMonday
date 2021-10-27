@@ -121,6 +121,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Other" ID="{67DAAE50-859B-431E-A79C-974703C51708}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StopAllAudio" ID="{073BF4C0-E212-4CB3-B028-03D2903C629E}" WorkUnitID="{1E3CF134-4043-4572-A9B3-1A4EF9441FDB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

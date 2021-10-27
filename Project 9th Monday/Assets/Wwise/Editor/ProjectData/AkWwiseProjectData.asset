@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 4bc0f7b96d0a34428763917a5f0b16e1
     GuidInternal: 
-    m_lastTime: -8585662930762865572
+    m_lastTime: -8585662606314292439
     List:
     - name: Dialogue1
       guid: bcd6e11775c9014d9dc0120c6e55d2fd
@@ -124,6 +124,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 429f31d3da369e4d95c62caab90ae731
       Path: SoundBanks\Default Work Unit\Music
+    - name: Other
+      guid: 50aeda679b851e43a79c974703c51708
+      id: 2376466361
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bc0f7b96d0a34428763917a5f0b16e1
+      - ElementName: Other
+        ObjectType: 7
+        guid: 50aeda679b851e43a79c974703c51708
+      Path: SoundBanks\Default Work Unit\Other
     - name: SFX
       guid: abe6da4ee9c6164e9b60ff024c27f9e5
       id: 393239870
@@ -150,7 +164,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 34f13c1e43407245a9b31a4ef9441fdb
     GuidInternal: 
-    m_lastTime: -8585662930819504325
+    m_lastTime: -8585662607894552453
     List:
     - name: 1_PreGame
       guid: 03b01d9d47a3364bb7933ab0c22915f0
@@ -1242,6 +1256,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 66
       minDuration: 66
+    - name: StopAllAudio
+      guid: c0f43b0712e2b34cb02803d2903c629e
+      id: 14541412
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 34f13c1e43407245a9b31a4ef9441fdb
+      - ElementName: StopAllAudio
+        ObjectType: 3
+        guid: c0f43b0712e2b34cb02803d2903c629e
+      Path: Events\Default Work Unit\StopAllAudio
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: TheresHazel_1_Start
       guid: b25577d4e528f44dbb2207fef482fad6
       id: 2558663491
@@ -1319,7 +1350,7 @@ MonoBehaviour:
     m_lastTime: -8585671804928928867
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 1400000015000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000140000001500000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

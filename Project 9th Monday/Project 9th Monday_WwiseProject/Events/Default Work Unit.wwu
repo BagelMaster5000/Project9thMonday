@@ -2418,6 +2418,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="StopAllAudio" ID="{073BF4C0-E212-4CB3-B028-03D2903C629E}">
+					<ChildrenList>
+						<Action Name="" ID="{4E3D0454-2CB8-42DD-BCBE-C265DE4CCBFF}" ShortID="257622601">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

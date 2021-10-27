@@ -633,6 +633,14 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="2376466361" Language="SFX" Hash="1037838878">
+			<ObjectPath>\SoundBanks\Default Work Unit\Other</ObjectPath>
+			<ShortName>Other</ShortName>
+			<Path>Other.bnk</Path>
+			<IncludedEvents>
+				<Event Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="3991942870" Language="SFX" Hash="2598673317">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
