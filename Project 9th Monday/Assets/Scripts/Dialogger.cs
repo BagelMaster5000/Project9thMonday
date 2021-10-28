@@ -155,7 +155,7 @@ public class Dialogger : MonoBehaviour
 
     IEnumerator AdvanceOrLoopAfterDelay(float delay)
     {
-        yield return new WaitForSecondsRealtime(delay);
+        yield return new WaitForSeconds(delay);
 
         if (story.canContinue)
             AdvanceStory();

@@ -3,7 +3,7 @@
 #wwise PreGame_1_Start
 [Loading P9M AI...] #4.5
 Welcome, user. Thank you for taking part in the beta test of Project 9th Monday. #5.7
-This beta test will be having you test an AI-generated horror story based on classic horror movie tropes. #7
+This beta test will be having you test an AI-generated horror story based on some classic horror movie tropes. #7
 As this is a beta test, please be aware that there may be some bugs with the program. #5.25
 Most notably, several previous users have reported unintentional crossovers #5
 ...with our AI-generated children’s show project, designed to create highly marketable edutainment characters. #6.6

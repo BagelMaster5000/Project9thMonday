@@ -354,7 +354,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1669749374" Language="SFX" Hash="1071117406">
+		<SoundBank Id="1669749374" Language="SFX" Hash="450780301">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue3</ObjectPath>
 			<ShortName>Dialogue3</ShortName>
 			<Path>Dialogue3.bnk</Path>
@@ -655,7 +655,7 @@
 				<Event Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3730546144">
+		<SoundBank Id="3991942870" Language="SFX" Hash="4262742644">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
