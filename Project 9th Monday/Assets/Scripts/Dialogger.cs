@@ -12,14 +12,14 @@ public class Dialogger : MonoBehaviour
 
     // Speech to Text
     private DictationRecognizer dictationRecognizer;
-    float autoRestartDelayTimer = 5;
+    float autoRestartTimer = 5;
     float autoRestartDelay = 10;
 
     // Player Variables
     bool waitingForChoice = false;
     Coroutine advanceDialogAfterDelay;
     [SerializeField] float defaultLineDuration = 2;
-    [SerializeField] GameObject creditsObject;
+    bool debugging = false;
 
 
     // Delegates
@@ -31,30 +31,63 @@ public class Dialogger : MonoBehaviour
     public PhraseRecognizedDelegate onPhraseRecognized;
     public ChoicesDelegate onChoicesChanged;
 
+    // UI
+    [Space(10)]
+    [SerializeField] GameObject creditsObject;
+    [SerializeField] GameObject errorObject;
+
     void Start()
+    {
+        creditsObject.SetActive(false);
+        errorObject.SetActive(false);
+
+        StartCoroutine(TryStartDictationRecognizerAndStory());
+
+        if (debugging)
+        {
+            onSubtitleChanged += (string curLine, float duration) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
+            onPhraseRecognized += (string curPhrase) => Debug.Log("<color=#00FF00>Dictation: </color> " + curPhrase);
+            onChoicesChanged += (string[] choices) =>
+            {
+                for (int c = 0; c < choices.Length; c++)
+                    Debug.Log("Choice #" + (c + 1) + ": " + choices[c]);
+            };
+        }
+    }
+
+    IEnumerator TryStartDictationRecognizerAndStory()
     {
         dictationRecognizer = new DictationRecognizer(ConfidenceLevel.Low);
         dictationRecognizer.DictationResult += OnDictationResult;
         dictationRecognizer.AutoSilenceTimeoutSeconds = 10000;
         dictationRecognizer.InitialSilenceTimeoutSeconds = 10000;
         dictationRecognizer.Start();
-        autoRestartDelayTimer = Time.time + autoRestartDelay;
+        autoRestartTimer = Time.time + autoRestartDelay;
 
-        //onSubtitleChanged += (string curLine, float duration) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
-        //onPhraseRecognized += (string curPhrase) => Debug.Log("<color=#00FF00>Dictation: </color> " + curPhrase);
-        //onChoicesChanged += (string[] choices) =>
-        //{
-        //    for (int c = 0; c < choices.Length; c++)
-        //        Debug.Log("Choice #" + (c + 1) + ": " + choices[c]);
-        //};
+        float startTime = Time.time;
+        float maxTimeToWait = 5;
+        while (dictationRecognizer.Status == SpeechSystemStatus.Stopped && Time.time < startTime + maxTimeToWait)
+            yield return null;
+
+        try
+        {
+            if (dictationRecognizer.Status == SpeechSystemStatus.Failed)
+                throw new System.Exception("couldn't start dictation recognizer");
+        }
+        catch
+        {
+            errorObject.SetActive(true);
+            yield break;
+        }
+
 
         story = new Story(inkFile.text);
         if (story.canContinue)
             AdvanceStory();
     }
+
     private void OnDisable()
     {
-        print("DISPOSED");
         dictationRecognizer.Stop();
         dictationRecognizer.Dispose();
 
@@ -63,14 +96,16 @@ public class Dialogger : MonoBehaviour
 
     private void OnApplicationFocus(bool focus)
     {
+        // Restarting dictation recognizer when application re-gains focus
         if (Time.time > 1 && focus)
             RestartDictationRecognizer();
     }
     private void RestartDictationRecognizer()
     {
-        print("Restarting Dictation Recognizer");
+        if (debugging)
+            Debug.Log("Restarting Dictation Recognizer");
 
-        autoRestartDelayTimer = Time.time + autoRestartDelay;
+        autoRestartTimer = Time.time + autoRestartDelay;
 
         dictationRecognizer.Stop();
         dictationRecognizer.Dispose();
@@ -85,14 +120,12 @@ public class Dialogger : MonoBehaviour
     private void Update()
     {
         // Regardless of how high the auto silence timeout is, the dictation recognizer still stops automatically so it needs to be restarted
-        if (Application.isFocused && Time.time > autoRestartDelayTimer && dictationRecognizer.Status != SpeechSystemStatus.Running)
+        if (Application.isFocused && Time.time > autoRestartTimer && dictationRecognizer.Status != SpeechSystemStatus.Running)
         {
             dictationRecognizer.Start();
 
-            autoRestartDelayTimer = Time.time + autoRestartDelay;
+            autoRestartTimer = Time.time + autoRestartDelay;
         }
-
-        //print(dictationRecognizer.Status);
     }
 
     void OnDictationResult(string dictationText, ConfidenceLevel confidence)
@@ -178,7 +211,8 @@ public class Dialogger : MonoBehaviour
             if (story.currentTags[t].Split(' ')[0] == "wwise")
             { 
                 string eventToPost = story.currentTags[t].Split(' ')[1];
-                //Debug.Log("Posting Event " + eventToPost);
+                if (debugging)
+                    Debug.Log("Posting Event " + eventToPost);
                 AkSoundEngine.PostEvent(eventToPost, gameObject);
                 break;
             }
