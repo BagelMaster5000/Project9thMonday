@@ -19,6 +19,7 @@ public class Dialogger : MonoBehaviour
     bool waitingForChoice = false;
     Coroutine advanceDialogAfterDelay;
     [SerializeField] float defaultLineDuration = 2;
+    [SerializeField] GameObject creditsObject;
 
 
     // Delegates
@@ -65,7 +66,6 @@ public class Dialogger : MonoBehaviour
         if (Time.time > 1 && focus)
             RestartDictationRecognizer();
     }
-
     private void RestartDictationRecognizer()
     {
         print("Restarting Dictation Recognizer");
@@ -147,7 +147,10 @@ public class Dialogger : MonoBehaviour
         InvokeSubtitleDelegate(story.currentText, lineDuration);
         InvokeChoicesDelegate(story.currentChoices);
     }
-    void FinishStory() { } // FIXME Put an end behavior such as loading next scene
+    void FinishStory()
+    {
+        creditsObject.SetActive(true);
+    }
 
 
     IEnumerator AdvanceOrLoopAfterDelay(float delay)

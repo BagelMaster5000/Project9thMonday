@@ -130,10 +130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 58440486, guid: 859b928f589c8e844ac07465682a9c22, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 888003446}
     - target: {fileID: 4636448599407577021, guid: 859b928f589c8e844ac07465682a9c22,
         type: 3}
       propertyPath: dialogger
@@ -483,6 +479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inkFile: {fileID: 4900000, guid: 64d6235c46dc9534c9bf60a4c4fcc4cb, type: 3}
   defaultLineDuration: 2
+  creditsObject: {fileID: 1860378107}
 --- !u!1 &1062086603
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,3 +792,9 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!1 &1860378107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1295516689649660293, guid: 859b928f589c8e844ac07465682a9c22,
+    type: 3}
+  m_PrefabInstance: {fileID: 383552309}
+  m_PrefabAsset: {fileID: 0}
