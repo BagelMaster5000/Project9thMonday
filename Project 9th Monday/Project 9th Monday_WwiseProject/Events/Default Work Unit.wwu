@@ -616,7 +616,7 @@
 								<Action Name="" ID="{679CAFB9-5881-4806-8BDF-9460FDDDA2BD}" ShortID="439718681">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="PreGame_3_BeginGame" ID="{9CB0F508-2A9C-4C97-BF17-C38346B87884}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
+											<ObjectRef Name="PreGame_3_BeginGameTest_fixed" ID="{9567F5CA-B779-4F5E-8BB6-D22968120E05}" WorkUnitID="{23CACC97-AF1B-473A-A2E2-84C41F37C594}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
