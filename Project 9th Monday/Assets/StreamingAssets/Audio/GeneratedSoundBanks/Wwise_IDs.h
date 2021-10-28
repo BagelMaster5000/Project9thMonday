@@ -29,7 +29,6 @@ namespace AK
         static const AkUniqueID JORDANPATH_4_IGNORING1 = 3839701134U;
         static const AkUniqueID JORDANPATH_5_IGNORING2 = 4127299064U;
         static const AkUniqueID JORDANPATH_6_CONVERGENCE = 1600492463U;
-        static const AkUniqueID LOST_1_START = 1865286578U;
         static const AkUniqueID LOST_2_WANDERING = 698786280U;
         static const AkUniqueID LOST_3_OPENDOOR = 3782822400U;
         static const AkUniqueID MAINHALL_1_START = 3544422110U;

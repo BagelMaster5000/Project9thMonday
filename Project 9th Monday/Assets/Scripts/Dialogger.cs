@@ -50,8 +50,11 @@ public class Dialogger : MonoBehaviour
     }
     private void OnDisable()
     {
+        print("DISPOSED");
         dictationRecognizer.Stop();
         dictationRecognizer.Dispose();
+
+        AkSoundEngine.PostEvent("StopAllAudio", gameObject);
     }
 
     private void Update()
@@ -60,7 +63,7 @@ public class Dialogger : MonoBehaviour
         if (dictationRecognizer.Status != SpeechSystemStatus.Running)
             dictationRecognizer.Start();
 
-        // print(dictationRecognizer.Status);
+        print(dictationRecognizer.Status);
     }
 
     void OnDictationResult(string dictationText, ConfidenceLevel confidence)

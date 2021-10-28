@@ -1,10 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
-	698786280	Lost_2_Wandering			\Default Work Unit\6_Lost\Lost_2_Wandering	
+	14541412	StopAllAudio			\Default Work Unit\StopAllAudio	
 	701771228	Climax_1_Start			\Default Work Unit\8_Climax\Climax_1_Start	
+	1486463477	PaulHazelPath_8_Basement			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_8_Basement	
+	1600492463	JordanPath_6_Convergence			\Default Work Unit\4_JordanPath\JordanPath_6_Convergence	
 	1609389066	GoodEnding_1_Start			\Default Work Unit\10_GoodEnding\GoodEnding_1_Start	
 	1774853624	PreGame_3_BeginGame			\Default Work Unit\1_PreGame\PreGame_3_BeginGame	
-	1865286578	Lost_1_Start			\Default Work Unit\6_Lost\Lost_1_Start	
-	2289545831	JordanPath_1_Start			\Default Work Unit\4_JordanPath\JordanPath_1_Start	
 	2430529715	PaulHazelPath_2_PaulsPhone			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone	
 	2558663491	TheresHazel_1_Start			\Default Work Unit\7_TheresHazel\TheresHazel_1_Start	
 	2639078919	PreGame_1_Start			\Default Work Unit\1_PreGame\PreGame_1_Start	

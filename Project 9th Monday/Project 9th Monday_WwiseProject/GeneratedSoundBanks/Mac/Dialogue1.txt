@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	14541412	StopAllAudio			\Default Work Unit\StopAllAudio	
 	701771228	Climax_1_Start			\Default Work Unit\8_Climax\Climax_1_Start	
 	963701436	Climax_2_DoYouWantToDie			\Default Work Unit\8_Climax\Climax_2_DoYouWantToDie	
 	1609389066	GoodEnding_1_Start			\Default Work Unit\10_GoodEnding\GoodEnding_1_Start	
