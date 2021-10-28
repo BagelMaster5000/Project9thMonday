@@ -1932,6 +1932,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PreGame_3_BeginGame" ID="{9CB0F508-2A9C-4C97-BF17-C38346B87884}" ShortID="566763315">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2015,6 +2022,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PreGame_2_Calibration" ID="{9522464E-CBA4-449B-B703-9B0085270C87}" ShortID="754137459">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -2128,13 +2142,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PreGame_1_Start" ID="{140284F2-3A6E-4151-86FE-51623F3DCB6E}" ShortID="826133539">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3837,6 +3844,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="GoodEnding_5_AICongratulations" ID="{5193BB85-049B-408F-99F5-C87FAE0BD174}" ShortID="207290889">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3906,6 +3920,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BadEnding_1_Start" ID="{FF6C3E76-8D76-4837-9A54-1218D4EC01CA}" ShortID="722207634">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3929,6 +3950,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="BadEnding_1_Start_2" ID="{2DBDF06E-092E-49DD-A334-340ADEDA0AAE}" ShortID="502151126">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
@@ -3949,36 +3977,6 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="BadEnding_1_Start_2" ID="{3C5D5CB6-DC3C-4C1A-B3EC-FB1EAEC9BB6E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="PreGame_3_BeginGameTest_fixed" ID="{9567F5CA-B779-4F5E-8BB6-D22968120E05}" ShortID="502342927">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F908562-B93D-48D6-ABB6-4FD80DD3F790}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20BD75C7-C26A-480D-97AA-CEB01E599CF4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="PreGame_3_BeginGameTest_fixed" ID="{3A4E56BA-BD6A-4D30-B44E-10716424E6D4}">
-									<Language>SFX</Language>
-									<AudioFile>PreGame_3_BeginGameTest_fixed.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1053501980"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="PreGame_3_BeginGameTest_fixed" ID="{3A4E56BA-BD6A-4D30-B44E-10716424E6D4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
