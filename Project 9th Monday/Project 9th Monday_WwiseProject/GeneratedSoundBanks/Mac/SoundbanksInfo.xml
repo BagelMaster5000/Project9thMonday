@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="611848046">
+		<SoundBank Id="393239870" Language="SFX" Hash="2165232090">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -217,12 +217,12 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1645795224">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3850051572">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1669749372" Language="SFX" Hash="3766510107">
+		<SoundBank Id="1669749372" Language="SFX" Hash="1503554866">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue1</ObjectPath>
 			<ShortName>Dialogue1</ShortName>
 			<Path>Dialogue1.bnk</Path>
@@ -354,7 +354,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1669749374" Language="SFX" Hash="450780301">
+		<SoundBank Id="1669749374" Language="SFX" Hash="3871179303">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue3</ObjectPath>
 			<ShortName>Dialogue3</ShortName>
 			<Path>Dialogue3.bnk</Path>
@@ -550,7 +550,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1669749375" Language="SFX" Hash="3845486394">
+		<SoundBank Id="1669749375" Language="SFX" Hash="3106629853">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue2</ObjectPath>
 			<ShortName>Dialogue2</ShortName>
 			<Path>Dialogue2.bnk</Path>
@@ -655,7 +655,7 @@
 				<Event Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="4262742644">
+		<SoundBank Id="3991942870" Language="SFX" Hash="649902123">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
