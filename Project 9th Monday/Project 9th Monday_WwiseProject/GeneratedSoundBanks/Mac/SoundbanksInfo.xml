@@ -354,7 +354,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1669749374" Language="SFX" Hash="3871179303">
+		<SoundBank Id="1669749374" Language="SFX" Hash="3922666947">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue3</ObjectPath>
 			<ShortName>Dialogue3</ShortName>
 			<Path>Dialogue3.bnk</Path>

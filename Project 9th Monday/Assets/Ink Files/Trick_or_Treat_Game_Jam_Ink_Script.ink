@@ -17,7 +17,7 @@ Now, in order to start the game, we ask that you calibrate the voice recognition
 
 ===calibration===
 #wwise PreGame_2_Calibration
-Please say the phrase “I want to play a game.” #10
+Please say the phrase “I want to play a game.” #12
 +    [...]
 ->calibration
 +    [I want to play a game]
