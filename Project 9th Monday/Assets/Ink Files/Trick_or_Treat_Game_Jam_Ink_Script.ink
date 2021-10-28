@@ -38,25 +38,24 @@ Please enjoy the story "Jewels n' Posts" #8
 ... #2.8
 Jordan: Alright, gang. We’re finally here! Hope the walk wasn’t too much for you all. I doubt any of you do as much training as I get on the football team. #8.6
 Paul: Eh, football’s okay, but getting good footage for my channel is where it’s really at. All the fame with none of the head trauma! #8
-#6
-Hazel: Olá, everyone! Do you see the dog? #10
+Hazel: Olá, everyone! Do you see the dog? #8
 +    [...]
 ->wheres_the_dog
-+    [I do/yes/yep/yeah/I see it/I can see it/I see the]
++    [anything]
 ->any_questions
 
 ===wheres_the_dog===
 #wwise Outside_2_WheresTheDog 
-Hazel: Where is the dog? Do you see the big, black dog? #4.8
+Hazel: Where is the dog? Do you see the big, black dog? #4.3
 ->any_questions
 
 ===any_questions===
 #wwise Outside_3_AnyQuestions 
 Jordan: Yeah, Hazel. We see it. It’s a pretty dog, but we’ve got work to do. I want to just get in, get those jewels, and get out. #11.5
-Paul: Can we at least stay long enough to get some good footage? I know you want that GameStation 7, and I do too, but looking up stuff about the Glensdale Gorefiend online only gets me so much material. #10.20
+Paul: Can we at least stay long enough to get some good footage? I know you want that GameStation 7, and I do too, but looking up stuff about the Glensdale Gorefiend online only gets me so much material. #10.5
 Jordan: Sure, sure. Now let's get inside. #3.8
-Jordan: Gotta wonder why they put police tape on a house no one's gonna visit. #2.7
-Paul: Well, except for us. #3.5
+Jordan: Gotta wonder why they put police tape on a house no one's gonna visit. #3.2
+Paul: Well, except for us. #2.8
 Jordan: Before we go inside, does anyone have any questions, newbie? I know you’ve been pretty quiet so far. #12
 ->questions
 
@@ -95,8 +94,8 @@ Jordan: You have any other questions, newbie? #8
 Jordan: We're right outside the haunted house. It's right on the outskirts of Glensdale. #4.2
 Jordan: You have any other questions, newbie? #8
 ->questions
-#wwise Outside_10_QuestionDone
 +    [No questions here/none/I'm not/nope/nah/no/I'm good]
+#wwise Outside_10_QuestionDone
 Jordan: Alright, lets get to it! #2.6
 ... #12.5
 ->main_hall
@@ -119,24 +118,24 @@ Jordan: Hey, newbie. Who do you feel like going with? I think I can manage on my
 #wwise MainHall_2_QuestionSilence
 Jordan: Come on, the faster you choose the faster we can start looking! Do you want to go with me or with Paul and Hazel? #11
 ->team_up
-+    [Jordan/you]
++    [Jordan/with you]
 #wwise MainHall_3_QuestionJordan
 Jordan: Alright! Stick with me and no ghost or Gorefiend will be messing with us! #6
 ->teamed_with_jordan
-+    [Paul and Hazel/paul/hazel/them]
++    [Paul and Hazel/with paul/with hazel/with them]
 #wwise MainHall_4_QuestionPaulHazel
 Jordan: Cool, I’ll see you three in a bit. Just don’t get grabbed by any monsters! *laughs* #6.75
 ->teamed_with_p_and_h
-+    [Why are we splitting up/why]
-#wwise MainHall_5_Question1
-Jordan: This old place is pretty big, and I’m sure you don’t want to stay here any longer than the rest of us do. #5.2
-Jordan: If we split up, we should be able to find the jewels twice as fast. I’m sure we can hear each other if one of us starts shouting because they found the jewels or something worse. #9.3
-Jordan: So, who do you want to go with? #8
-->team_up
 +    [Doesn't that seem dangerous/dangerous/reckless/dumb/stupid/idiot/get killed]
 #wwise MainHall_6_Question2
 Jordan: Nah, we’ll be fine! I could easily handle any weirdo on my own with my quarterback tackle, #7.7
 Jordan: ...and I’m having Paul and Hazel go together so they can outnumber the Glensdale Gorefiend if they <i>are</i> hanging out here. #7.1
+Jordan: So, who do you want to go with? #8
+->team_up
++    [Why are we splitting up/why]
+#wwise MainHall_5_Question1
+Jordan: This old place is pretty big, and I’m sure you don’t want to stay here any longer than the rest of us do. #5.2
+Jordan: If we split up, we should be able to find the jewels twice as fast. I’m sure we can hear each other if one of us starts shouting because they found the jewels or something worse. #9.3
 Jordan: So, who do you want to go with? #8
 ->team_up
 
@@ -149,9 +148,9 @@ Jordan: I know you’re new to the area, but I bet you’ve heard about how I he
 Jordan: I tell you, when the big-time football people come calling, that’s the story they’ll be hearing! #7.1
 Jordan: Right, so the jewels. #1.65
 Jordan: Obviously, some of it’s going towards the GameStation, but some of that’s definitely going towards getting to a good college. #5.9
-Jordan: Some folks go to a good college for a good degree, but I’m looking at one with a sick football team. That’s how you get into the big lea- #6.9
+Jordan: Some folks go to a good college for a good degree, but I’m looking at one with a sick football team. That’s how you get into the big lea- #6.5
 (Demonic Laugh) #2
-Jordan: What the hell was that!? (beat) I-I think it came from the kitchen over there. I bet the Glensdale Gorefiend is in there! Newbie, got any idea what to do? #16
+Jordan: What the hell was that!? (beat) I-I think it came from the kitchen over there. I bet the Glensdale Gorefiend is in there! Newbie, got any idea what to do? #15
 ->in_or_not1
 
 ===in_or_not1===
@@ -161,7 +160,7 @@ Jordan: I could really use an answer now! Should I check out that noise? #9.5
 ->in_or_not1
 +    [Don't go inside/don't go/do not go/idiot]
 ->in_or_not2
-+    [Go in there/go/inside]
++    [Go in there/go for it/go inside/yes/yeah/yep/definitely/for sure/in there]
 ->tackling_time
 +    [anything]
 ->in_or_not2
@@ -183,7 +182,7 @@ Jordan: Yeah, I definitely heard a “go in there.” You wait here, newbie. I�
 
 ===jordan_converge===
 #wwise JordanPath_6_Convergence
-... #18.8
+... #17.3
 Jordan: Okay, so good news and somewhat-in-the-middle news. There’s no one in the kitchen. That’s when I decided to make a bunch of noise in here so if the Gorefiend IS in the house, they’d be scared off. #11.8
 Jordan: Hopefully that’ll be the last bit of weirdness we’ll have to deal with. #6.5
 ->alone1
@@ -211,7 +210,7 @@ Hazel: Meu Deus! (Oh my God!) That was loud! #16.5
 Paul: Riiiiiight, I probably should have mentioned that earlier. That was a ringtone I got for when my mom calls or texts me. #11.1
 Paul: I’m a bit hard of hearing so I chose a noise that I’d be sure to hear. Normally, it’s something different, but I figured I’d make it something scary since it’s Halloween. She’s just asking about the party I claimed we were going to. #12.6
 (Plates Crashing) #3.3
-Paul: That… was not my phone. That sounded like it came from the kitchen! We have to hide! Where should wo go? #14
+Paul: That… was not my phone. That sounded like it came from the kitchen! We have to hide! Where should we go? #14
 ->where_to_run
 
 ===where_to_run===
@@ -294,7 +293,7 @@ Hazel: We’re in the Glensdale Gorefiend’s lair! Can you find your friends? #
 Hazel: There they are! They’ve been waiting for you to help them, but you won’t be able to! #6.7
 Hazel: It gets boring not killing people! That’s why it’s so great to have people come to my lair! #7.5
 Hazel: That way, I don’t have to worry about most people trying to investigate because of all the scary rumors! Now, do you know what’s going to happen to you and your friends? #11.8
-Hazel: That’s right! You’re all going to bleed out on the attic floor! #0.66
+Hazel: That’s right! You’re all going to bleed out on the attic floor! #5.8
 VAR hazelLoopsRemaining = 1
 ->do_you_want_death
 
@@ -312,7 +311,7 @@ Hazel: Now, player. Do you want to die? #8
 Hazel: You’re funny! I wonder if you’d say the same thing after you’re disemboweled! #5.6
 ->bad_end
 +    [No/nope/nah/not interested]
-#wwise Climax_2_QuestionNo
+#wwise Climax_4_QuestionNo
 Hazel: That’s too bad! #2.2
 ->bad_end
 
@@ -323,7 +322,9 @@ Hazel: That’s too bad! #2.2
 Hazel: Now, click on who you want to die first! #6.5
 :( #3.65
 [Loading P9M AI...] #3.45
-Thank you for assisting us with the testing of our AI-generated story program. While you were unsuccessful in surviving the story, we are always grateful to our testers for helping us troubleshoot and giving us feedback. Please take your complimentary baggie of candy corn as you leave the testing site. #22.85
+Thank you for assisting us with the testing of our AI-generated story program. #4.5
+While you were unsuccessful in surviving the story, we are always grateful to our testers for helping us troubleshoot and giving us feedback. #7.1
+Please take your complimentary baggie of candy corn as you leave the testing site. #10
     -> END
     
     
@@ -338,10 +339,10 @@ Paul: I guess those rumors about them being a demon from Hell were true, and you
 Jordan: Whew, the last time my heart was pounding this much was after that two-hour training session for last season’s final game. Let’s get goin’ home. #8.25
 Paul: Hang on. We’re in the Gorefiend’s inner sanctum. I want to get a bit of footage of this place and the furniture before we go. #7.7
 Jordan: Well, I doubt anything else is going to be trying to kill us here. Okay, but not too long. #8
-Paul: Oh man, guys. Three guesses what I found, and I’ll tell you now it’s not anything scary or gory. #6.95
+Paul: Oh man, guys. Three guesses what I found, and I’ll tell you now it’s not anything scary or gory. #12.5
 + [...]
 ->jewels_are_real
-+ [jewels]
++ [jewels/jules]
 #wwise GoodEnding_2_QuestionCorrect
 Paul: You got it, it's the jewels! #3
 ->jewels_are_real

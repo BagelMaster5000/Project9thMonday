@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	14541412	StopAllAudio			\Default Work Unit\StopAllAudio	
 	451119209	PaulHazelPath_4_QuestionBasement			\Default Work Unit\5_PaulHazelPath\PaulHazelPath_4_QuestionBasement	
 	698786280	Lost_2_Wandering			\Default Work Unit\6_Lost\Lost_2_Wandering	
 	701771228	Climax_1_Start			\Default Work Unit\8_Climax\Climax_1_Start	

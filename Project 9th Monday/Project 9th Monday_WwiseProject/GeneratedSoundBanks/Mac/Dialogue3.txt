@@ -24,7 +24,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4135508743	Outside_1_Start			\Default Work Unit\2_Outside\Outside_1_Start	
 
 Effect plug-ins	ID	Name	Type				Notes
-	1990128658	Room_Medium	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1156273	PaulHazelPath_2_PaulsPhone_Paul_2	C:\Users\bagel\Documents\! Github\Project 9th Monday\Project 9th Monday\Project 9th Monday_WwiseProject\.cache\Mac\SFX\PaulHazelPath_2_PaulsPhone_Paul_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\PaulHazelPath_2_PaulsPhone_Paul_2		4641052

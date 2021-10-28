@@ -11,12 +11,16 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3854254792">
+		<SoundBank Id="393239870" Language="SFX" Hash="611848046">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="701771228" Name="Climax_1_Start" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_1_Start" DurationType="Infinite"/>
 				<Event Id="1609389066" Name="GoodEnding_1_Start" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_1_Start" DurationType="Infinite"/>
 				<Event Id="2289545831" Name="JordanPath_1_Start" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_1_Start" DurationType="Infinite"/>
@@ -31,6 +35,7 @@
 				<Event Id="2430529715" Name="PaulHazelPath_2_PaulsPhone" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone" DurationType="Infinite"/>
 				<Event Id="451119209" Name="PaulHazelPath_4_QuestionBasement" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_4_QuestionBasement" DurationType="Infinite"/>
 				<Event Id="1486463477" Name="PaulHazelPath_8_Basement" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_8_Basement" DurationType="Infinite"/>
+				<Event Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2558663491" Name="TheresHazel_1_Start" ObjectPath="\Events\Default Work Unit\7_TheresHazel\TheresHazel_1_Start" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -217,12 +222,16 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1669749372" Language="SFX" Hash="563573726">
+		<SoundBank Id="1669749372" Language="SFX" Hash="3766510107">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue1</ObjectPath>
 			<ShortName>Dialogue1</ShortName>
 			<Path>Dialogue1.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="701771228" Name="Climax_1_Start" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_1_Start" DurationType="Infinite"/>
 				<Event Id="963701436" Name="Climax_2_DoYouWantToDie" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_2_DoYouWantToDie" DurationType="OneShot" DurationMin="3.588750" DurationMax="3.588750"/>
 				<Event Id="3444808587" Name="Climax_3_QuestionYes" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_3_QuestionYes" DurationType="OneShot" DurationMin="5.244875" DurationMax="5.244875"/>
@@ -231,7 +240,12 @@
 				<Event Id="3143399903" Name="GoodEnding_2_QuestionCorrect" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_2_QuestionCorrect" DurationType="OneShot" DurationMin="2.687229" DurationMax="2.687229"/>
 				<Event Id="3904011779" Name="GoodEnding_3_QuestionWrong" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_3_QuestionWrong" DurationType="OneShot" DurationMin="3.609604" DurationMax="3.609604"/>
 				<Event Id="3187675689" Name="GoodEnding_4_JewelsReal" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_4_JewelsReal" DurationType="OneShot" DurationMin="16.890917" DurationMax="16.890917"/>
-				<Event Id="3447993485" Name="GoodEnding_5_AICongratulations" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000"/>
+				<Event Id="3447993485" Name="GoodEnding_5_AICongratulations" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="36710707" Language="SFX">
@@ -340,7 +354,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1669749374" Language="SFX" Hash="3790923919">
+		<SoundBank Id="1669749374" Language="SFX" Hash="1071117406">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue3</ObjectPath>
 			<ShortName>Dialogue3</ShortName>
 			<Path>Dialogue3.bnk</Path>
@@ -536,7 +550,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1669749375" Language="SFX" Hash="1257257889">
+		<SoundBank Id="1669749375" Language="SFX" Hash="3845486394">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dialogue2</ObjectPath>
 			<ShortName>Dialogue2</ShortName>
 			<Path>Dialogue2.bnk</Path>
@@ -633,7 +647,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="2376466361" Language="SFX" Hash="1037838878">
+		<SoundBank Id="2376466361" Language="SFX" Hash="2036794120">
 			<ObjectPath>\SoundBanks\Default Work Unit\Other</ObjectPath>
 			<ShortName>Other</ShortName>
 			<Path>Other.bnk</Path>
@@ -641,25 +655,33 @@
 				<Event Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="2598673317">
+		<SoundBank Id="3991942870" Language="SFX" Hash="3730546144">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite"/>
+				<Event Id="4051362494" Name="BadEnding_1_Start" ObjectPath="\Events\Default Work Unit\9_BadEnding\BadEnding_1_Start" DurationType="Infinite">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio"/>
+					</ActionPostEvent>
+				</Event>
 				<Event Id="701771228" Name="Climax_1_Start" ObjectPath="\Events\Default Work Unit\8_Climax\Climax_1_Start" DurationType="Infinite"/>
 				<Event Id="1609389066" Name="GoodEnding_1_Start" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_1_Start" DurationType="Infinite"/>
 				<Event Id="3187675689" Name="GoodEnding_4_JewelsReal" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_4_JewelsReal" DurationType="OneShot" DurationMin="16.890917" DurationMax="16.890917"/>
-				<Event Id="3447993485" Name="GoodEnding_5_AICongratulations" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000"/>
-				<Event Id="2289545831" Name="JordanPath_1_Start" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_1_Start" DurationType="Infinite"/>
-				<Event Id="1865286578" Name="Lost_1_Start" ObjectPath="\Events\Default Work Unit\6_Lost\Lost_1_Start" DurationType="Infinite"/>
-				<Event Id="698786280" Name="Lost_2_Wandering" ObjectPath="\Events\Default Work Unit\6_Lost\Lost_2_Wandering" DurationType="Infinite"/>
+				<Event Id="3447993485" Name="GoodEnding_5_AICongratulations" ObjectPath="\Events\Default Work Unit\10_GoodEnding\GoodEnding_5_AICongratulations" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="1600492463" Name="JordanPath_6_Convergence" ObjectPath="\Events\Default Work Unit\4_JordanPath\JordanPath_6_Convergence" DurationType="Infinite"/>
 				<Event Id="3544422110" Name="MainHall_1_Start" ObjectPath="\Events\Default Work Unit\3_MainHall\MainHall_1_Start" DurationType="Infinite"/>
 				<Event Id="3099819921" Name="Outside_10_QuestionDone" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_10_QuestionDone" DurationType="Infinite"/>
 				<Event Id="4135508743" Name="Outside_1_Start" ObjectPath="\Events\Default Work Unit\2_Outside\Outside_1_Start" DurationType="Infinite"/>
 				<Event Id="2430529715" Name="PaulHazelPath_2_PaulsPhone" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_2_PaulsPhone" DurationType="Infinite"/>
+				<Event Id="1486463477" Name="PaulHazelPath_8_Basement" ObjectPath="\Events\Default Work Unit\5_PaulHazelPath\PaulHazelPath_8_Basement" DurationType="Infinite"/>
 				<Event Id="2639078919" Name="PreGame_1_Start" ObjectPath="\Events\Default Work Unit\1_PreGame\PreGame_1_Start" DurationType="Infinite"/>
 				<Event Id="1774853624" Name="PreGame_3_BeginGame" ObjectPath="\Events\Default Work Unit\1_PreGame\PreGame_3_BeginGame" DurationType="OneShot" DurationMin="66.000000" DurationMax="66.000000"/>
+				<Event Id="14541412" Name="StopAllAudio" ObjectPath="\Events\Default Work Unit\StopAllAudio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2558663491" Name="TheresHazel_1_Start" ObjectPath="\Events\Default Work Unit\7_TheresHazel\TheresHazel_1_Start" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
