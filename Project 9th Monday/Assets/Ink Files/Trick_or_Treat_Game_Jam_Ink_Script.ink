@@ -116,7 +116,7 @@ Jordan: Hey, newbie. Who do you feel like going with? I think I can manage on my
 ===team_up===
 +    [...]
 #wwise MainHall_2_QuestionSilence
-Jordan: Come on, the faster you choose the faster we can start looking! Do you want to go with me or with Paul and Hazel? #11
+Jordan: Come on, the faster you choose the faster we can start looking! Do you want to go with me or with Paul and Hazel? #13
 ->team_up
 +    [Jordan/with you]
 #wwise MainHall_3_QuestionJordan

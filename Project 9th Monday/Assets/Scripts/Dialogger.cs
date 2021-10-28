@@ -12,6 +12,8 @@ public class Dialogger : MonoBehaviour
 
     // Speech to Text
     private DictationRecognizer dictationRecognizer;
+    float autoRestartDelayTimer = 5;
+    float autoRestartDelay = 10;
 
     // Player Variables
     bool waitingForChoice = false;
@@ -35,14 +37,15 @@ public class Dialogger : MonoBehaviour
         dictationRecognizer.AutoSilenceTimeoutSeconds = 10000;
         dictationRecognizer.InitialSilenceTimeoutSeconds = 10000;
         dictationRecognizer.Start();
+        autoRestartDelayTimer = Time.time + autoRestartDelay;
 
-        onSubtitleChanged += (string curLine, float duration) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
-        onPhraseRecognized += (string curPhrase) => Debug.Log("<color=#00FF00>Dictation: </color> " + curPhrase);
-        onChoicesChanged += (string[] choices) =>
-        {
-            for (int c = 0; c < choices.Length; c++)
-                Debug.Log("Choice #" + (c + 1) + ": " + choices[c]);
-        };
+        //onSubtitleChanged += (string curLine, float duration) => Debug.Log("<color=#FF0000>Dialog: </color>" + curLine);
+        //onPhraseRecognized += (string curPhrase) => Debug.Log("<color=#00FF00>Dictation: </color> " + curPhrase);
+        //onChoicesChanged += (string[] choices) =>
+        //{
+        //    for (int c = 0; c < choices.Length; c++)
+        //        Debug.Log("Choice #" + (c + 1) + ": " + choices[c]);
+        //};
 
         story = new Story(inkFile.text);
         if (story.canContinue)
@@ -57,13 +60,39 @@ public class Dialogger : MonoBehaviour
         AkSoundEngine.PostEvent("StopAllAudio", gameObject);
     }
 
+    private void OnApplicationFocus(bool focus)
+    {
+        if (Time.time > 1 && focus)
+            RestartDictationRecognizer();
+    }
+
+    private void RestartDictationRecognizer()
+    {
+        print("Restarting Dictation Recognizer");
+
+        autoRestartDelayTimer = Time.time + autoRestartDelay;
+
+        dictationRecognizer.Stop();
+        dictationRecognizer.Dispose();
+
+        dictationRecognizer = new DictationRecognizer(ConfidenceLevel.Low);
+        dictationRecognizer.DictationResult += OnDictationResult;
+        dictationRecognizer.AutoSilenceTimeoutSeconds = 10000;
+        dictationRecognizer.InitialSilenceTimeoutSeconds = 10000;
+        dictationRecognizer.Start();
+    }
+
     private void Update()
     {
         // Regardless of how high the auto silence timeout is, the dictation recognizer still stops automatically so it needs to be restarted
-        if (dictationRecognizer.Status != SpeechSystemStatus.Running)
+        if (Application.isFocused && Time.time > autoRestartDelayTimer && dictationRecognizer.Status != SpeechSystemStatus.Running)
+        {
             dictationRecognizer.Start();
 
-        print(dictationRecognizer.Status);
+            autoRestartDelayTimer = Time.time + autoRestartDelay;
+        }
+
+        //print(dictationRecognizer.Status);
     }
 
     void OnDictationResult(string dictationText, ConfidenceLevel confidence)
@@ -146,7 +175,7 @@ public class Dialogger : MonoBehaviour
             if (story.currentTags[t].Split(' ')[0] == "wwise")
             { 
                 string eventToPost = story.currentTags[t].Split(' ')[1];
-                Debug.Log("Posting Event " + eventToPost);
+                //Debug.Log("Posting Event " + eventToPost);
                 AkSoundEngine.PostEvent(eventToPost, gameObject);
                 break;
             }
