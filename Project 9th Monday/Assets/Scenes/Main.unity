@@ -130,6 +130,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1295516689649660293, guid: 859b928f589c8e844ac07465682a9c22,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4157536630791647019, guid: 859b928f589c8e844ac07465682a9c22,
+        type: 3}
+      propertyPath: m_text
+      value: "<b>Thanks for Playing!</b>\n\n\u200BProgramming - Sammy Mahmoudi and
+        Bill Dang\n\nStory - Brian Renadette w/ help from Edward Newton\r\n\nSound
+        - Joe Boudreaux w/ help from Sammy Mahmoudi\r\n\nVoice Acting - Tomer Braff
+        (Jordan), Trisha Mellon (Hazel),\nChristopher Hahn (Paul), Sammy Mahmoudi
+        (AI)\r\n\nProject Management - Sammy Mahmoudi\u200B"
+      objectReference: {fileID: 0}
     - target: {fileID: 4636448599407577021, guid: 859b928f589c8e844ac07465682a9c22,
         type: 3}
       propertyPath: dialogger

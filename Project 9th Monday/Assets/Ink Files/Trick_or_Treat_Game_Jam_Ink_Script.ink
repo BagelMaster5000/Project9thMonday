@@ -255,7 +255,7 @@ Paul: Hang on. This house… why does it have power if it’s abandoned? Unless�
 +    [...]
 ... #15
 ->alone1
-+    [Hello/paul/jordan/hazel/where/help/lost]
++    [Hello/paul/jordan/hazel/where/help/lost/investigate/act/are you there/check/look/explore/examine/inspect/is that you/I hear/I can't hear]
 #wwise Lost_2_Wandering
 ... #15
 ->alone2
@@ -264,7 +264,7 @@ Paul: Hang on. This house… why does it have power if it’s abandoned? Unless�
 +    [...]
 ... #15
 ->alone2
-+    [Hello/paul/jordan/hazel/where/help/lost]
++    [Hello/paul/jordan/hazel/where/help/lost/investigate/act/are you there/check/look/explore/examine/inspect/is that you/I hear/I can't hear]
 #wwise Lost_3_OpenDoor
 ... #15
 ->alone3
@@ -273,7 +273,7 @@ Paul: Hang on. This house… why does it have power if it’s abandoned? Unless�
 +    [...]
 ... #15
 ->alone3
-+    [Hello/paul/jordan/hazel/where/help/lost]
++    [Hello/paul/jordan/hazel/where/help/lost/investigate/act/are you there/check/look/explore/examine/inspect/is that you/I hear/I can't hear]
 ->theres_hazel
 
 ===theres_hazel===
