@@ -1,4 +1,4 @@
-->main_hall
+->pre_game
 ===pre_game===
 #wwise PreGame_1_Start
 [Loading P9M AI...] #4.5
@@ -222,6 +222,10 @@ Paul: C’mon, throw out some ideas! Where should we hide? #10
 #wwise PaulHazelPath_4_QuestionBasement
 Paul: I was thinking that too! It’ll be extra-dark, there’ll likely be lots of places for us to hide in there, and we might be able to find some tools left down there. Now, back down the stairs! #16
 ->basement
++    [Outside/out/front door/away from the house/run/leave]
+#wwise PaulHazelPath_5_QuestionOutside
+Paul: We can’t run! The jewels are still in the house, and whatever’s in here could easily chase us down! We need to think of somewhere safe and quiet... #14
+->where_to_run
 +    [Attic]
 #wwise PaulHazelPath_6_QuestionAttic
 Paul: Maybe, but if we had to flee, the only other way out is through a window. I don’t think I could take crashing through a third-story window and falling like 30 feet. Let's think lower... #17.5
@@ -229,10 +233,6 @@ Paul: Maybe, but if we had to flee, the only other way out is through a window. 
 +    [Kitchen/the noise]
 #wwise PaulHazelPath_7_QuestionKitchen
 Paul: Great idea! We’re going right to where the Gorefiend is, or whoever else lives here! C’mon, be serious here! #15
-->where_to_run
-+    [Outside/out/front door/away from the house/run/leave]
-#wwise PaulHazelPath_5_QuestionOutside
-Paul: We can’t run! The jewels are still in the house, and whatever’s in here could easily chase us down! We need to think of somewhere safe and quiet... #14
 ->where_to_run
 
 ===basement===
